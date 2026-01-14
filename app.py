@@ -3,130 +3,178 @@ import json
 import os
 import base64
 
-# --- 1. CONFIGURACIÓN DE PÁGINA ---
-st.set_page_config(page_title="Simulador Máster ORP", layout="wide")
+# ---------------------------------------------------------
+# 1. CONFIGURACIÓN INICIAL Y ESTILOS
+# ---------------------------------------------------------
+st.set_page_config(page_title="Simulador ORP", layout="wide")
 
-# --- 2. FUNCIONES ---
-def get_pdf_viewer(pdf_name, page_num):
-    """Muestra PDF usando embed para máxima compatibilidad."""
-    pdf_path = os.path.join("static", pdf_name)
-    if not os.path.exists(pdf_path):
-        return f"<div style='color:red; background:#ffebee; padding:10px;'>⚠️ <b>Error:</b> No encuentro {pdf_name} en la carpeta static/</div>"
+# Estilos para que los botones y textos se vean bien
+st.markdown("""
+    <style>
+    .block-container {padding-top: 2rem; padding-bottom: 2rem;}
+    div.stButton > button {width: 100%; border-radius: 5px; font-weight: bold;}
+    .correct {background-color: #d4edda; padding: 10px; border-radius: 5px; color: #155724; border: 1px solid #c3e6cb;}
+    .incorrect {background-color: #f8d7da; padding: 10px; border-radius: 5px; color: #721c24; border: 1px solid #f5c6cb;}
+    </style>
+""", unsafe_allow_html=True)
+
+# ---------------------------------------------------------
+# 2. GESTIÓN DEL ESTADO (SESSION STATE)
+# ---------------------------------------------------------
+# Esto es lo que controla que el programa "recuerde" dónde estás
+if 'index' not in st.session_state:
+    st.session_state.index = 0
+if 'score' not in st.session_state:
+    st.session_state.score = 0
+if 'validated' not in st.session_state:
+    st.session_state.validated = False
+if 'quiz_data' not in st.session_state:
+    st.session_state.quiz_data = []
+
+# Función para reiniciar todo (se usa en el botón Reiniciar y al cambiar tema)
+def reset_quiz():
+    st.session_state.index = 0
+    st.session_state.score = 0
+    st.session_state.validated = False
+
+# ---------------------------------------------------------
+# 3. FUNCIONES DE CARGA
+# ---------------------------------------------------------
+def get_pdf_embed(pdf_filename, page):
+    """Crea el visor de PDF. Si falla, avisa."""
+    path = os.path.join("static", pdf_filename)
+    if not os.path.exists(path):
+        return f"<div class='incorrect'>⚠️ Error: No encuentro el archivo <b>{pdf_filename}</b> en la carpeta <code>static</code>.</div>"
     
     try:
-        with open(pdf_path, "rb") as f:
+        with open(path, "rb") as f:
             base64_pdf = base64.b64encode(f.read()).decode('utf-8')
-        return f'<embed src="data:application/pdf;base64,{base64_pdf}#page={page_num}" type="application/pdf" width="100%" height="800px" />'
-    except:
-        return "Error al cargar PDF."
+        # Usamos <embed> que es más agresivo para mostrar el PDF
+        return f'<embed src="data:application/pdf;base64,{base64_pdf}#page={page}" width="100%" height="800px" type="application/pdf">'
+    except Exception as e:
+        return f"Error al leer PDF: {str(e)}"
 
-def reset_state():
-    """Reinicia el contador al cambiar de asignatura."""
-    st.session_state.current_index = 0
-    st.session_state.score = 0
-    st.session_state.answered = False
-
-# --- 3. BARRA LATERAL (DEBUG Y SELECCIÓN) ---
-st.sidebar.title("🎛️ Panel de Control")
-
-# Selector de Asignatura (con callback para resetear)
-asignatura = st.sidebar.selectbox(
-    "Selecciona Asignatura:", 
-    ["Psicosociologia", "Ergonomia"],
-    on_change=reset_state 
-)
-
-# Verificar rutas (DIAGNÓSTICO AUTOMÁTICO)
-data_folder = f"data/{asignatura}/"
-if not os.path.exists(data_folder):
-    st.error(f"🚨 ¡ALERTA! No encuentro la carpeta: {data_folder}")
-    st.stop() # Detiene la app si no hay carpeta
-
-# Cargar archivos JSON
-files = sorted([f for f in os.listdir(data_folder) if f.endswith('.json')])
-if not files:
-    st.sidebar.error(f"❌ La carpeta {data_folder} está vacía. ¡Mete los JSON!")
-    st.stop()
-
-# Multiselect para Unidades
-selected_files = st.sidebar.multiselect("Selecciona Unidades:", files, default=files)
-
-# Botón de Pánico (Reset manual)
-if st.sidebar.button("💀 REINICIAR TODO (Si se traba)"):
-    reset_state()
-    st.rerun()
-
-# --- 4. LÓGICA PRINCIPAL ---
-if not selected_files:
-    st.warning("👈 ¡Selecciona algo en la izquierda para empezar, no seas tímido!")
-else:
-    # Cargar preguntas
-    all_questions = []
-    for f_name in selected_files:
-        try:
-            with open(os.path.join(data_folder, f_name), 'r', encoding='utf-8') as f:
-                content = json.load(f)
-                if isinstance(content, list):
-                    all_questions.extend(content)
-        except json.JSONDecodeError:
-            st.error(f"Error: El archivo {f_name} está mal escrito (error de sintaxis JSON).")
-
-    if not all_questions:
-        st.error("No hay preguntas cargadas. Revisa que los JSON no estén vacíos.")
+# ---------------------------------------------------------
+# 4. BARRA LATERAL (SELECCIÓN)
+# ---------------------------------------------------------
+with st.sidebar:
+    st.header("🎛️ Configuración")
+    
+    # Selector de Asignatura
+    # on_change=reset_quiz asegura que si cambias de asignatura, todo se reinicia
+    asignatura = st.selectbox(
+        "Asignatura:", 
+        ["Psicosociologia", "Ergonomia"], 
+        on_change=reset_quiz
+    )
+    
+    # Cargar archivos disponibles
+    base_folder = f"data/{asignatura}"
+    if os.path.exists(base_folder):
+        files = sorted([f for f in os.listdir(base_folder) if f.endswith(".json")])
+        # Selector de Unidades
+        selected_files = st.multiselect("Unidades:", files, default=files, on_change=reset_quiz)
     else:
-        # Inicializar sesión si no existe
-        if 'current_index' not in st.session_state: reset_state()
+        st.error(f"No existe la carpeta {base_folder}")
+        files = []
+        selected_files = []
 
-        # Control de índice válido
-        idx = st.session_state.current_index
-        if idx >= len(all_questions):
-            st.balloons()
-            st.success(f"¡Terminaste! Puntuación: {st.session_state.score}/{len(all_questions)}")
-            if st.button("Empezar de nuevo"):
-                reset_state()
-                st.rerun()
-        else:
-            q = all_questions[idx]
+    st.markdown("---")
+    
+    # Botón de Reinicio Manual
+    if st.button("🔄 REINICIAR TEST"):
+        reset_quiz()
+        st.rerun() # ESTO es lo que faltaba, fuerza a recargar la página
+
+# ---------------------------------------------------------
+# 5. LÓGICA DE CARGA DE DATOS
+# ---------------------------------------------------------
+# Solo cargamos datos si cambiaron las selecciones o si la lista está vacía
+current_data = []
+if selected_files:
+    for file in selected_files:
+        path = os.path.join(base_folder, file)
+        try:
+            with open(path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                current_data.extend(data)
+        except:
+            st.error(f"Error leyendo {file}")
+
+# ---------------------------------------------------------
+# 6. INTERFAZ PRINCIPAL DEL EXAMEN
+# ---------------------------------------------------------
+if not current_data:
+    st.info("👈 Selecciona unidades en el menú izquierdo para empezar.")
+else:
+    # Comprobamos que no nos hayamos pasado del final
+    if st.session_state.index >= len(current_data):
+        st.balloons()
+        st.success(f"¡TERMINASTE! 🏆")
+        st.metric("Tu Puntuación Final", f"{st.session_state.score} / {len(current_data)}")
+        if st.button("Volver a empezar"):
+            reset_quiz()
+            st.rerun()
+    else:
+        # Pregunta actual
+        q = current_data[st.session_state.index]
+        total = len(current_data)
+        
+        # Barra de progreso
+        st.progress((st.session_state.index) / total)
+        st.caption(f"Pregunta {st.session_state.index + 1} de {total}")
+
+        # COLUMNAS: Izquierda (Pregunta) - Derecha (PDF)
+        # Si ya validó, la derecha ocupa espacio (1:1). Si no, la derecha es mínima (1:0.01)
+        col1_width = 1
+        col2_width = 1.5 if st.session_state.validated else 0.01
+        c1, c2 = st.columns([col1_width, col2_width])
+
+        with c1:
+            st.subheader(q.get("question", "Pregunta sin texto"))
+            st.markdown(f"*{q.get('topic', 'General')}*")
             
-            # --- INTERFAZ DE PREGUNTA ---
-            # Usamos columnas: Izquierda (Pregunta) | Derecha (PDF solo si es necesario)
-            if st.session_state.answered:
-                c1, c2 = st.columns([1, 1])
+            # Opciones
+            # El key incluye el index para que al cambiar de pregunta se resetee el radio
+            opcion = st.radio(
+                "Elige la correcta:", 
+                q.get("options", []),
+                key=f"radio_{st.session_state.index}", 
+                disabled=st.session_state.validated
+            )
+
+            st.markdown("<br>", unsafe_allow_html=True)
+
+            # BOTONES DE ACCIÓN
+            if not st.session_state.validated:
+                if st.button("✅ Validar Respuesta"):
+                    st.session_state.validated = True
+                    if opcion == q.get("answer"):
+                        st.session_state.score += 1
+                    st.rerun() # Recargar para mostrar resultados y PDF
             else:
-                c1, c2 = st.columns([1, 0.01]) # Columna 2 invisible
-
-            with c1:
-                st.progress((idx + 1) / len(all_questions))
-                st.markdown(f"**Tema:** {q.get('topic', 'General')}")
-                st.subheader(f"Pregunta {idx + 1}: {q['question']}")
-                
-                # Opciones (key dinámica para que no se trabe)
-                user_ans = st.radio("Respuesta:", q['options'], key=f"q_{idx}_{asignatura}")
-                
-                # Botones
-                if not st.session_state.answered:
-                    if st.button("✅ Validar", use_container_width=True):
-                        st.session_state.answered = True
-                        if user_ans == q['answer']:
-                            st.session_state.score += 1
-                        st.rerun()
+                # Mostrar Feedback
+                if opcion == q.get("answer"):
+                    st.markdown(f"<div class='correct'>✅ <b>¡Correcto!</b></div>", unsafe_allow_html=True)
                 else:
-                    if user_ans == q['answer']:
-                        st.success("¡CORRECTO!")
-                    else:
-                        st.error(f"INCORRECTO. Era: {q['answer']}")
-                    
-                    st.info(f"📝 {q.get('explanation', '')}")
-                    
-                    if st.button("➡️ Siguiente", type="primary", use_container_width=True):
-                        st.session_state.current_index += 1
-                        st.session_state.answered = False
-                        st.rerun()
+                    st.markdown(f"<div class='incorrect'>❌ <b>Incorrecto</b>. La respuesta era: {q.get('answer')}</div>", unsafe_allow_html=True)
+                
+                st.info(f"ℹ️ {q.get('explanation', '')}")
 
-            # --- VISOR PDF (Derecha) ---
-            with c2:
-                if st.session_state.answered:
-                    pdf_file = q.get('source_file')
-                    if pdf_file:
-                        st.markdown(f"**Fuente:** `{pdf_file}`")
-                        st.markdown(get_pdf_viewer(pdf_file, q.get('page', 1)), unsafe_allow_html=True)
+                # Botón Siguiente
+                if st.button("➡️ Siguiente Pregunta"):
+                    st.session_state.index += 1
+                    st.session_state.validated = False
+                    st.rerun()
+
+        # VISOR PDF (SOLO SI ESTÁ VALIDADO)
+        with c2:
+            if st.session_state.validated:
+                pdf_file = q.get("source_file")
+                page = q.get("page", 1)
+                
+                if pdf_file:
+                    st.markdown(f"#### 📖 Referencia: {pdf_file} (Pág. {page})")
+                    # Llamamos al visor
+                    html = get_pdf_embed(pdf_file, page)
+                    st.markdown(html, unsafe_allow_html=True)
