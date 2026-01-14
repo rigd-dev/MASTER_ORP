@@ -1,0 +1,86 @@
+[
+  {
+    "topic": "Unidad 8: Humanización del Trabajo",
+    "question": "¿Cuál es la diferencia fundamental entre 'Ampliación de tareas' (Job Enlargement) y 'Enriquecimiento de tareas' (Job Enrichment)?",
+    "options": [
+      "A) Son sinónimos y significan dar más trabajo al operario",
+      "B) La Ampliación es horizontal (más tareas del mismo nivel); el Enriquecimiento es vertical (más responsabilidad y autonomía)",
+      "C) El Enriquecimiento es solo para directivos y la Ampliación para obreros",
+      "D) La Ampliación reduce el sueldo y el Enriquecimiento lo aumenta"
+    ],
+    "answer": "B) La Ampliación es horizontal (más tareas del mismo nivel); el Enriquecimiento es vertical (más responsabilidad y autonomía)",
+    "explanation": "Pregunta clásica de examen. Dar más tareas repetitivas (Ampliación) no motiva, solo cansa más. El Enriquecimiento busca que el trabajador controle su tarea, planifique y decida, atacando la alienación. (Fuente: 5_8_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_8_unidad_psico_med_c_s.pdf",
+    "page": 5
+  },
+  {
+    "topic": "Unidad 8: Alienación Laboral",
+    "question": "Según el material de la asignatura, ¿qué factor organizacional contribuye más a la 'Alienación' del trabajador?",
+    "options": [
+      "A) El uso de uniformes incómodos",
+      "B) La excesiva fragmentación de las tareas (el trabajador no ve el producto final ni el sentido de su esfuerzo)",
+      "C) Trabajar en turnos de noche",
+      "D) No tener contacto con el cliente directo"
+    ],
+    "answer": "B) La excesiva fragmentación de las tareas (el trabajador no ve el producto final ni el sentido de su esfuerzo)",
+    "explanation": "La alienación ocurre cuando el trabajo pierde su sentido humano y el operario se siente como una pieza más de la máquina. Es un riesgo psicosocial grave en cadenas de montaje. (Fuente: 5_8_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_8_unidad_psico_med_c_s.pdf",
+    "page": 3
+  },
+  {
+    "topic": "Unidad 8: Tecnoestrés",
+    "question": "El Tecnoestrés se define como un estado psicológico negativo relacionado con el uso de las TIC. ¿Cuál es su componente de 'Tecnoansiedad'?",
+    "options": [
+      "A) El miedo a que se rompa el ordenador",
+      "B) Un alto nivel de activación fisiológica no placentera y sentimientos de tensión ante el uso de tecnología",
+      "C) La adicción a las redes sociales durante la jornada",
+      "D) El rechazo a usar cualquier tipo de software nuevo"
+    ],
+    "answer": "B) Un alto nivel de activación fisiológica no placentera y sentimientos de tensión ante el uso de tecnología",
+    "explanation": "La tecnoansiedad es la variante más común: el trabajador se siente incapaz de manejar las herramientas y eso le genera ansiedad y miedo. (Fuente: 5_8_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_8_unidad_psico_med_c_s.pdf",
+    "page": 13
+  },
+  {
+    "topic": "Unidad 8: Riesgos del Teletrabajo",
+    "question": "¿Cuál es el riesgo psicosocial específico del teletrabajo que se menciona como más crítico en la Unidad 8?",
+    "options": [
+      "A) El riesgo eléctrico en el domicilio",
+      "B) El desdibujamiento de las fronteras entre la vida laboral y la vida privada (aislamiento y falta de desconexión)",
+      "C) La falta de iluminación adecuada en casa",
+      "D) La reducción del contacto con la familia"
+    ],
+    "answer": "B) El desdibujamiento de las fronteras entre la vida laboral y la vida privada (aislamiento y falta de desconexión)",
+    "explanation": "Al no haber una separación física entre oficina y hogar, el trabajador puede sentir que está 'siempre disponible', lo que genera estrés crónico y problemas de conciliación. (Fuente: CLASE 14-15.pdf).",
+    "source_file": "CLASE 14-15.pdf",
+    "page": 31
+  },
+  {
+    "topic": "Unidad 8: Nuevas Tecnologías",
+    "question": "¿Qué es la 'Tecnofatiga' dentro del marco del Tecnoestrés?",
+    "options": [
+      "A) Cansancio ocular por mirar la pantalla",
+      "B) Agotamiento cognitivo y fatiga mental debido a la sobreexposición y el manejo de flujos excesivos de información",
+      "C) Que la batería de los equipos se agote rápido",
+      "D) El aburrimiento por usar tecnología obsoleta"
+    ],
+    "answer": "B) Agotamiento cognitivo y fatiga mental debido a la sobreexposición y el manejo de flujos excesivos de información",
+    "explanation": "La tecnofatiga aparece por el exceso de información (infoxicación) y la necesidad de estar procesando datos constantemente sin descanso. (Fuente: 5_8_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_8_unidad_psico_med_c_s.pdf",
+    "page": 14
+  },
+  {
+    "topic": "Unidad 8: Participación",
+    "question": "¿Por qué la participación de los trabajadores es una medida de prevención psicosocial de primer orden?",
+    "options": [
+      "A) Porque así trabajan más horas sin quejarse",
+      "B) Porque aumenta el control sobre la tarea, reduce la incertidumbre y mejora la autoestima",
+      "C) Porque sustituye la necesidad de tener un Técnico de Prevención",
+      "D) Solo sirve para decidir el color de las paredes de la oficina"
+    ],
+    "answer": "B) Porque aumenta el control sobre la tarea, reduce la incertidumbre y mejora la autoestima",
+    "explanation": "La falta de control es uno de los mayores estresores. Al participar en el diseño de su trabajo, el individuo recupera autonomía y salud. (Fuente: 5_11_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_11_unidad_psico_med_c_s.pdf",
+    "page": 4
+  }
+]

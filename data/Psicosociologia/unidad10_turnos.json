@@ -1,38 +1,100 @@
 [
   {
-    "topic": "Ritmos Biológicos",
-    "question": "¿Qué es un 'Zeitgeber' en cronobiología?",
+    "topic": "Unidad 10: Ritmos Circadianos",
+    "question": "¿Qué es un ritmo circadiano en el contexto de la prevención de riesgos?",
     "options": [
-      "A) Una hormona del estrés",
-      "B) Un sincronizador externo (como la luz solar o los horarios sociales) que ajusta nuestro reloj biológico",
-      "C) Un tipo de turno nocturno",
-      "D) La temperatura corporal mínima"
+      "A) Un ciclo de sueño que dura exactamente 12 horas",
+      "B) Ciclos biológicos con una periodicidad de unas 24 horas (como la temperatura o el ciclo sueño-vigilia)",
+      "C) El ritmo de producción de una máquina en turnos rotativos",
+      "D) La velocidad con la que un trabajador cambia de turno"
     ],
-    "answer": "B) Un sincronizador externo (como la luz solar o los horarios sociales) que ajusta nuestro reloj biológico",
-    "explanation": "Pregunta de nota. Sin Zeitgebers (dadores de tiempo), nuestros ritmos se desajustan (ciclo de sueño-vigilia)."
+    "answer": "B) Ciclos biológicos con una periodicidad de unas 24 horas (como la temperatura o el ciclo sueño-vigilia)",
+    "explanation": "El cuerpo humano está diseñado para estar activo de día y dormir de noche. Alterar esto con turnos nocturnos choca con nuestro 'reloj biológico'. (Fuente: 5_10_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_10_unidad_psico_med_c_s.pdf",
+    "page": 2
   },
   {
-    "topic": "Diseño de Turnos",
-    "question": "Si es inevitable el trabajo a turnos, ¿cuál es el sentido de rotación ergonómicamente recomendado?",
+    "topic": "Unidad 10: La Hora del Error",
+    "question": "¿Por qué el periodo entre las 03:00 y las 05:00 AM se considera el más peligroso para el trabajador nocturno?",
     "options": [
-      "A) Anti-horario (Noche -> Tarde -> Mañana)",
-      "B) Horario o 'hacia delante' (Mañana -> Tarde -> Noche)",
-      "C) Es indiferente",
-      "D) Aleatorio para romper la monotonía"
+      "A) Porque hay menos luz ambiental",
+      "B) Porque coincide con el nadir (punto más bajo) de la temperatura corporal y la máxima somnolencia",
+      "C) Porque el jefe no está supervisando",
+      "D) Porque es cuando se acaba el café en la oficina"
     ],
-    "answer": "B) Horario o 'hacia delante' (Mañana -> Tarde -> Noche)",
-    "explanation": "El ciclo biológico humano tiende a ser >24h. Es más fácil para el cuerpo 'alargar' el día (retrasar sueño) que acortarlo. Por eso M-T-N es mejor."
+    "answer": "B) Porque coincide con el nadir (punto más bajo) de la temperatura corporal y la máxima somnolencia",
+    "explanation": "En esas horas, nuestras capacidades cognitivas están por los suelos. Es cuando ocurren la mayoría de los errores catastróficos por fatiga. (Fuente: 5_10_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_10_unidad_psico_med_c_s.pdf",
+    "page": 4
   },
   {
-    "topic": "Patologías",
-    "question": "¿Por qué los trabajadores a turnos sufren más problemas digestivos (dispepsia, gastritis)?",
+    "topic": "Unidad 10: Definición Legal",
+    "question": "Según el Estatuto de los Trabajadores, ¿cuántas horas nocturnas debe realizar un trabajador al año para ser considerado 'Trabajador Nocturno'?",
     "options": [
-      "A) Porque beben más alcohol",
-      "B) Por la alteración cualitativa y cuantitativa de la dieta (comer a deshoras, comida fría) y los ritmos de secreción gástrica",
-      "C) Porque duermen poco",
-      "D) Es un mito, no sufren más problemas"
+      "A) Al menos 500 horas",
+      "B) Al menos una tercera parte de su jornada anual o realizar 3 horas diarias en periodo nocturno",
+      "C) Cualquier trabajador que haga una noche al mes",
+      "D) Solo si trabaja exclusivamente de 22:00 a 06:00"
     ],
-    "answer": "B) Por la alteración cualitativa y cuantitativa de la dieta (comer a deshoras, comida fría) y los ritmos de secreción gástrica",
-    "explanation": "Comer por la noche cuando el estómago está en 'modo reposo' (baja secreción) altera la digestión."
+    "answer": "B) Al menos una tercera parte de su jornada anual o realizar 3 horas diarias en periodo nocturno",
+    "explanation": "Es la definición legal española. Ser considerado trabajador nocturno implica derechos a vigilancia de la salud específica y limitaciones en horas extras. (Fuente: CLASE 14-15.pdf).",
+    "source_file": "CLASE 14-15.pdf",
+    "page": 2
+  },
+  {
+    "topic": "Unidad 10: Sistemas de Rotación",
+    "question": "¿Qué característica define a la rotación 'lenta' frente a la 'rápida'?",
+    "options": [
+      "A) La lenta cambia cada 2 días y la rápida cada mes",
+      "B) La lenta cambia cada semana o quincena; la rápida cambia de turno cada 1 o 2 días",
+      "C) La rápida solo se da en hospitales",
+      "D) No hay diferencia, ambas dañan igual"
+    ],
+    "answer": "B) La lenta cambia cada semana o quincena; la rápida cambia de turno cada 1 o 2 días",
+    "explanation": "La rotación rápida (M-M-T-T-N-N) evita que los ritmos circadianos se desajusten del todo, aunque genera fatiga acumulada. (Fuente: 5_10_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_10_unidad_psico_med_c_s.pdf",
+    "page": 9
+  },
+  {
+    "topic": "Unidad 10: Consecuencias para la Salud",
+    "question": "¿Qué patología es más frecuente en trabajadores con turnicidad crónica?",
+    "options": [
+      "A) Solo problemas de vista",
+      "B) Trastornos gastrointestinales (gastritis, úlceras) debido a la alteración de los horarios de comidas",
+      "C) Pérdida de audición",
+      "D) Mejora del sistema inmunológico"
+    ],
+    "answer": "B) Trastornos gastrointestinales (gastritis, úlceras) debido a la alteración de los horarios de comidas",
+    "explanation": "Al comer cuando el cuerpo debería estar durmiendo, el sistema digestivo no funciona correctamente, provocando patologías crónicas. (Fuente: 5_10_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_10_unidad_psico_med_c_s.pdf",
+    "page": 6
+  },
+  {
+    "topic": "Unidad 10: Sentido de la Rotación",
+    "question": "Desde el punto de vista ergonómico, ¿cuál es el sentido de rotación recomendado?",
+    "options": [
+      "A) Rotación hacia atrás o anti-horaria (Noche -> Tarde -> Mañana)",
+      "B) Rotación hacia adelante o horaria (Mañana -> Tarde -> Noche)",
+      "C) Es indiferente si se descansa 12 horas",
+      "D) Siempre empezar por el turno de noche"
+    ],
+    "answer": "B) Rotación hacia adelante o horaria (Mañana -> Tarde -> Noche)",
+    "explanation": "El cuerpo humano se adapta mejor al retraso de fase (ir a dormir más tarde) que al adelanto de fase. (Fuente: 5_10_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_10_unidad_psico_med_c_s.pdf",
+    "page": 10
+  },
+  {
+    "topic": "Unidad 10: Aspectos Sociales",
+    "question": "¿Cómo afecta el trabajo a turnos a la vida social del trabajador según la Unidad 10?",
+    "options": [
+      "A) No afecta si el trabajador tiene buena actitud",
+      "B) Genera una desincronización social: dificultad para participar en actividades familiares y asociativas",
+      "C) Ayuda a tener más tiempo libre por la mañana",
+      "D) Solo afecta a los trabajadores solteros"
+    ],
+    "answer": "B) Genera una desincronización social: dificultad para participar en actividades familiares y asociativas",
+    "explanation": "El trabajador vive 'a contrapié' de la sociedad. Esto aumenta el riesgo de aislamiento y problemas familiares. (Fuente: 5_10_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_10_unidad_psico_med_c_s.pdf",
+    "page": 7
   }
 ]

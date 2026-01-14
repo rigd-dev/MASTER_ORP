@@ -1,0 +1,86 @@
+[
+  {
+    "topic": "Unidad 11: Definición de Mobbing",
+    "question": "Según Heinz Leymann, ¿cuál es el criterio temporal mínimo para considerar una situación como 'Acoso Psicológico' (Mobbing)?",
+    "options": [
+      "A) Al menos una vez al mes durante un año",
+      "B) Al menos una vez por semana durante un periodo de 6 meses",
+      "C) Un solo insulto grave frente a testigos",
+      "D) Tres discusiones fuertes en una misma semana"
+    ],
+    "answer": "B) Al menos una vez por semana durante un periodo de 6 meses",
+    "explanation": "El Mobbing requiere frecuencia y duración. Un conflicto puntual no es acoso; la clave es la repetición sistemática para destruir a la persona. (Fuente: 5_11_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_11_unidad_psico_med_c_s.pdf",
+    "page": 4
+  },
+  {
+    "topic": "Unidad 11: Tipos de Acoso",
+    "question": "¿Qué es el 'Mobbing Ascendente'?",
+    "options": [
+      "A) El realizado por un jefe hacia sus subordinados",
+      "B) El realizado por un grupo de subordinados hacia un superior jerárquico",
+      "C) El que ocurre entre compañeros del mismo nivel",
+      "D) El que ejerce la empresa contra un sindicato"
+    ],
+    "answer": "B) El realizado por un grupo de subordinados hacia un superior jerárquico",
+    "explanation": "Es menos común pero ocurre, por ejemplo, cuando un equipo rechaza a un nuevo jefe impuesto o externo y le hacen el vacío. (Fuente: 5_11_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_11_unidad_psico_med_c_s.pdf",
+    "page": 6
+  },
+  {
+    "topic": "Unidad 11: Fases del Mobbing",
+    "question": "¿Cuál es la fase del acoso donde la empresa suele intervenir de forma errónea, tratando al acosado como el 'problema'?",
+    "options": [
+      "A) Fase de Conflicto",
+      "B) Fase de Estigmatización",
+      "C) Fase de Intervención desde la Dirección",
+      "D) Fase de Marginación"
+    ],
+    "answer": "B) Fase de Estigmatización",
+    "explanation": "En esta fase, el acosador ya logró que los demás vean a la víctima como 'difícil' o 'conflictiva'. La dirección suele castigar a la víctima en lugar de investigar al acosador. (Fuente: 5_11_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_11_unidad_psico_med_c_s.pdf",
+    "page": 8
+  },
+  {
+    "topic": "Unidad 11: Violencia de Tipo II",
+    "question": "En la clasificación de la violencia laboral, ¿cuál es la de 'Tipo II'?",
+    "options": [
+      "A) Violencia entre compañeros (Mobbing)",
+      "B) Violencia ejercida por clientes, pacientes o usuarios hacia los trabajadores",
+      "C) Violencia por intrusión externa (robos)",
+      "D) Violencia de género en el trabajo"
+    ],
+    "answer": "B) Violencia ejercida por clientes, pacientes o usuarios hacia los trabajadores",
+    "explanation": "Es la violencia más común en el sector salud (pacientes) y servicios (clientes). El agresor tiene una relación legítima con la empresa. (Fuente: 5_11_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_11_unidad_psico_med_c_s.pdf",
+    "page": 2
+  },
+  {
+    "topic": "Unidad 11: Acoso Sexual vs Acoso por Razón de Sexo",
+    "question": "¿Cuál es la diferencia legal entre acoso sexual y acoso por razón de sexo?",
+    "options": [
+      "A) No hay diferencia, son lo mismo",
+      "B) El sexual busca fines lúbricos; por razón de sexo es discriminar a alguien por ser hombre o mujer (ej. por embarazo)",
+      "C) El sexual solo lo sufren mujeres",
+      "D) Por razón de sexo solo ocurre en despidos"
+    ],
+    "answer": "B) El sexual busca fines lúbricos; por razón de sexo es discriminar a alguien por ser hombre o mujer (ej. por embarazo)",
+    "explanation": "Discriminación por maternidad o creer que 'una mujer no puede ser jefa de obra' es acoso por razón de sexo, no sexual. (Fuente: CLASE 14-15.pdf).",
+    "source_file": "CLASE 14-15.pdf",
+    "page": 15
+  },
+  {
+    "topic": "Unidad 11: Síndrome del Superviviente",
+    "question": "¿Qué ocurre con los 'testigos' de una situación de Mobbing en una oficina?",
+    "options": [
+      "A) No les afecta si no les pasa a ellos",
+      "B) Sufren miedo, ansiedad y pérdida de confianza en la organización (Síndrome del Superviviente)",
+      "C) Se vuelven más productivos para evitar que les pase a ellos",
+      "D) Automáticamente denuncian al acosador"
+    ],
+    "answer": "B) Sufren miedo, ansiedad y pérdida de confianza en la organización (Síndrome del Superviviente)",
+    "explanation": "El clima laboral se pudre. Los testigos callan por miedo pero su salud psicosocial también se resiente gravemente. (Fuente: 5_11_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_11_unidad_psico_med_c_s.pdf",
+    "page": 10
+  }
+]

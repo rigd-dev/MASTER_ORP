@@ -1,26 +1,86 @@
 [
   {
-    "topic": "Métodos de Evaluación",
-    "question": "¿Cuál es la característica principal del método FPSICO (INSST)?",
+    "topic": "Unidad 12: El Método FPSICO 4.0",
+    "question": "¿Cuál es la principal característica del método FPSICO del INSST?",
     "options": [
-      "A) Es una entrevista clínica individual",
-      "B) Es una batería de observación externa",
-      "C) Es un cuestionario de autovaloración de las condiciones de trabajo y participación",
-      "D) Solo mide el estrés térmico"
+      "A) Es un método de observación directa por el técnico",
+      "B) Es un cuestionario de autoinforme, estandarizado, que garantiza el anonimato del trabajador",
+      "C) Es una entrevista clínica individual obligatoria",
+      "D) Solo sirve para medir el estrés en directivos"
     ],
-    "answer": "C) Es un cuestionario de autovaloración de las condiciones de trabajo y participación",
-    "explanation": "El trabajador es quien mejor conoce su puesto. FPSICO pregunta al trabajador sobre carga, autonomía, rol, etc."
+    "answer": "B) Es un cuestionario de autoinforme, estandarizado, que garantiza el anonimato del trabajador",
+    "explanation": "El FPSICO es la herramienta oficial del INSST. Se basa en la percepción del trabajador y es fundamental que sea anónimo para que las respuestas sean reales. (Fuente: 5_12_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_12_unidad_psico_med_c_s.pdf",
+    "page": 4
   },
   {
-    "topic": "Validez Legal",
-    "question": "PREGUNTA CAPCIOSA: ¿Es obligatorio realizar una evaluación específica de riesgos psicosociales en todas las empresas?",
+    "topic": "Unidad 12: Factores Psicosociales FPSICO",
+    "question": "¿Qué factor del FPSICO evalúa la cantidad de trabajo en relación con el tiempo disponible para realizarlo?",
     "options": [
-      "A) No, solo si hay denuncias",
-      "B) Sí, la Ley 31/1995 obliga a evaluar TODOS los riesgos, incluidos los psicosociales",
-      "C) Solo en grandes empresas (>50 empleados)",
-      "D) Solo si lo pide el Comité de Empresa"
+      "A) Autonomía temporal",
+      "B) Carga de trabajo",
+      "C) Demandas psicológicas",
+      "D) Participación/Supervisión"
     ],
-    "answer": "B) Sí, la Ley 31/1995 obliga a evaluar TODOS los riesgos, incluidos los psicosociales",
-    "explanation": "Muchos creen que es opcional. No lo es. La falta de evaluación psicosocial es sancionable por la Inspección de Trabajo."
+    "answer": "B) Carga de trabajo",
+    "explanation": "La carga de trabajo mide tanto el volumen de tareas como la presión de tiempos. Es el factor que más suele salir 'en rojo' en las evaluaciones. (Fuente: 5_12_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_12_unidad_psico_med_c_s.pdf",
+    "page": 8
+  },
+  {
+    "topic": "Unidad 12: Procedimiento de Evaluación",
+    "question": "¿Cuál es el primer paso indispensable antes de pasar los cuestionarios en una empresa?",
+    "options": [
+      "A) Despedir a los trabajadores conflictivos",
+      "B) Constituir un Grupo de Trabajo (Comité de Seguridad y Salud) para asegurar la participación de los trabajadores",
+      "C) Comprar el software más caro",
+      "D) Hacer una inspección de seguridad en las máquinas"
+    ],
+    "answer": "B) Constituir un Grupo de Trabajo (Comité de Seguridad y Salud) para asegurar la participación de los trabajadores",
+    "explanation": "Sin la confianza y participación de los delegados de prevención, la evaluación psicosocial está condenada al fracaso y a la falta de veracidad. (Fuente: CLASE 9-10-11.pdf).",
+    "source_file": "CLASE 9-10-11.pdf",
+    "page": 19
+  },
+  {
+    "topic": "Unidad 12: Niveles de Riesgo",
+    "question": "Si en una evaluación FPSICO un factor sale en nivel de riesgo 'Muy Elevado', ¿qué debe hacer la empresa?",
+    "options": [
+      "A) Repetir la encuesta el año que viene",
+      "B) Realizar una intervención inmediata y un análisis profundo para eliminar o reducir el riesgo",
+      "C) Ignorarlo si la producción va bien",
+      "D) Darle una charla de motivación a los empleados"
+    ],
+    "answer": "B) Realizar una intervención inmediata y un análisis profundo para eliminar o reducir el riesgo",
+    "explanation": "Un riesgo 'Muy Elevado' indica una probabilidad alta de daño a la salud. La ley obliga a tomar medidas preventivas técnicas u organizativas. (Fuente: 5_12_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_12_unidad_psico_med_c_s.pdf",
+    "page": 12
+  },
+  {
+    "topic": "Unidad 12: Método ISTAS-21 (CoPsoQ)",
+    "question": "¿Cuál es el origen del método de evaluación ISTAS-21?",
+    "options": [
+      "A) Es una adaptación española del cuestionario danés CoPsoQ",
+      "B) Es un método creado por la NASA para sus astronautas",
+      "C) Es un invento de las mutuas españolas",
+      "D) Proviene de la medicina del trabajo alemana"
+    ],
+    "answer": "A) Es una adaptación española del cuestionario danés CoPsoQ",
+    "explanation": "Es el otro gran método usado en España, muy valorado por los sindicatos porque incluye dimensiones sobre la 'doble presencia' (trabajo y casa). (Fuente: 5_12_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_12_unidad_psico_med_c_s.pdf",
+    "page": 6
+  },
+  {
+    "topic": "Unidad 12: Criterio Técnico 104/2021",
+    "question": "Según el Criterio Técnico 104/2021 de la ITSS, ¿qué no se considera una evaluación de riesgos psicosociales válida?",
+    "options": [
+      "A) La que usa el método FPSICO",
+      "B) El uso exclusivo de entrevistas sin metodología estandarizada o 'encuestas de clima laboral'",
+      "C) La que incluye a toda la plantilla",
+      "D) La que proponen los delegados de prevención"
+    ],
+    "answer": "B) El uso exclusivo de entrevistas sin metodología estandarizada o 'encuestas de clima laboral'",
+    "explanation": "La Inspección de Trabajo distingue entre 'clima laboral' (satisfacción) y 'riesgos psicosociales' (salud). Las encuestas de satisfacción no valen legalmente como evaluación de riesgos. (Fuente: CLASE 9-10-11.pdf).",
+    "source_file": "CLASE 9-10-11.pdf",
+    "page": 22
   }
 ]

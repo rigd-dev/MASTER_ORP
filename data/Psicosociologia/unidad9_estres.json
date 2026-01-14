@@ -1,38 +1,100 @@
 [
   {
-    "topic": "Conceptos Básicos",
-    "question": "¿Es el estrés siempre negativo?",
+    "topic": "Unidad 9: Definición de Estrés",
+    "question": "Según Hans Selye, el estrés es una respuesta 'inespecífica' del organismo. ¿Qué significa esto?",
     "options": [
-      "A) Sí, siempre daña la salud",
-      "B) No, existe el 'Eustrés' (estrés positivo/adaptativo) necesario para afrontar retos",
-      "C) Sí, excepto en deportistas",
-      "D) No, el estrés no existe, es un invento moderno"
+      "A) Que solo ocurre ante problemas graves",
+      "B) Que la respuesta fisiológica es la misma (activación) independientemente del tipo de estresor",
+      "C) Que no se puede medir médicamente",
+      "D) Que el cuerpo no sabe cómo reaccionar"
     ],
-    "answer": "B) No, existe el 'Eustrés' (estrés positivo/adaptativo) necesario para afrontar retos",
-    "explanation": "El estrés es una respuesta fisiológica de supervivencia. Solo es malo (Distrés) cuando es intenso o crónico y supera nuestra capacidad."
+    "answer": "B) Que la respuesta fisiológica es la misma (activación) independientemente del tipo de estresor",
+    "explanation": "Ya sea un robo o un exceso de trabajo, el cuerpo libera las mismas hormonas (cortisol, adrenalina). Lo que cambia es la intensidad y la duración. (Fuente: 5_9_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_9_unidad_psico_med_c_s.pdf",
+    "page": 3
   },
   {
-    "topic": "Síndrome de Burnout",
-    "question": "¿Cuáles son las tres dimensiones clínicas que definen el Burnout (Maslach)?",
+    "topic": "Unidad 9: Fases del SGA",
+    "question": "¿Cuál es la fase del Síndrome General de Adaptación donde el organismo intenta 'reparar' los daños de la fase de alarma y volver al equilibrio?",
     "options": [
-      "A) Cansancio, Sueño y Hambre",
-      "B) Agotamiento emocional, Despersonalización (cinismo) y Baja realización personal",
-      "C) Estrés, Ansiedad y Depresión",
-      "D) Dolor de cabeza, Absentismo y Rotación"
+      "A) Fase de Agotamiento",
+      "B) Fase de Resistencia",
+      "C) Fase de Choque",
+      "D) Fase de Recuperación Final"
     ],
-    "answer": "B) Agotamiento emocional, Despersonalización (cinismo) y Baja realización personal",
-    "explanation": "Memoriza esto. La clave distintiva es la 'Despersonalización' (tratar a clientes/pacientes como objetos) y ocurre en profesiones de ayuda."
+    "answer": "B) Fase de Resistencia",
+    "explanation": "En esta fase, el cuerpo resiste el estresor. Si el estresor se mantiene demasiado tiempo, se pasa inevitablemente a la fase de Agotamiento, donde aparecen las enfermedades. (Fuente: 5_9_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_9_unidad_psico_med_c_s.pdf",
+    "page": 4
   },
   {
-    "topic": "Fisiología del Estrés",
-    "question": "¿Qué ocurre en la 'Fase de Resistencia' del Síndrome General de Adaptación (Selye)?",
+    "topic": "Unidad 9: Eustrés vs Distrés",
+    "question": "¿Qué diferencia al Eustrés del Distrés?",
     "options": [
-      "A) El cuerpo colapsa",
-      "B) El organismo intenta mantener la activación para superar el reto, consumiendo recursos",
-      "C) Se activa la alarma inicial (adrenalina)",
-      "D) Aparece la relajación muscular"
+      "A) El Eustrés es el estrés 'bueno' (estimulante y necesario) y el Distrés es el 'malo' (crónico y dañino)",
+      "B) El Eustrés solo lo sufren los jefes",
+      "C) El Distrés es necesario para la supervivencia",
+      "D) Son exactamente lo mismo bajo diferentes nombres"
     ],
-    "answer": "B) El organismo intenta mantener la activación para superar el reto, consumiendo recursos",
-    "explanation": "Fase 1: Alarma (shock). Fase 2: Resistencia (aguantar). Fase 3: Agotamiento (enfermedad). El daño ocurre si la fase 2 dura demasiado."
+    "answer": "A) El Eustrés es el estrés 'bueno' (estimulante y necesario) y el Distrés es el 'malo' (crónico y dañino)",
+    "explanation": "El Eustrés nos mantiene alerta y productivos. El problema es el Distrés, que es cuando el nivel de activación supera nuestra capacidad de respuesta y nos enferma. (Fuente: 5_9_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_9_unidad_psico_med_c_s.pdf",
+    "page": 2
+  },
+  {
+    "topic": "Unidad 9: Síndrome de Burnout",
+    "question": "De acuerdo con el modelo de Maslach, ¿cuáles son las tres dimensiones que definen el Síndrome de Quemado por el trabajo (Burnout)?",
+    "options": [
+      "A) Cansancio, Sueño e Irritabilidad",
+      "B) Agotamiento emocional, Despersonalización y Baja realización personal",
+      "C) Dolor de cabeza, Falta de apetito y Mareos",
+      "D) Mal salario, Mal jefe y Malas instalaciones"
+    ],
+    "answer": "B) Agotamiento emocional, Despersonalización y Baja realización personal",
+    "explanation": "Esta es LA definición de Burnout. Si no hay despersonalización (tratar a la gente como objetos), probablemente sea estrés común, no Burnout. (Fuente: 5_9_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_9_unidad_psico_med_c_s.pdf",
+    "page": 6
+  },
+  {
+    "topic": "Unidad 9: Modelo de Karasek",
+    "question": "En el modelo Demanda-Control de Karasek, ¿qué define a un trabajo 'Pasivo'?",
+    "options": [
+      "A) Alta demanda y Bajo control",
+      "B) Baja demanda y Bajo control",
+      "C) Baja demanda y Alto control",
+      "D) Alta demanda y Alto control"
+    ],
+    "answer": "B) Baja demanda y Bajo control",
+    "explanation": "Los trabajos pasivos (como un guarda de seguridad que solo mira una pantalla sin hacer nada) generan atrofia de habilidades y falta de motivación. (Fuente: CLASE 9-10-11.pdf).",
+    "source_file": "CLASE 9-10-11.pdf",
+    "page": 15
+  },
+  {
+    "topic": "Unidad 9: Modelo de Siegrist",
+    "question": "¿Cuál es la premisa principal del modelo 'Esfuerzo-Recompensa' de Siegrist?",
+    "options": [
+      "A) Que el estrés aparece cuando el salario es muy bajo",
+      "B) Que el estrés surge del desequilibrio entre un alto esfuerzo y una baja recompensa (dinero, estima o estabilidad)",
+      "C) Que esforzarse mucho siempre es bueno para la salud",
+      "D) Que la recompensa solo debe ser económica"
+    ],
+    "answer": "B) Que el estrés surge del desequilibrio entre un alto esfuerzo y una baja recompensa (dinero, estima o estabilidad)",
+    "explanation": "Si el trabajador siente que da mucho y recibe poco a cambio (no solo dinero, sino también respeto o seguridad), su salud cardiovascular se resiente. (Fuente: CLASE 9-10-11.pdf).",
+    "source_file": "CLASE 9-10-11.pdf",
+    "page": 17
+  },
+  {
+    "topic": "Unidad 9: Consecuencias del Estrés",
+    "question": "¿Qué síntoma cognitivo es típico de un trabajador bajo estrés crónico?",
+    "options": [
+      "A) Mejora de la memoria a corto plazo",
+      "B) Dificultad para tomar decisiones y pérdida de capacidad de concentración",
+      "C) Aumento de la creatividad",
+      "D) Mayor rapidez en el procesamiento de datos"
+    ],
+    "answer": "B) Dificultad para tomar decisiones y pérdida de capacidad de concentración",
+    "explanation": "El estrés 'bloquea' la corteza prefrontal. Por eso, un trabajador estresado es un peligro: comete más errores y no sabe reaccionar ante imprevistos. (Fuente: 5_9_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_9_unidad_psico_med_c_s.pdf",
+    "page": 8
   }
 ]

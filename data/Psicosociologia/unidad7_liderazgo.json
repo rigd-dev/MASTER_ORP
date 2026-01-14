@@ -1,45 +1,114 @@
 [
   {
-    "topic": "Estilos de Mando",
-    "question": "En la rejilla de Blake y Mouton, ¿qué caracteriza al estilo 'Laissez-faire' (1.1)?",
+    "topic": "Unidad 7: Rejilla de Blake y Mouton",
+    "question": "En el Grid Gerencial, ¿cuál es el estilo de dirección (1.1) denominado 'Dirección Empobrecida'?",
     "options": [
-      "A) Máximo interés por las personas y mínimo por la tarea",
-      "B) El líder abdica de su responsabilidad y hace el mínimo esfuerzo para mantenerse en el puesto",
-      "C) Es un estilo democrático donde se delega para motivar",
-      "D) Máximo interés por la producción a costa de las personas"
+      "A) Máximo interés por las personas y mínimo por la producción",
+      "B) El jefe ejerce el mínimo esfuerzo para realizar el trabajo y mantenerse en el puesto",
+      "C) Equilibrio entre necesidades de la empresa y moral de los empleados",
+      "D) Autoridad-Obediencia estricta"
     ],
-    "answer": "B) El líder abdica de su responsabilidad y hace el mínimo esfuerzo para mantenerse en el puesto",
-    "explanation": "¡Cuidado! Laissez-faire NO es democrático ni delegación positiva. Es pasividad y desinterés (abdicación). Es un estilo tóxico. (Fuente: Unidad 7)."
+    "answer": "B) El jefe ejerce el mínimo esfuerzo para realizar el trabajo y mantenerse en el puesto",
+    "explanation": "El estilo 1.1 es la abdicación del líder. No le importa ni la gente ni el trabajo. Es un factor de riesgo psicosocial altísimo por falta de apoyo y rol indefinido. (Fuente: 5_7_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_7_unidad_psico_med_c_s.pdf",
+    "page": 8
   },
   {
-    "topic": "Efecto Pigmalión",
-    "question": "Según Robert Merton, ¿cuál es el mecanismo subyacente del Efecto Pigmalión?",
+    "topic": "Unidad 7: Liderazgo Situacional",
+    "question": "Según Hersey y Blanchard, ante un colaborador con 'Madurez M2' (Baja competencia pero alta motivación/querer), ¿qué estilo debe usar el líder?",
     "options": [
-      "A) La motivación intrínseca del empleado",
-      "B) La Profecía Autocumplida: las expectativas del jefe modifican su conducta hacia el empleado, provocando que este rinda según lo esperado",
-      "C) El efecto de la recompensa económica sobre el rendimiento",
-      "D) La imitación de conductas entre compañeros"
+      "A) Delegar",
+      "B) Participar",
+      "C) Persuadir / Explicar (E2)",
+      "D) Instruir / Dirigir (E1)"
     ],
-    "answer": "B) La Profecía Autocumplida: las expectativas del jefe modifican su conducta hacia el empleado, provocando que este rinda según lo esperado",
-    "explanation": "No es magia. Si el jefe cree que eres bueno, te dará mejores tareas y más apoyo, por lo que te volverás bueno. (Fuente: PDF Efecto Pigmalión)."
+    "answer": "C) Persuadir / Explicar (E2)",
+    "explanation": "Como el trabajador 'quiere' pero todavía no 'sabe', el líder debe dirigir las tareas pero también explicar las decisiones y apoyar para mantener la motivación. (Fuente: 5_7_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_7_unidad_psico_med_c_s.pdf",
+    "page": 12
   },
   {
-    "topic": "Motivación (Herzberg)",
-    "question": "PREGUNTA TRAMPA: Tu empresa sube el sueldo a todos los empleados y mejora la iluminación. Según Herzberg, ¿aumentará la motivación a largo plazo?",
+    "topic": "Unidad 7: El Efecto Pigmalión",
+    "question": "Merton define el Efecto Pigmalión como una 'profecía autocumplida'. ¿Qué significa esto en la supervisión de seguridad?",
     "options": [
-      "A) Sí, porque son factores de crecimiento",
-      "B) Sí, el dinero es el mayor motivador existente",
-      "C) No, solo evitará la insatisfacción. Son factores higiénicos, no motivadores",
-      "D) Depende de la edad del trabajador"
+      "A) Que el accidente ocurrirá si el técnico lo predice",
+      "B) Que las expectativas del mando sobre la competencia del trabajador influyen en el comportamiento y rendimiento real de este",
+      "C) Que el trabajador siempre ignora al jefe",
+      "D) Que la formación es inútil si no hay castigos"
     ],
-    "answer": "C) No, solo evitará la insatisfacción. Son factores higiénicos, no motivadores",
-    "explanation": "Esta cae siempre. Para Herzberg, el sueldo y las condiciones físicas NO motivan (solo evitan quejas). Lo que motiva es el reconocimiento, la responsabilidad y el logro."
+    "answer": "B) Que las expectativas del mando sobre la competencia del trabajador influyen en el comportamiento y rendimiento real de este",
+    "explanation": "Si un mando trata a un operario como 'descuidado' o 'incapaz', terminará provocando que el operario actúe así. Si le muestra confianza, su rendimiento mejora. (Fuente: Efecto_Pigmalion.pdf).",
+    "source_file": "Efecto_Pigmalion.pdf",
+    "page": 1
   },
   {
-    "topic": "Teoría X e Y",
-    "question": "Un directivo piensa: 'La gente es vaga por naturaleza, hay que controlarla y amenazarla para que trabaje'. ¿Qué teoría aplica?",
-    "options": ["A) Teoría Y de McGregor", "B) Teoría Z de Ouchi", "C) Teoría X de McGregor", "D) Liderazgo Situacional"],
-    "answer": "C) Teoría X de McGregor",
-    "explanation": "La Teoría X es la visión pesimista (el hombre es vago). La Teoría Y es la optimista (el hombre busca autorrealización)."
+    "topic": "Unidad 7: Teoría X y Y",
+    "question": "Un mando que aplica la 'Teoría X' de McGregor en prevención de riesgos:",
+    "options": [
+      "A) Confía en que el trabajador usará los EPIs por responsabilidad propia",
+      "B) Cree que el trabajador es vago por naturaleza y solo evitará riesgos bajo amenaza o control estricto",
+      "C) Fomenta la participación en los comités de seguridad",
+      "D) Delega la inspección de seguridad en los operarios"
+    ],
+    "answer": "B) Cree que el trabajador es vago por naturaleza y solo evitará riesgos bajo amenaza o control estricto",
+    "explanation": "La Teoría X asume que la gente huye del trabajo y la responsabilidad; por tanto, requiere coacción y control. (Fuente: 5_7_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_7_unidad_psico_med_c_s.pdf",
+    "page": 10
+  },
+  {
+    "topic": "Unidad 7: Motivaciones del trabajador",
+    "question": "Según el estudio del CEF (Ángel Fernández), ¿cuál es el factor que marca más diferencias entre los colectivos laborales?",
+    "options": [
+      "A) El género (hombre/mujer)",
+      "B) La edad",
+      "C) El grupo profesional (puesto ocupado)",
+      "D) El tamaño de la ciudad"
+    ],
+    "answer": "C) El grupo profesional (puesto ocupado)",
+    "explanation": "El estudio concluye que a distintos grupos profesionales les motivan hechos distintos (en 18 de las 35 motivaciones evaluadas). (Fuente: Las_10_motivaciones_de_los_trabajadores.pdf).",
+    "source_file": "Las_10_motivaciones_de_los_trabajadores.pdf",
+    "page": 2
+  },
+  {
+    "topic": "Unidad 7: Poder y Autoridad",
+    "question": "¿Qué diferencia existe entre el Poder y la Autoridad en un mando intermedio?",
+    "options": [
+      "A) Son sinónimos",
+      "B) El Poder es la facultad de imponer la voluntad; la Autoridad es el prestigio reconocido por los demás",
+      "C) La Autoridad solo se tiene si se tiene Poder",
+      "D) El Poder nace del respeto y la Autoridad del miedo"
+    ],
+    "answer": "B) El Poder es la facultad de imponer la voluntad; la Autoridad es el prestigio reconocido por los demás",
+    "explanation": "Un mando puede tener poder (jerarquía) pero no autoridad (respeto). Para la prevención, es vital tener autoridad para que las normas se sigan por convicción. (Fuente: 5_7_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_7_unidad_psico_med_c_s.pdf",
+    "page": 4
+  },
+  {
+    "topic": "Unidad 7: Comunicación del Líder",
+    "question": "¿Por qué se dice que el lenguaje no verbal del mando es más influyente que el verbal?",
+    "options": [
+      "A) Porque es más difícil de entender",
+      "B) Porque un mal ejemplo (no usar casco) destruye automáticamente un buen discurso de seguridad",
+      "C) Porque no requiere hablar",
+      "D) Solo influye en trabajadores con poca formación"
+    ],
+    "answer": "B) Porque un mal ejemplo (no usar casco) destruye automáticamente un buen discurso de seguridad",
+    "explanation": "El ejemplo es la expresión del lenguaje no verbal. La coherencia entre lo que se dice y lo que se hace es la base del liderazgo en prevención. (Fuente: 5_11_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_11_unidad_psico_med_c_s.pdf",
+    "page": 5
+  },
+  {
+    "topic": "Unidad 7: Motivación Española",
+    "question": "¿En qué motivador existe la mayor diferencia entre los encuestados españoles y los de otros países según el estudio del CEF?",
+    "options": [
+      "A) En el salario",
+      "B) En el hecho de tener un contrato indefinido",
+      "C) En el horario flexible",
+      "D) En la cercanía al domicilio"
+    ],
+    "answer": "B) En el hecho de tener un contrato indefinido",
+    "explanation": "En España el 35% lo marca como motivador frente al 18% en otros países, reflejando la importancia de la seguridad en el empleo. (Fuente: Las_10_motivaciones_de_los_trabajadores.pdf).",
+    "source_file": "Las_10_motivaciones_de_los_trabajadores.pdf",
+    "page": 2
   }
 ]
