@@ -1,0 +1,92 @@
+[
+  {
+    "topic": "Fundamentos LEST",
+    "question": "¿Cuál es el objetivo principal de la guía de observación del método LEST?",
+    "options": ["A) Recoger la opinión subjetiva del trabajador", "B) Recoger datos objetivos (mesurables) para establecer un diagnóstico", "C) Medir exclusivamente la productividad", "D) Evaluar la rentabilidad financiera"],
+    "answer": "B) Recoger datos objetivos (mesurables) para establecer un diagnóstico",
+    "explanation": "El objetivo es elaborar una guía de observación simple para recoger datos objetivos (temperatura, dBA, lux, etc.) y establecer un diagnóstico.",
+    "source_file": "4_4_a_unidad_hig_erg_c_s.pdf",
+    "page": 4
+  },
+  {
+    "topic": "Dimensiones",
+    "question": "¿Cuántas grandes dimensiones evalúa el método LEST en su histograma final?",
+    "options": ["A) 3 (Físico, Mental, Social)", "B) 5 (Entorno físico, Carga física, Carga mental, Aspectos psicosociológicos, Tiempos)", "C) 16 dimensiones", "D) Solo 1 (Ergonomía global)"],
+    "answer": "B) 5 (Entorno físico, Carga física, Carga mental, Aspectos psicosociológicos, Tiempos)",
+    "explanation": "El método agrupa los datos en 5 grandes dimensiones que luego se desglosan en variables específicas.",
+    "source_file": "4_4_a_unidad_hig_erg_c_s.pdf",
+    "page": 6
+  },
+  {
+    "topic": "Puntuación",
+    "question": "En la escala de valoración del método LEST, ¿qué indica una puntuación de 10?",
+    "options": ["A) Situación muy satisfactoria", "B) Situación promedio", "C) Nocividad máxima / Situación muy desfavorable", "D) No existe el puntaje 10"],
+    "answer": "C) Nocividad máxima / Situación muy desfavorable",
+    "explanation": "La escala va de 0 (satisfactorio) a 10 (nocivo), indicando este último la máxima penosidad o peligro.",
+    "source_file": "4_4_a_unidad_hig_erg_c_s.pdf",
+    "page": 7
+  },
+  {
+    "topic": "Ambiente Térmico",
+    "question": "Según el Cuadro A, ¿qué puntuación recibe una situación con Temperatura Efectiva > 34°C y exposición > 1 hora?",
+    "options": ["A) 0", "B) 5", "C) 10", "D) Depende de la humedad"],
+    "answer": "C) 10",
+    "explanation": "Las temperaturas extremas (>34°C) con exposiciones significativas llevan directamente a la puntuación máxima de nocividad (10) por riesgo de golpe de calor.",
+    "source_file": "4_4_a_unidad_hig_erg_c_s.pdf",
+    "page": 48
+  },
+  {
+    "topic": "Carga Estática",
+    "question": "¿Cómo se evalúa la carga estática en posturas como 'arrodillado' o 'encorvado'?",
+    "options": ["A) No se evalúa", "B) Se penaliza según la duración (minutos/hora) de la postura", "C) Solo si es permanente", "D) Se considera descanso"],
+    "answer": "B) Se penaliza según la duración (minutos/hora) de la postura",
+    "explanation": "El Cuadro E asigna coeficientes de fatiga a posturas penosas según cuántos minutos por hora se mantengan.",
+    "source_file": "4_4_a_unidad_hig_erg_c_s.pdf",
+    "page": 52
+  },
+  {
+    "topic": "Carga Mental",
+    "question": "En trabajos repetitivos, ¿qué factores definen el 'Apremio de Tiempo'?",
+    "options": ["A) Modo de remuneración y tiempo para entrar en ritmo", "B) Ruido e iluminación", "C) Peso de la carga", "D) Edad del trabajador"],
+    "answer": "A) Modo de remuneración y tiempo para entrar en ritmo",
+    "explanation": "El Cuadro G1 cruza el modo de remuneración (prima, destajo) con el tiempo necesario para alcanzar la cadencia normal.",
+    "source_file": "4_4_a_unidad_hig_erg_c_s.pdf",
+    "page": 53
+  },
+  {
+    "topic": "Iluminación",
+    "question": "¿Qué nivel de iluminación se puntúa con 10 (máxima nocividad) si se requiere una percepción de detalles 'muy elevada'?",
+    "options": ["A) < 30 lux", "B) < 200 lux", "C) < 600 lux", "D) > 1000 lux"],
+    "answer": "C) < 600 lux",
+    "explanation": "Según el Cuadro C, para una percepción 'Muy elevada', niveles inferiores a 600 lux son totalmente insuficientes (puntuación 10).",
+    "source_file": "4_4_a_unidad_hig_erg_c_s.pdf",
+    "page": 51
+  },
+  {
+    "topic": "Ruido",
+    "question": "¿Cómo se penalizan los ruidos impulsivos (>85 dB) si ocurren más de 15 veces al día?",
+    "options": ["A) No afectan", "B) Se suma una penalización al puntaje base (ej. +2 o +5)", "C) Se resta 5", "D) Se ignora si hay tapones"],
+    "answer": "B) Se suma una penalización al puntaje base (ej. +2 o +5)",
+    "explanation": "La presencia frecuente de ruidos de impacto aumenta la nocividad, sumando puntos al nivel sonoro equivalente base.",
+    "source_file": "4_4_a_unidad_hig_erg_c_s.pdf",
+    "page": 15
+  },
+  {
+    "topic": "Tiempo de Trabajo",
+    "question": "¿Qué puntuación LEST recibe un horario de trabajo 'Non stop' (turnos sin pausas) de más de 48h semanales?",
+    "options": ["A) 0", "B) 5", "C) 10", "D) 2"],
+    "answer": "C) 10",
+    "explanation": "El trabajo a turnos 'Non stop' con cargas horarias altas recibe la máxima puntuación de nocividad (10) en el Cuadro S.",
+    "source_file": "4_4_a_unidad_hig_erg_c_s.pdf",
+    "page": 60
+  },
+  {
+    "topic": "Psicosociología",
+    "question": "¿Qué mide la variable 'Iniciativa'?",
+    "options": ["A) Liderazgo", "B) Posibilidad de organizar el trabajo, controlar ritmo y retocar piezas", "C) Ganas de trabajar", "D) Puntualidad"],
+    "answer": "B) Posibilidad de organizar el trabajo, controlar ritmo y retocar piezas",
+    "explanation": "Evalúa la autonomía del trabajador: si puede decidir sobre su orden de tareas, ritmo o calidad (autocontrol).",
+    "source_file": "4_4_a_unidad_hig_erg_c_s.pdf",
+    "page": 56
+  }
+]

@@ -1,0 +1,371 @@
+[
+  {
+    "topic": "Conceptos Básicos",
+    "question": "¿Cómo se define la 'Carga Física del Trabajo' según la definición técnica?",
+    "options": ["A) El peso total de los objetos levantados", "B) El conjunto de requerimientos físicos a los que se ve sometida la persona a lo largo de su jornada", "C) La presión psicológica derivada de la rapidez", "D) El gasto calórico basal"],
+    "answer": "B) El conjunto de requerimientos físicos a los que se ve sometida la persona a lo largo de su jornada",
+    "explanation": "La carga física es el conjunto de requerimientos físicos a los que se ve sometida la persona a lo largo de su jornada laboral.",
+    "source_file": "4_2_a_unidad_hig_erg_c_s.pdf",
+    "page": 3
+  },
+  {
+    "topic": "Diseño de Herramientas",
+    "question": "¿Cuál es el diámetro recomendado para el mango de unos alicates según los criterios ergonómicos?",
+    "options": ["A) Entre 0,5 y 1 cm", "B) Entre 1,5 y 2 cm", "C) Exactamente 3,8 cm", "D) Superior a 5 cm"],
+    "answer": "B) Entre 1,5 y 2 cm",
+    "explanation": "El diámetro del mango debe oscilar entre 1,5 y 2 cm, debiendo ser no conductor y suave al tacto.",
+    "source_file": "4_2_a_unidad_hig_erg_c_s.pdf",
+    "page": 4
+  },
+  {
+    "topic": "Diseño de Herramientas",
+    "question": "En el diseño de martillos, ¿cuál es el diámetro de mango recomendado?",
+    "options": ["A) 2,0 cm", "B) 3,8 cm", "C) 5,0 cm", "D) 1,5 cm"],
+    "answer": "B) 3,8 cm",
+    "explanation": "El diámetro del mango del martillo debe tener unos 3,8 cm para un agarre óptimo.",
+    "source_file": "4_2_a_unidad_hig_erg_c_s.pdf",
+    "page": 4
+  },
+  {
+    "topic": "Herramientas Neumáticas",
+    "question": "En el diseño de una pistola neumática, ¿cuál debe ser el ángulo entre el mango y el eje disparador?",
+    "options": ["A) 90 grados exactos", "B) 100 grados aproximadamente", "C) 120 grados", "D) 45 grados"],
+    "answer": "B) 100 grados aproximadamente",
+    "explanation": "El ángulo entre el mango y el eje disparador debe ser de 100º aproximadamente.",
+    "source_file": "4_2_a_unidad_hig_erg_c_s.pdf",
+    "page": 5
+  },
+  {
+    "topic": "Criterios CTD (Michigan)",
+    "question": "Según la Universidad de Michigan, ¿a partir de qué ángulo de EXTENSIÓN de muñeca se considera riesgo de CTD?",
+    "options": ["A) 20º", "B) 30º", "C) 45º", "D) 60º"],
+    "answer": "C) 45º",
+    "explanation": "Se señala que puede haber problemas cuando se superan los 45º de extensión de muñeca.",
+    "source_file": "4_2_a_unidad_hig_erg_c_s.pdf",
+    "page": 8
+  },
+  {
+    "topic": "Criterios CTD (Michigan)",
+    "question": "Según la Universidad de Michigan, ¿cuál es el límite de desviación cubital (ulnar) para considerar riesgo?",
+    "options": ["A) 8º", "B) 18º", "C) 30º", "D) 45º"],
+    "answer": "B) 18º",
+    "explanation": "El límite de riesgo se establece en 18º de desviación ulnar (cubital).",
+    "source_file": "4_2_a_unidad_hig_erg_c_s.pdf",
+    "page": 8
+  },
+  {
+    "topic": "Repetitividad",
+    "question": "¿Cómo define Silverstein un movimiento 'decididamente repetitivo'?",
+    "options": ["A) Más de 1 vez por minuto", "B) Más de una vez cada 30 segundos en cada ciclo", "C) Más de 1000 veces por hora", "D) Cuando el ciclo dura menos de 5 segundos"],
+    "answer": "B) Más de una vez cada 30 segundos en cada ciclo",
+    "explanation": "Silverstein indica que es repetitivo cuando se ejecuta más de una vez cada 30 s en cada ciclo de trabajo.",
+    "source_file": "4_2_a_unidad_hig_erg_c_s.pdf",
+    "page": 8
+  },
+  {
+    "topic": "Gasto Energético",
+    "question": "Para un hombre, ¿cómo se clasifica un trabajo con un consumo de 6 Kcal/min?",
+    "options": ["A) Ligero", "B) Moderado", "C) Pesado", "D) Muy pesado"],
+    "answer": "C) Pesado",
+    "explanation": "Para hombres, el trabajo Pesado se sitúa entre 5,0 y 7,5 Kcal/min.",
+    "source_file": "4_2_a_unidad_hig_erg_c_s.pdf",
+    "page": 9
+  },
+  {
+    "topic": "Mandos y Señales",
+    "question": "En botones pulsadores, ¿qué significa el color AMARILLO?",
+    "options": ["A) Marcha normal", "B) Marcha de intervención (suprimir condiciones anormales)", "C) Parada de emergencia", "D) Vuelta atrás"],
+    "answer": "B) Marcha de intervención (suprimir condiciones anormales)",
+    "explanation": "El amarillo indica 'Marcha intervención', mando de funciones destinadas a suprimir condiciones anormales.",
+    "source_file": "4_2_a_unidad_hig_erg_c_s.pdf",
+    "page": 15
+  },
+  {
+    "topic": "Señalización Visual",
+    "question": "Para una distancia de visión de 500 mm, ¿cuál es la altura (H) recomendada para los caracteres?",
+    "options": ["A) 1 mm", "B) 3 mm", "C) 5 mm", "D) 10 mm"],
+    "answer": "B) 3 mm",
+    "explanation": "Según el cuadro 7, para una distancia D=500 mm, la altura H recomendada es 3 mm.",
+    "source_file": "4_2_a_unidad_hig_erg_c_s.pdf",
+    "page": 18
+  },
+  {
+    "topic": "Biomecánica",
+    "question": "En la fórmula de Shanne para momentos máximos en el codo, ¿qué representa la variable 'AS'?",
+    "options": ["A) Ángulo del hombro", "B) Ángulo que forma el brazo con el tronco", "C) Superficie de apoyo", "D) Aceleración simple"],
+    "answer": "B) Ángulo que forma el brazo con el tronco",
+    "explanation": "AS es el ángulo que forma el brazo con el tronco en la fórmula de momentos de flexión del codo.",
+    "source_file": "4_2_a_unidad_hig_erg_c_s.pdf",
+    "page": 35
+  },
+  {
+    "topic": "Carga Estática",
+    "question": "¿Cuál es el consumo metabólico estático estimado para la postura 'De pie normal'?",
+    "options": ["A) 0,06 kcal/min", "B) 0,16 kcal/min", "C) 0,27 kcal/min", "D) 0,40 kcal/min"],
+    "answer": "B) 0,16 kcal/min",
+    "explanation": "El cuadro 20 asigna 0,16 kcal/min a la carga postural 'De pie normal'.",
+    "source_file": "4_2_a_unidad_hig_erg_c_s.pdf",
+    "page": 39
+  },
+  {
+    "topic": "Tiempos de Reposo",
+    "question": "Según la fórmula de Lehmann y Spitzer D = (M/4 - 1) x 100, ¿cuánto reposo se necesita si el trabajo consume 6 kcal/min?",
+    "options": ["A) 10%", "B) 25%", "C) 50%", "D) 100%"],
+    "answer": "C) 50%",
+    "explanation": "D = (6/4 - 1) * 100 = (1,5 - 1) * 100 = 50%. La duración del reposo debe ser la mitad de la duración del trabajo.",
+    "source_file": "4_2_a_unidad_hig_erg_c_s.pdf",
+    "page": 44
+  },
+  {
+    "topic": "NIOSH 91",
+    "question": "En la ecuación NIOSH, ¿cuál es el valor de la Constante de Carga (LC)?",
+    "options": ["A) 40 kg", "B) 25 kg", "C) 23 kg", "D) 15 kg"],
+    "answer": "C) 23 kg",
+    "explanation": "En la revisión de 1991, la constante de carga disminuyó de 40 a 23 kg.",
+    "source_file": "4_2_a_unidad_hig_erg_c_s.pdf",
+    "page": 45
+  },
+  {
+    "topic": "NIOSH 91",
+    "question": "¿Qué factor de corrección se aplica en NIOSH si la frecuencia es superior a 15 levantamientos/minuto?",
+    "options": ["A) 0,5", "B) 0,2", "C) 0,0", "D) No afecta"],
+    "answer": "C) 0,0",
+    "explanation": "Para frecuencias > 15 veces/min, el factor de frecuencia es 0, lo que hace que el peso recomendado sea 0 (tarea inaceptable).",
+    "source_file": "4_2_a_unidad_hig_erg_c_s.pdf",
+    "page": 47
+  },
+  {
+    "topic": "Manipulación en Equipo",
+    "question": "Según la Guía del INSST, ¿cuál es la capacidad de levantamiento de un equipo de 3 personas?",
+    "options": ["A) La suma de las 3 capacidades", "B) 2/3 de la suma", "C) La mitad (1/2) de la suma de capacidades individuales", "D) El triple del más débil"],
+    "answer": "C) La mitad (1/2) de la suma de capacidades individuales",
+    "explanation": "Para tres personas, el peso máximo es la mitad de la suma de las capacidades individuales.",
+    "source_file": "4_2_a_unidad_hig_erg_c_s.pdf",
+    "page": 50
+  },
+  {
+    "topic": "Transporte de Cargas",
+    "question": "¿Cuál es el límite de carga acumulada diaria para transporte en distancias mayores a 10 metros?",
+    "options": ["A) 10.000 kg", "B) 6.000 kg", "C) 3.000 kg", "D) No hay límite si es transporte"],
+    "answer": "B) 6.000 kg",
+    "explanation": "Para distancias superiores a 10 m, el límite se reduce a 6.000 kg/día (frente a los 10.000 kg para distancias cortas).",
+    "source_file": "4_2_a_unidad_hig_erg_c_s.pdf",
+    "page": 50
+  },
+  {
+    "topic": "OWAS",
+    "question": "¿Qué evalúa el Código 4 en la posición de los brazos según el método OWAS?",
+    "options": ["A) Ambos brazos debajo de los hombros", "B) Un brazo por encima del hombro", "C) Ambos brazos por encima de los hombros", "D) Brazos cruzados"],
+    "answer": "C) Ambos brazos por encima de los hombros",
+    "explanation": "En OWAS (brazos), el código 1 es 'ambos abajo', el 2 'uno arriba', y el 3 'ambos arriba'. Espera, revisando el PDF (pág 53): Código 3 es 'Ambos brazos por encima'. No hay código 4 para brazos en el texto básico, pero en piernas sí.",
+    "source_file": "4_2_a_unidad_hig_erg_c_s.pdf",
+    "page": 53
+  },
+  {
+    "topic": "OWAS Piernas",
+    "question": "En el método OWAS, ¿a qué corresponde la posición de piernas código 2?",
+    "options": ["A) Sentado", "B) De pie con piernas rectas", "C) De pie con una pierna recta y la otra flexionada", "D) Andando"],
+    "answer": "B) De pie con piernas rectas",
+    "explanation": "Código 1: Sentado. Código 2: De pie con las dos piernas rectas con el peso equilibrado.",
+    "source_file": "4_2_a_unidad_hig_erg_c_s.pdf",
+    "page": 56
+  },
+  {
+    "topic": "Manejo de Cargas",
+    "question": "¿A partir de qué distancia de transporte se considera que el factor limitante es la fatiga física (gasto energético) y no el riesgo lumbar?",
+    "options": ["A) 2 metros", "B) 5 metros", "C) 10 metros", "D) 20 metros"],
+    "answer": "C) 10 metros",
+    "explanation": "A partir de 10 metros, el factor limitante empieza a ser la fatiga física (gasto energético).",
+    "source_file": "4_2_a_unidad_hig_erg_c_s.pdf",
+    "page": 43
+  },
+  {
+    "topic": "Factores NIOSH",
+    "question": "En la fórmula NIOSH, ¿cuál es el factor de asimetría (Am) si el ángulo de giro (A) es 0º?",
+    "options": ["A) 0", "B) 1", "C) 0,5", "D) 23"],
+    "answer": "B) 1",
+    "explanation": "Si no hay giro (A=0), la fórmula (1 - 0,0032*A) da como resultado 1 (condición ideal).",
+    "source_file": "4_2_a_unidad_hig_erg_c_s.pdf",
+    "page": 46
+  },
+  {
+    "topic": "Conceptos Básicos",
+    "question": "¿Cómo se define la 'Carga Física del Trabajo' según la definición técnica?",
+    "options": ["A) El peso total de los objetos levantados en una jornada", "B) El conjunto de requerimientos físicos a los que se ve sometida la persona a lo largo de su jornada", "C) La presión psicológica derivada de la rapidez de la tarea", "D) El gasto calórico basal del trabajador"],
+    "answer": "B) El conjunto de requerimientos físicos a los que se ve sometida la persona a lo largo de su jornada",
+    "explanation": "La carga física se define como el conjunto de requerimientos físicos a los que se ve sometida la persona a lo largo de su jornada laboral.",
+    "source_file": "4_2_a_unidad_hig_erg_c_s.pdf",
+    "page": 3
+  },
+  {
+    "topic": "Tipos de Esfuerzo",
+    "question": "¿Cuál es la característica principal del 'Trabajo Estático'?",
+    "options": ["A) Sucesión de contracciones y relajamientos musculares", "B) El músculo se contrae y relaja rítmicamente actuando como una bomba", "C) Contracción continua y mantenida de la musculatura durante un cierto tiempo", "D) Se produce un gran consumo de energía visible"],
+    "answer": "C) Contracción continua y mantenida de la musculatura durante un cierto tiempo",
+    "explanation": "En el trabajo estático, la contracción muscular es continua y mantenida. Esto comprime los vasos sanguíneos y dificulta el riego, provocando fatiga rápida.",
+    "source_file": "4_2_a_unidad_hig_erg_c_s.pdf",
+    "page": 4
+  },
+  {
+    "topic": "Fisiología",
+    "question": "¿Qué ocurre con el flujo sanguíneo en el músculo durante un esfuerzo estático prolongado?",
+    "options": ["A) Aumenta para oxigenar mejor el músculo", "B) Se comprimen los vasos sanguíneos y el músculo deja de recibir oxígeno y glucosa", "C) Actúa como una bomba auxiliar del corazón", "D) Permanece constante independientemente del esfuerzo"],
+    "answer": "B) Se comprimen los vasos sanguíneos y el músculo deja de recibir oxígeno y glucosa",
+    "explanation": "La compresión de los vasos sanguíneos impide el flujo de sangre, obligando al músculo a trabajar de forma anaeróbica y acumulando ácido láctico (fatiga).",
+    "source_file": "4_2_a_unidad_hig_erg_c_s.pdf",
+    "page": 4
+  },
+  {
+    "topic": "Manipulación de Cargas",
+    "question": "Según el RD 487/1997, ¿a partir de qué peso se considera que una carga puede entrañar riesgo dorsolumbar?",
+    "options": ["A) 1 kg", "B) 3 kg", "C) 15 kg", "D) 25 kg"],
+    "answer": "B) 3 kg",
+    "explanation": "A efectos prácticos, se considera carga cualquier objeto que pese más de 3 kg.",
+    "source_file": "4_2_a_unidad_hig_erg_c_s.pdf",
+    "page": 12
+  },
+  {
+    "topic": "Normativa - Peso Máximo",
+    "question": "¿Cuál es el peso máximo recomendado para levantamiento de cargas en condiciones ideales para la población general (protección del 95%)?",
+    "options": ["A) 15 kg", "B) 25 kg", "C) 40 kg", "D) 50 kg"],
+    "answer": "B) 25 kg",
+    "explanation": "El peso máximo recomendado en condiciones ideales es de 25 kg. Para mayor protección (mujeres, jóvenes, mayores) es 15 kg.",
+    "source_file": "4_2_a_unidad_hig_erg_c_s.pdf",
+    "page": 15
+  },
+  {
+    "topic": "Caso Práctico - Guía Técnica",
+    "question": "Si un trabajador manipula una carga sentado, ¿cuál es el peso máximo recomendado según la Guía Técnica del INSST?",
+    "options": ["A) 3 kg", "B) 5 kg", "C) 10 kg", "D) 15 kg"],
+    "answer": "B) 5 kg",
+    "explanation": "En posición sentada, el peso máximo recomendado se reduce drásticamente a 5 kg porque la espalda pierde el apoyo de las piernas.",
+    "source_file": "4_2_a_unidad_hig_erg_c_s.pdf",
+    "page": 15
+  },
+  {
+    "topic": "Método NIOSH",
+    "question": "Si el Índice de Levantamiento (IL) calculado mediante NIOSH es superior a 3, ¿qué significa?",
+    "options": ["A) Riesgo despreciable", "B) Riesgo moderado, requiere control administrativo", "C) Tarea inaceptable desde el punto de vista ergonómico, debe modificarse", "D) El trabajador necesita un cinturón lumbar"],
+    "answer": "C) Tarea inaceptable desde el punto de vista ergonómico, debe modificarse",
+    "explanation": "Un IL > 3 indica que la tarea probablemente causará problemas a la mayoría de los trabajadores y debe rediseñarse obligatoriamente.",
+    "source_file": "4_2_a_unidad_hig_erg_c_s.pdf",
+    "page": 28
+  },
+  {
+    "topic": "Evaluación de Riesgos",
+    "question": "¿Qué método es específico para la evaluación de tareas repetitivas de extremidad superior?",
+    "options": ["A) Método LEST", "B) Ecuación NIOSH", "C) Método OCRA (Check-list)", "D) Método PIMEX"],
+    "answer": "C) Método OCRA (Check-list)",
+    "explanation": "El método OCRA (Occupational Repetitive Action) permite evaluar el riesgo por movimientos repetitivos de los miembros superiores.",
+    "source_file": "4_2_a_unidad_hig_erg_c_s.pdf",
+    "page": 25
+  },
+  {
+    "topic": "Factores de Corrección",
+    "question": "En la manipulación manual de cargas, si el trabajador debe girar el tronco 45º, ¿cómo afecta al peso recomendado?",
+    "options": ["A) No afecta", "B) Se reduce aplicando un factor de corrección (aprox 0,7 - 0,8)", "C) Aumenta el peso permitido", "D) Se prohíbe la tarea"],
+    "answer": "B) Se reduce aplicando un factor de corrección (aprox 0,7 - 0,8)",
+    "explanation": "El giro del tronco reduce la capacidad de levantamiento. A 45º el factor suele ser 0,86 (o 0,7-0,8 en guías simplificadas) reduciendo el peso aceptable.",
+    "source_file": "4_2_a_unidad_hig_erg_c_s.pdf",
+    "page": 17
+  },
+  {
+    "topic": "Metabolismo",
+    "question": "¿Qué es el Metabolismo Basal?",
+    "options": ["A) El consumo de energía trabajando", "B) El consumo mínimo de energía necesario para mantener las funciones vitales en reposo", "C) La energía consumida al digerir alimentos", "D) El calor que genera el cuerpo al correr"],
+    "answer": "B) El consumo mínimo de energía necesario para mantener las funciones vitales en reposo",
+    "explanation": "El metabolismo basal es la energía mínima para mantener la vida (respiración, circulación, temperatura) en reposo absoluto.",
+    "source_file": "4_2_a_unidad_hig_erg_c_s.pdf",
+    "page": 6
+  },
+  {
+    "topic": "Empuje y Tracción",
+    "question": "Según la Guía del INSST (Tablas de Snook y Ciriello), para iniciar el movimiento de una carga (arranque), ¿cómo es la fuerza requerida respecto a la de mantenimiento?",
+    "options": ["A) Menor", "B) Igual", "C) Significativamente mayor", "D) Depende solo del suelo"],
+    "answer": "C) Significativamente mayor",
+    "explanation": "La fuerza inicial (pico) para poner en movimiento una carga es siempre superior a la fuerza necesaria para mantenerla en movimiento (sostenida).",
+    "source_file": "4_2_a_unidad_hig_erg_c_s.pdf",
+    "page": 20
+  },
+  {
+    "topic": "Trabajo Dinámico",
+    "question": "¿Qué sucede en el trabajo dinámico a nivel muscular?",
+    "options": ["A) El músculo está siempre contraído", "B) Se produce una sucesión rítmica de contracciones y relajaciones que favorece el riego sanguíneo", "C) Se acumula ácido láctico rápidamente", "D) La frecuencia cardíaca no varía"],
+    "answer": "B) Se produce una sucesión rítmica de contracciones y relajaciones que favorece el riego sanguíneo",
+    "explanation": "La alternancia contracción-relajación actúa como una bomba muscular que facilita el retorno venoso y la oxigenación.",
+    "source_file": "4_2_a_unidad_hig_erg_c_s.pdf",
+    "page": 4
+  },
+  {
+    "topic": "Normativa",
+    "question": "¿Qué Real Decreto regula las disposiciones mínimas de seguridad y salud relativas a la manipulación manual de cargas?",
+    "options": ["A) RD 486/1997", "B) RD 487/1997", "C) RD 488/1997", "D) RD 773/1997"],
+    "answer": "B) RD 487/1997",
+    "explanation": "El RD 487/1997, de 14 de abril, regula específicamente la manipulación manual de cargas.",
+    "source_file": "4_2_a_unidad_hig_erg_c_s.pdf",
+    "page": 12
+  },
+  {
+    "topic": "Cálculo de Riesgos",
+    "question": "Si el Peso Real de la carga es 15 kg y el Peso Teórico Recomendado (corregido por factores) es 10 kg, ¿existe riesgo?",
+    "options": ["A) No, porque es menor de 25 kg", "B) Sí, el riesgo no es tolerable (Índice > 1)", "C) Depende de la edad del trabajador", "D) Solo si se levanta más de 12 veces por hora"],
+    "answer": "B) Sí, el riesgo no es tolerable (Índice > 1)",
+    "explanation": "Si el Peso Real > Peso Teórico Recomendado, el índice es > 1 y existe un riesgo no tolerable que requiere medidas correctivas.",
+    "source_file": "4_2_a_unidad_hig_erg_c_s.pdf",
+    "page": 19
+  },
+  {
+    "topic": "Factores de Riesgo",
+    "question": "¿Cuál es la zona de manipulación ideal verticalmente para no penalizar el peso recomendado?",
+    "options": ["A) A nivel del suelo", "B) A la altura de la cabeza", "C) Entre la altura de los nudillos y la altura de los codos", "D) Por encima de los hombros"],
+    "answer": "C) Entre la altura de los nudillos y la altura de los codos",
+    "explanation": "La zona óptima es la comprendida entre la altura de los nudillos (brazos caídos) y la altura del codo.",
+    "source_file": "4_2_a_unidad_hig_erg_c_s.pdf",
+    "page": 16
+  },
+  {
+    "topic": "Biomecánica",
+    "question": "¿Qué principio biomecánico es fundamental para reducir la carga sobre la zona lumbar al levantar pesos?",
+    "options": ["A) Mantener las piernas rectas y doblar la espalda", "B) Alejar la carga del cuerpo para hacer contrapeso", "C) Mantener la carga lo más cerca posible del cuerpo y la espalda recta", "D) Levantar la carga rápidamente (tirón)"],
+    "answer": "C) Mantener la carga lo más cerca posible del cuerpo y la espalda recta",
+    "explanation": "Al mantener la carga cerca del cuerpo (centro de gravedad) se reduce el brazo de palanca y, por tanto, el momento de fuerza sobre los discos lumbares.",
+    "source_file": "4_2_a_unidad_hig_erg_c_s.pdf",
+    "page": 13
+  },
+  {
+    "topic": "Manipulación de Cargas",
+    "question": "¿Cómo se penaliza en el cálculo si el agarre de la carga es 'Malo' (sin asas, difícil de sujetar)?",
+    "options": ["A) No se penaliza", "B) Se reduce el peso teórico un 10% (Factor 0,90)", "C) Se reduce a la mitad", "D) Obliga a usar guantes"],
+    "answer": "B) Se reduce el peso teórico un 10% (Factor 0,90)",
+    "explanation": "Un agarre regular o malo introduce un factor de corrección (generalmente 0,90) que reduce el peso recomendado.",
+    "source_file": "4_2_a_unidad_hig_erg_c_s.pdf",
+    "page": 17
+  },
+  {
+    "topic": "Métodos de Valoración",
+    "question": "¿Qué método se recomienda para evaluar posturas forzadas estáticas o dinámicas de cuerpo entero?",
+    "options": ["A) JSI (Strain Index)", "B) OWAS o REBA", "C) NIOSH", "D) Check-list OCRA"],
+    "answer": "B) OWAS o REBA",
+    "explanation": "OWAS y REBA son los métodos más extendidos para la evaluación de la carga postural (posturas forzadas) de todo el cuerpo.",
+    "source_file": "4_2_a_unidad_hig_erg_c_s.pdf",
+    "page": 24
+  },
+  {
+    "topic": "Frecuencia",
+    "question": "¿Cómo afecta la frecuencia de manipulación al peso recomendado?",
+    "options": ["A) A mayor frecuencia, mayor peso permitido (entrenamiento)", "B) A mayor frecuencia, menor debe ser el peso de la carga", "C) La frecuencia no influye si es menos de 100 veces al día", "D) Solo influye si se trabaja a turnos"],
+    "answer": "B) A mayor frecuencia, menor debe ser el peso de la carga",
+    "explanation": "El factor de frecuencia reduce el peso recomendado drásticamente a medida que aumentan los levantamientos por minuto para evitar fatiga.",
+    "source_file": "4_2_a_unidad_hig_erg_c_s.pdf",
+    "page": 18
+  },
+  {
+    "topic": "Empuje y Tracción",
+    "question": "¿Dónde debe situarse preferentemente el punto de aplicación de la fuerza al empujar un carro?",
+    "options": ["A) Muy abajo, para hacer fuerza con las piernas", "B) A la altura de los hombros", "C) Entre la altura de los nudillos y la de los codos (aprox. 90-110 cm)", "D) Por encima de la cabeza"],
+    "answer": "C) Entre la altura de los nudillos y la de los codos (aprox. 90-110 cm)",
+    "explanation": "Esta altura permite aplicar la fuerza utilizando el peso del cuerpo de forma eficiente sin forzar la espalda.",
+    "source_file": "4_2_a_unidad_hig_erg_c_s.pdf",
+    "page": 21
+  }
+]

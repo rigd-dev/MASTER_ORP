@@ -1,0 +1,38 @@
+[
+  {
+    "topic": "Conceptos Básicos",
+    "question": "¿Es el estrés siempre negativo?",
+    "options": [
+      "A) Sí, siempre daña la salud",
+      "B) No, existe el 'Eustrés' (estrés positivo/adaptativo) necesario para afrontar retos",
+      "C) Sí, excepto en deportistas",
+      "D) No, el estrés no existe, es un invento moderno"
+    ],
+    "answer": "B) No, existe el 'Eustrés' (estrés positivo/adaptativo) necesario para afrontar retos",
+    "explanation": "El estrés es una respuesta fisiológica de supervivencia. Solo es malo (Distrés) cuando es intenso o crónico y supera nuestra capacidad."
+  },
+  {
+    "topic": "Síndrome de Burnout",
+    "question": "¿Cuáles son las tres dimensiones clínicas que definen el Burnout (Maslach)?",
+    "options": [
+      "A) Cansancio, Sueño y Hambre",
+      "B) Agotamiento emocional, Despersonalización (cinismo) y Baja realización personal",
+      "C) Estrés, Ansiedad y Depresión",
+      "D) Dolor de cabeza, Absentismo y Rotación"
+    ],
+    "answer": "B) Agotamiento emocional, Despersonalización (cinismo) y Baja realización personal",
+    "explanation": "Memoriza esto. La clave distintiva es la 'Despersonalización' (tratar a clientes/pacientes como objetos) y ocurre en profesiones de ayuda."
+  },
+  {
+    "topic": "Fisiología del Estrés",
+    "question": "¿Qué ocurre en la 'Fase de Resistencia' del Síndrome General de Adaptación (Selye)?",
+    "options": [
+      "A) El cuerpo colapsa",
+      "B) El organismo intenta mantener la activación para superar el reto, consumiendo recursos",
+      "C) Se activa la alarma inicial (adrenalina)",
+      "D) Aparece la relajación muscular"
+    ],
+    "answer": "B) El organismo intenta mantener la activación para superar el reto, consumiendo recursos",
+    "explanation": "Fase 1: Alarma (shock). Fase 2: Resistencia (aguantar). Fase 3: Agotamiento (enfermedad). El daño ocurre si la fase 2 dura demasiado."
+  }
+]

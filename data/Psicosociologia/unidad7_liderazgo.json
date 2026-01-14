@@ -1,0 +1,45 @@
+[
+  {
+    "topic": "Estilos de Mando",
+    "question": "En la rejilla de Blake y Mouton, ¿qué caracteriza al estilo 'Laissez-faire' (1.1)?",
+    "options": [
+      "A) Máximo interés por las personas y mínimo por la tarea",
+      "B) El líder abdica de su responsabilidad y hace el mínimo esfuerzo para mantenerse en el puesto",
+      "C) Es un estilo democrático donde se delega para motivar",
+      "D) Máximo interés por la producción a costa de las personas"
+    ],
+    "answer": "B) El líder abdica de su responsabilidad y hace el mínimo esfuerzo para mantenerse en el puesto",
+    "explanation": "¡Cuidado! Laissez-faire NO es democrático ni delegación positiva. Es pasividad y desinterés (abdicación). Es un estilo tóxico. (Fuente: Unidad 7)."
+  },
+  {
+    "topic": "Efecto Pigmalión",
+    "question": "Según Robert Merton, ¿cuál es el mecanismo subyacente del Efecto Pigmalión?",
+    "options": [
+      "A) La motivación intrínseca del empleado",
+      "B) La Profecía Autocumplida: las expectativas del jefe modifican su conducta hacia el empleado, provocando que este rinda según lo esperado",
+      "C) El efecto de la recompensa económica sobre el rendimiento",
+      "D) La imitación de conductas entre compañeros"
+    ],
+    "answer": "B) La Profecía Autocumplida: las expectativas del jefe modifican su conducta hacia el empleado, provocando que este rinda según lo esperado",
+    "explanation": "No es magia. Si el jefe cree que eres bueno, te dará mejores tareas y más apoyo, por lo que te volverás bueno. (Fuente: PDF Efecto Pigmalión)."
+  },
+  {
+    "topic": "Motivación (Herzberg)",
+    "question": "PREGUNTA TRAMPA: Tu empresa sube el sueldo a todos los empleados y mejora la iluminación. Según Herzberg, ¿aumentará la motivación a largo plazo?",
+    "options": [
+      "A) Sí, porque son factores de crecimiento",
+      "B) Sí, el dinero es el mayor motivador existente",
+      "C) No, solo evitará la insatisfacción. Son factores higiénicos, no motivadores",
+      "D) Depende de la edad del trabajador"
+    ],
+    "answer": "C) No, solo evitará la insatisfacción. Son factores higiénicos, no motivadores",
+    "explanation": "Esta cae siempre. Para Herzberg, el sueldo y las condiciones físicas NO motivan (solo evitan quejas). Lo que motiva es el reconocimiento, la responsabilidad y el logro."
+  },
+  {
+    "topic": "Teoría X e Y",
+    "question": "Un directivo piensa: 'La gente es vaga por naturaleza, hay que controlarla y amenazarla para que trabaje'. ¿Qué teoría aplica?",
+    "options": ["A) Teoría Y de McGregor", "B) Teoría Z de Ouchi", "C) Teoría X de McGregor", "D) Liderazgo Situacional"],
+    "answer": "C) Teoría X de McGregor",
+    "explanation": "La Teoría X es la visión pesimista (el hombre es vago). La Teoría Y es la optimista (el hombre busca autorrealización)."
+  }
+]

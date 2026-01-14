@@ -1,0 +1,98 @@
+[
+  {
+    "topic": "Unidad 8: Calidad de Vida Laboral",
+    "question": "TRUCO: ¿Cuál es la diferencia entre 'Ampliación de Tareas' (Job Enlargement) y 'Enriquecimiento de Tareas' (Job Enrichment)?",
+    "options": [
+      "A) Son sinónimos",
+      "B) La Ampliación añade más tareas del mismo nivel (horizontal); el Enriquecimiento añade responsabilidad, autonomía y control (vertical)",
+      "C) La Ampliación es vertical y el Enriquecimiento horizontal",
+      "D) El Enriquecimiento es solo subir el sueldo"
+    ],
+    "answer": "B) La Ampliación añade más tareas del mismo nivel (horizontal); el Enriquecimiento añade responsabilidad, autonomía y control (vertical)",
+    "explanation": "Pregunta clásica. Para humanizar el trabajo no basta con dar 'más de lo mismo' (eso cansa). Hay que dar 'poder' y sentido (Enriquecimiento)."
+  },
+  {
+    "topic": "Unidad 8: Alienación",
+    "question": "Desde la perspectiva psicosociológica, ¿qué define la 'Alienación' en el trabajo?",
+    "options": [
+      "A) Sentirse extranjero",
+      "B) La pérdida del sentimiento de propiedad y sentido sobre el trabajo (el trabajador se siente un engranaje ajeno al producto final)",
+      "C) El estrés térmico",
+      "D) La baja cualificación"
+    ],
+    "answer": "B) La pérdida del sentimiento de propiedad y sentido sobre el trabajo (el trabajador se siente un engranaje ajeno al producto final)",
+    "explanation": "El concepto viene de Marx y se aplica en ergonomía cuando el trabajo está tan fragmentado que el operario no entiende para qué sirve lo que hace."
+  },
+  {
+    "topic": "Unidad 8: Nuevas Tecnologías",
+    "question": "¿Qué es el 'Tecnoestrés'?",
+    "options": [
+      "A) La fatiga visual por uso de PVD",
+      "B) Un estado psicológico negativo relacionado con el uso de TIC, caracterizado por ansiedad, fatiga mental, escepticismo e ineficacia",
+      "C) La radiación del ordenador",
+      "D) El miedo a que se rompa el ordenador"
+    ],
+    "answer": "B) Un estado psicológico negativo relacionado con el uso de TIC, caracterizado por ansiedad, fatiga mental, escepticismo e ineficacia",
+    "explanation": "No confundir con fatiga visual (ergonomía física). El tecnoestrés es psicosocial: sentir que 'la tecnología me supera' o 'no puedo desconectar' (tecnoadicción)."
+  },
+  {
+    "topic": "Unidad 8: Teletrabajo",
+    "question": "¿Cuál es uno de los mayores riesgos psicosociales específicos del Teletrabajo?",
+    "options": [
+      "A) El riesgo eléctrico en casa",
+      "B) El aislamiento social y la dificultad para separar la vida laboral de la familiar (desdibujamiento de fronteras)",
+      "C) La falta de sillas ergonómicas",
+      "D) El ahorro de tiempo en transporte"
+    ],
+    "answer": "B) El aislamiento social y la dificultad para separar la vida laboral de la familiar (desdibujamiento de fronteras)",
+    "explanation": "Aunque la silla es importante (físico), el riesgo psicosocial grave es perder la noción de cuándo empieza y termina el trabajo, y la soledad (Unidad 8)."
+  },
+  {
+    "topic": "Unidad 11: El Técnico de PRL",
+    "question": "¿Cuál debe ser la actitud principal del Técnico de Prevención para modificar conductas?",
+    "options": [
+      "A) Actitud policial y sancionadora",
+      "B) Actitud pedagógica, facilitadora y ejemplarizante",
+      "C) Actitud pasiva (solo rellenar papeles)",
+      "D) Actitud autoritaria"
+    ],
+    "answer": "B) Actitud pedagógica, facilitadora y ejemplarizante",
+    "explanation": "Si el Técnico se convierte en policía, los trabajadores ocultarán los riesgos. Debe ser un agente de cambio cultural."
+  },
+  {
+    "topic": "Unidad 11: El Mando",
+    "question": "Según la Unidad 11, ¿qué tiene más influencia sobre la conducta de los trabajadores?",
+    "options": [
+      "A) El discurso verbal del jefe en las reuniones",
+      "B) El ejemplo (lenguaje no verbal) y la conducta diaria del jefe",
+      "C) Los carteles de seguridad",
+      "D) El manual de acogida"
+    ],
+    "answer": "B) El ejemplo (lenguaje no verbal) y la conducta diaria del jefe",
+    "explanation": "Un mal ejemplo del jefe (ej: entrar sin casco 'un momento') destruye mil horas de formación. La conducta se imita."
+  },
+  {
+    "topic": "Lectura: La Hoguera Imposible",
+    "question": "En la lectura 'La Hoguera Imposible', ¿por qué murieron los habitantes de la aldea?",
+    "options": [
+      "A) Porque no había leña suficiente",
+      "B) Por el egoísmo y la desconfianza individual (cada uno guardó su trozo de leña en lugar de compartirlo)",
+      "C) Porque el viajero les engañó",
+      "D) Porque se apagó el fuego"
+    ],
+    "answer": "B) Por el egoísmo y la desconfianza individual (cada uno guardó su trozo de leña en lugar de compartirlo)",
+    "explanation": "Es una metáfora de la Cultura Preventiva: la seguridad total (la gran hoguera) solo se consigue si todos aportan su parte. Si uno se guarda su esfuerzo, el sistema falla."
+  },
+  {
+    "topic": "Estudio: 10 Motivaciones",
+    "question": "Según el estudio del CEF (Ángel Fernández), ¿qué factor aparece consistentemente como uno de los mayores motivadores en España?",
+    "options": [
+      "A) El coche de empresa",
+      "B) La seguridad contractual (contrato fijo) y el buen ambiente",
+      "C) El teletrabajo",
+      "D) Los viajes"
+    ],
+    "answer": "B) La seguridad contractual (contrato fijo) y el buen ambiente",
+    "explanation": "En la cultura laboral española, la estabilidad (seguridad) es un pre-requisito motivacional clave, por encima de otros beneficios sociales."
+  }
+]

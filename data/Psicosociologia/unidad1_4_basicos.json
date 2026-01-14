@@ -1,0 +1,112 @@
+[
+  {
+    "topic": "Unidad 1: Psicología Preventiva",
+    "question": "¿Qué característica define a la Psicología Preventiva como 'Proactiva'?",
+    "options": [
+      "A) Actúa solo cuando ya existe una patología diagnosticada",
+      "B) Se anticipa a la aparición de problemas de salud actuando sobre los factores de riesgo",
+      "C) Se limita a investigar accidentes ya ocurridos",
+      "D) Es una disciplina que solo aplica la dirección de la empresa"
+    ],
+    "answer": "B) Se anticipa a la aparición de problemas de salud actuando sobre los factores de riesgo",
+    "explanation": "La proactividad es la esencia de la prevención. Mientras la psicología clínica es reactiva (cura), la preventiva es proactiva (evita que enfermes).",
+    "source_file": "5_1_unidad_psico_med_c_s.pdf",
+    "page": 10
+  },
+  {
+    "topic": "Unidad 1: Objetivos",
+    "question": "El objetivo de la Psicosociología Aplicada es lograr el ajuste entre:",
+    "options": [
+      "A) El sueldo y las horas trabajadas",
+      "B) Los requerimientos del trabajo y las capacidades/necesidades de la persona",
+      "C) La tecnología y el beneficio económico",
+      "D) Los líderes formales y los informales"
+    ],
+    "answer": "B) Los requerimientos del trabajo y las capacidades/necesidades de la persona",
+    "explanation": "Este es el concepto central de la asignatura. El equilibrio o 'ajuste' entre lo que el puesto pide y lo que el humano puede dar (Prof. Iván Pérez).",
+    "source_file": "CLASE 9-10-11.pdf",
+    "page": 3
+  },
+  {
+    "topic": "Unidad 2: Fatiga",
+    "question": "Desde el punto de vista preventivo, ¿cuál es el síntoma inequívoco de la Fatiga según el manual?",
+    "options": [
+      "A) El aburrimiento momentáneo",
+      "B) La dificultad de recuperación del estado psíquico y físico normal",
+      "C) La falta de ganas de ir a trabajar",
+      "D) Un aumento repentino de la atención"
+    ],
+    "answer": "B) La dificultad de recuperación del estado psíquico y físico normal",
+    "explanation": "Si tras el descanso el trabajador sigue mal, estamos ante fatiga. La fatiga ataca directamente la capacidad de atención.",
+    "source_file": "5_2_unidad_psico_med_c_s.pdf",
+    "page": 5
+  },
+  {
+    "topic": "Unidad 3: Actitud vs Aptitud",
+    "question": "Si un trabajador tiene los conocimientos técnicos (saber hacer) pero no tiene la predisposición (querer hacer) para usar los EPIs, falla la:",
+    "options": ["A) Aptitud", "B) Actitud", "C) Capacidad", "D) Inteligencia"],
+    "answer": "B) Actitud",
+    "explanation": "Aptitud = Saber. Actitud = Querer. El comportamiento inseguro suele nacer de una actitud negativa hacia la norma.",
+    "source_file": "5_3_unidad_psico_med_c_s.pdf",
+    "page": 5
+  },
+  {
+    "topic": "Unidad 3: Personalidad",
+    "question": "¿Qué rasgo de personalidad se considera un 'precursor' de accidentes laborales?",
+    "options": ["A) La introversión", "B) El Neuroticismo y la impulsividad", "C) El altruismo", "D) El pensamiento lógico"],
+    "answer": "B) El Neuroticismo e impulsividad",
+    "explanation": "La inestabilidad emocional hace que el sujeto sea menos predecible y más vulnerable a la presión.",
+    "source_file": "5_3_unidad_psico_med_c_s.pdf",
+    "page": 8
+  },
+  {
+    "topic": "Unidad 4: Herzberg",
+    "question": "Según Herzberg, el salario y las condiciones físicas son:",
+    "options": ["A) Factores Motivadores", "B) Factores Higiénicos (evitan la insatisfacción pero no motivan por sí solos)", "C) Factores Intrínsecos", "D) Factores de Logro"],
+    "answer": "B) Factores Higiénicos (evitan la insatisfacción pero no motivan por sí solos)",
+    "explanation": "Si no me pagas me quemo, pero si me pagas más no necesariamente trabajo con más pasión. La motivación real viene del logro y el reconocimiento.",
+    "source_file": "5_4_unidad_psico_med_c_s.pdf",
+    "page": 6
+  },
+  {
+    "topic": "Unidad 4: Maslow",
+    "question": "¿Cuál es la jerarquía mínima necesaria para que aparezcan las necesidades de 'Autorrealización'?",
+    "options": ["A) Ninguna, aparecen primero", "B) Que las necesidades básicas (fisiología y seguridad) estén cubiertas", "C) Que el jefe sea amable", "D) Tener un contrato temporal"],
+    "answer": "B) Que las necesidades básicas (fisiología y seguridad) estén cubiertas",
+    "explanation": "No puedes motivar a alguien con 'crecimiento personal' si no tiene para comer o tiene miedo a ser despedido (Seguridad).",
+    "source_file": "5_4_unidad_psico_med_c_s.pdf",
+    "page": 4
+  },
+  {
+    "topic": "Unidad 4: Pigmalión",
+    "question": "¿En qué consiste la 'Profecía Autocumplida' en el liderazgo?",
+    "options": ["A) En adivinar el futuro", "B) En que las expectativas del jefe condicionan el rendimiento real del empleado", "C) En cumplir los objetivos de ventas", "D) En castigar al que se equivoca"],
+    "answer": "B) En que las expectativas del jefe condicionan el rendimiento real del empleado",
+    "explanation": "Si tratas a alguien como un crack, se vuelve un crack. Si lo tratas como inútil, rendirá como tal.",
+    "source_file": "Efecto_Pigmalion.pdf",
+    "page": 1
+  },
+  {
+    "topic": "Unidad 2: Monotonía",
+    "question": "¿Cuál es la diferencia entre Monotonía y Aburrimiento?",
+    "options": [
+      "A) Son lo mismo",
+      "B) La monotonía es objetiva (tarea repetitiva) y el aburrimiento es subjetivo (estado anímico)",
+      "C) El aburrimiento es físico y la monotonía mental",
+      "D) La monotonía solo se da en oficinas"
+    ],
+    "answer": "B) La monotonía es objetiva (tarea repetitiva) y el aburrimiento es subjetivo (estado anímico)",
+    "explanation": "Puedes tener una tarea monótona pero no aburrirte si estás motivado o pensando en otra cosa.",
+    "source_file": "5_2_unidad_psico_med_c_s.pdf",
+    "page": 7
+  },
+  {
+    "topic": "Unidad 3: Percepción del Riesgo",
+    "question": "¿Por qué un trabajador veterano suele cometer más imprudencias que un novato?",
+    "options": ["A) Por falta de conocimientos", "B) Por exceso de confianza y habituación al riesgo", "C) Porque quiere jubilarse antes", "D) Por falta de EPIs"],
+    "answer": "B) Por exceso de confianza y habituación al riesgo",
+    "explanation": "Lleva 20 años haciéndolo mal y 'nunca ha pasado nada'. Eso baja la percepción del peligro real.",
+    "source_file": "5_3_unidad_psico_med_c_s.pdf",
+    "page": 12
+  }
+]

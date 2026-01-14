@@ -1,0 +1,122 @@
+[
+  {
+    "topic": "Unidad 5: Grupos Formales vs Informales",
+    "question": "En la estructura de una empresa, ¿qué define a un 'Grupo Informal'?",
+    "options": [
+      "A) Es ilegal y debe ser disuelto",
+      "B) Surge espontáneamente por relaciones afectivas o intereses comunes, al margen del organigrama oficial",
+      "C) Es el grupo formado por los becarios",
+      "D) Es un grupo temporal creado por la dirección"
+    ],
+    "answer": "B) Surge espontáneamente por relaciones afectivas o intereses comunes, al margen del organigrama oficial",
+    "explanation": "El organigrama dice quién es el jefe, pero el grupo informal decide a quién se obedece realmente. Ignorarlos es un error de liderazgo."
+  },
+  {
+    "topic": "Unidad 5: Roles de Grupo",
+    "question": "¿Por qué el rol del 'Desviacionista' es peligroso para la Prevención de Riesgos?",
+    "options": [
+      "A) Porque es muy lento trabajando",
+      "B) Porque intenta apartar al grupo de sus objetivos y normas, incitando al incumplimiento de la seguridad",
+      "C) Porque siempre llega tarde",
+      "D) Porque es el líder formal"
+    ],
+    "answer": "B) Porque intenta apartar al grupo de sus objetivos y normas, incitando al incumplimiento de la seguridad",
+    "explanation": "Es el trabajador que dice 'bah, no te pongas el casco, que no pasa nada'. Contamina al grupo. Hay que corregirlo o apartarlo."
+  },
+  {
+    "topic": "Unidad 5: Patologías Grupales",
+    "question": "¿Qué función cumple el 'Chivo Expiatorio' en un grupo enfermo?",
+    "options": [
+      "A) Es el líder que se sacrifica por todos",
+      "B) Es el miembro sobre el que el grupo proyecta sus culpas y frustraciones para mantener su falsa unidad",
+      "C) Es el encargado de traer café",
+      "D) Es el experto técnico"
+    ],
+    "answer": "B) Es el miembro sobre el que el grupo proyecta sus culpas y frustraciones para mantener su falsa unidad",
+    "explanation": "Es un mecanismo de defensa grupal. Culpan a uno de todos los males para no afrontar sus propios errores."
+  },
+  {
+    "topic": "Unidad 5: Cohesión",
+    "question": "¿Es siempre positiva una alta cohesión grupal?",
+    "options": [
+      "A) Sí, siempre mejora la productividad",
+      "B) No, puede derivar en 'Pensamiento Grupal' (Groupthink), donde se pierde el sentido crítico y se asumen riesgos irracionales por no llevar la contraria",
+      "C) Sí, porque todos se llevan bien",
+      "D) No, porque trabajan menos"
+    ],
+    "answer": "B) No, puede derivar en 'Pensamiento Grupal' (Groupthink), donde se pierde el sentido crítico y se asumen riesgos irracionales por no llevar la contraria",
+    "explanation": "El 'Groupthink' (Janis) causó el accidente del Challenger. Nadie se atrevió a decir que algo iba mal para no romper la armonía."
+  },
+  {
+    "topic": "Unidad 6: Axiomas de la Comunicación",
+    "question": "Según Paul Watzlawick, ¿cuál es el primer axioma de la comunicación?",
+    "options": [
+      "A) Es imposible NO comunicar",
+      "B) Hay que hablar claro",
+      "C) El emisor es responsable del mensaje",
+      "D) El cliente siempre tiene la razón"
+    ],
+    "answer": "A) Es imposible NO comunicar",
+    "explanation": "Incluso el silencio comunica. Si un jefe no dice nada ante un trabajo bien hecho, está comunicando indiferencia."
+  },
+  {
+    "topic": "Unidad 6: Comunicación No Verbal",
+    "question": "En caso de contradicción entre el mensaje verbal (lo que digo) y el no verbal (cómo lo digo), ¿cuál prevalece?",
+    "options": [
+      "A) El verbal, porque son las palabras exactas",
+      "B) El no verbal, porque es más inconsciente y difícil de falsificar",
+      "C) Ninguno, se anulan",
+      "D) Depende del idioma"
+    ],
+    "answer": "B) El no verbal, porque es más inconsciente y difícil de falsificar",
+    "explanation": "Si dices 'me importa tu seguridad' (verbal) pero miras el reloj con impaciencia (no verbal), el trabajador creerá al reloj."
+  },
+  {
+    "topic": "Unidad 6: Flujos de Comunicación",
+    "question": "¿Cuál es la función principal de la 'Comunicación Horizontal'?",
+    "options": [
+      "A) Dar órdenes",
+      "B) La coordinación entre departamentos o personas del mismo nivel jerárquico",
+      "C) Evaluar el desempeño",
+      "D) Expresar quejas"
+    ],
+    "answer": "B) La coordinación entre departamentos o personas del mismo nivel jerárquico",
+    "explanation": "Sin ella, la empresa son 'silos' aislados. Producción no habla con Mantenimiento y surgen los accidentes."
+  },
+  {
+    "topic": "Unidad 6: Barreras",
+    "question": "Si un Técnico de PRL usa un lenguaje excesivamente jurídico y técnico que los operarios no entienden, ¿qué barrera está creando?",
+    "options": [
+      "A) Barrera Física",
+      "B) Barrera Semántica",
+      "C) Barrera Psicológica",
+      "D) Barrera Administrativa"
+    ],
+    "answer": "B) Barrera Semántica",
+    "explanation": "El código (lenguaje) no es compartido. El mensaje no llega. Es un error clásico del prevencionista novato."
+  },
+  {
+    "topic": "Unidad 6: El Rumor",
+    "question": "¿Por qué surgen los rumores (comunicación informal) en la empresa?",
+    "options": [
+      "A) Porque la gente es mala",
+      "B) Por la falta de información oficial transparente ante situaciones de incertidumbre",
+      "C) Por exceso de trabajo",
+      "D) Por las redes sociales"
+    ],
+    "answer": "B) Por la falta de información oficial transparente ante situaciones de incertidumbre",
+    "explanation": "El rumor llena el vacío informativo. La única forma de matarlo es con información oficial rápida y veraz."
+  },
+  {
+    "topic": "Unidad 6: Estilos Comunicativos",
+    "question": "¿Qué caracteriza al estilo 'Asertivo'?",
+    "options": [
+      "A) Imponer tu criterio gritando si hace falta",
+      "B) Ceder siempre para no discutir",
+      "C) Defender tus derechos y opiniones respetando los de los demás, sin agresividad ni pasividad",
+      "D) Usar la ironía"
+    ],
+    "answer": "C) Defender tus derechos y opiniones respetando los de los demás, sin agresividad ni pasividad",
+    "explanation": "Es la habilidad clave del mando intermedio: saber decir 'NO' a una conducta insegura sin humillar al trabajador."
+  }
+]

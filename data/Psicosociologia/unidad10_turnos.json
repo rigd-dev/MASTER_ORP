@@ -1,0 +1,38 @@
+[
+  {
+    "topic": "Ritmos Biológicos",
+    "question": "¿Qué es un 'Zeitgeber' en cronobiología?",
+    "options": [
+      "A) Una hormona del estrés",
+      "B) Un sincronizador externo (como la luz solar o los horarios sociales) que ajusta nuestro reloj biológico",
+      "C) Un tipo de turno nocturno",
+      "D) La temperatura corporal mínima"
+    ],
+    "answer": "B) Un sincronizador externo (como la luz solar o los horarios sociales) que ajusta nuestro reloj biológico",
+    "explanation": "Pregunta de nota. Sin Zeitgebers (dadores de tiempo), nuestros ritmos se desajustan (ciclo de sueño-vigilia)."
+  },
+  {
+    "topic": "Diseño de Turnos",
+    "question": "Si es inevitable el trabajo a turnos, ¿cuál es el sentido de rotación ergonómicamente recomendado?",
+    "options": [
+      "A) Anti-horario (Noche -> Tarde -> Mañana)",
+      "B) Horario o 'hacia delante' (Mañana -> Tarde -> Noche)",
+      "C) Es indiferente",
+      "D) Aleatorio para romper la monotonía"
+    ],
+    "answer": "B) Horario o 'hacia delante' (Mañana -> Tarde -> Noche)",
+    "explanation": "El ciclo biológico humano tiende a ser >24h. Es más fácil para el cuerpo 'alargar' el día (retrasar sueño) que acortarlo. Por eso M-T-N es mejor."
+  },
+  {
+    "topic": "Patologías",
+    "question": "¿Por qué los trabajadores a turnos sufren más problemas digestivos (dispepsia, gastritis)?",
+    "options": [
+      "A) Porque beben más alcohol",
+      "B) Por la alteración cualitativa y cuantitativa de la dieta (comer a deshoras, comida fría) y los ritmos de secreción gástrica",
+      "C) Porque duermen poco",
+      "D) Es un mito, no sufren más problemas"
+    ],
+    "answer": "B) Por la alteración cualitativa y cuantitativa de la dieta (comer a deshoras, comida fría) y los ritmos de secreción gástrica",
+    "explanation": "Comer por la noche cuando el estómago está en 'modo reposo' (baja secreción) altera la digestión."
+  }
+]

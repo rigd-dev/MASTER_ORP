@@ -1,0 +1,26 @@
+[
+  {
+    "topic": "Métodos de Evaluación",
+    "question": "¿Cuál es la característica principal del método FPSICO (INSST)?",
+    "options": [
+      "A) Es una entrevista clínica individual",
+      "B) Es una batería de observación externa",
+      "C) Es un cuestionario de autovaloración de las condiciones de trabajo y participación",
+      "D) Solo mide el estrés térmico"
+    ],
+    "answer": "C) Es un cuestionario de autovaloración de las condiciones de trabajo y participación",
+    "explanation": "El trabajador es quien mejor conoce su puesto. FPSICO pregunta al trabajador sobre carga, autonomía, rol, etc."
+  },
+  {
+    "topic": "Validez Legal",
+    "question": "PREGUNTA CAPCIOSA: ¿Es obligatorio realizar una evaluación específica de riesgos psicosociales en todas las empresas?",
+    "options": [
+      "A) No, solo si hay denuncias",
+      "B) Sí, la Ley 31/1995 obliga a evaluar TODOS los riesgos, incluidos los psicosociales",
+      "C) Solo en grandes empresas (>50 empleados)",
+      "D) Solo si lo pide el Comité de Empresa"
+    ],
+    "answer": "B) Sí, la Ley 31/1995 obliga a evaluar TODOS los riesgos, incluidos los psicosociales",
+    "explanation": "Muchos creen que es opcional. No lo es. La falta de evaluación psicosocial es sancionable por la Inspección de Trabajo."
+  }
+]
