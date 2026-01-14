@@ -4,177 +4,173 @@ import os
 import base64
 
 # ---------------------------------------------------------
-# 1. CONFIGURACIÓN INICIAL Y ESTILOS
+# 1. CONFIGURACIÓN
 # ---------------------------------------------------------
-st.set_page_config(page_title="Simulador ORP", layout="wide")
+st.set_page_config(page_title="Simulador Máster ORP", layout="wide")
 
-# Estilos para que los botones y textos se vean bien
+# Estilos CSS
 st.markdown("""
     <style>
-    .block-container {padding-top: 2rem; padding-bottom: 2rem;}
-    div.stButton > button {width: 100%; border-radius: 5px; font-weight: bold;}
-    .correct {background-color: #d4edda; padding: 10px; border-radius: 5px; color: #155724; border: 1px solid #c3e6cb;}
-    .incorrect {background-color: #f8d7da; padding: 10px; border-radius: 5px; color: #721c24; border: 1px solid #f5c6cb;}
+    .block-container {padding-top: 1rem; padding-bottom: 5rem;}
+    div.stButton > button {width: 100%; border-radius: 6px; font-weight: bold; height: 3em;}
+    .correct {background-color: #d4edda; color: #155724; padding: 15px; border-radius: 8px; border: 1px solid #c3e6cb; margin-bottom: 10px;}
+    .incorrect {background-color: #f8d7da; color: #721c24; padding: 15px; border-radius: 8px; border: 1px solid #f5c6cb; margin-bottom: 10px;}
+    .source-box {background-color: #e3f2fd; padding: 10px; border-radius: 5px; border-left: 5px solid #2196f3;}
     </style>
 """, unsafe_allow_html=True)
 
 # ---------------------------------------------------------
-# 2. GESTIÓN DEL ESTADO (SESSION STATE)
+# 2. GESTIÓN DE ESTADO (Para que no se trabe)
 # ---------------------------------------------------------
-# Esto es lo que controla que el programa "recuerde" dónde estás
-if 'index' not in st.session_state:
-    st.session_state.index = 0
-if 'score' not in st.session_state:
-    st.session_state.score = 0
-if 'validated' not in st.session_state:
-    st.session_state.validated = False
-if 'quiz_data' not in st.session_state:
-    st.session_state.quiz_data = []
+if 'index' not in st.session_state: st.session_state.index = 0
+if 'score' not in st.session_state: st.session_state.score = 0
+if 'validated' not in st.session_state: st.session_state.validated = False
+# Guardamos la asignatura anterior para detectar cambios
+if 'last_asignatura' not in st.session_state: st.session_state.last_asignatura = ""
 
-# Función para reiniciar todo (se usa en el botón Reiniciar y al cambiar tema)
 def reset_quiz():
+    """Reinicia el contador a 0."""
     st.session_state.index = 0
     st.session_state.score = 0
     st.session_state.validated = False
 
 # ---------------------------------------------------------
-# 3. FUNCIONES DE CARGA
-# ---------------------------------------------------------
-def get_pdf_embed(pdf_filename, page):
-    """Crea el visor de PDF. Si falla, avisa."""
-    path = os.path.join("static", pdf_filename)
-    if not os.path.exists(path):
-        return f"<div class='incorrect'>⚠️ Error: No encuentro el archivo <b>{pdf_filename}</b> en la carpeta <code>static</code>.</div>"
-    
-    try:
-        with open(path, "rb") as f:
-            base64_pdf = base64.b64encode(f.read()).decode('utf-8')
-        # Usamos <embed> que es más agresivo para mostrar el PDF
-        return f'<embed src="data:application/pdf;base64,{base64_pdf}#page={page}" width="100%" height="800px" type="application/pdf">'
-    except Exception as e:
-        return f"Error al leer PDF: {str(e)}"
-
-# ---------------------------------------------------------
-# 4. BARRA LATERAL (SELECCIÓN)
+# 3. BARRA LATERAL
 # ---------------------------------------------------------
 with st.sidebar:
-    st.header("🎛️ Configuración")
+    st.header("⚙️ Configuración")
     
-    # Selector de Asignatura
-    # on_change=reset_quiz asegura que si cambias de asignatura, todo se reinicia
-    asignatura = st.selectbox(
-        "Asignatura:", 
-        ["Psicosociologia", "Ergonomia"], 
-        on_change=reset_quiz
-    )
+    asignatura = st.selectbox("1️⃣ Asignatura:", ["Psicosociologia", "Ergonomia"])
     
-    # Cargar archivos disponibles
-    base_folder = f"data/{asignatura}"
-    if os.path.exists(base_folder):
-        files = sorted([f for f in os.listdir(base_folder) if f.endswith(".json")])
-        # Selector de Unidades
-        selected_files = st.multiselect("Unidades:", files, default=files, on_change=reset_quiz)
+    # Detector de cambio de asignatura para reiniciar
+    if asignatura != st.session_state.last_asignatura:
+        st.session_state.last_asignatura = asignatura
+        reset_quiz()
+        st.rerun()
+
+    # Cargar Archivos
+    data_path = f"data/{asignatura}"
+    if os.path.exists(data_path):
+        all_files = sorted([f for f in os.listdir(data_path) if f.endswith(".json")])
+        selected_files = st.multiselect("2️⃣ Unidades:", all_files, default=all_files)
     else:
-        st.error(f"No existe la carpeta {base_folder}")
-        files = []
+        st.error(f"⚠️ No encuentro la carpeta data/{asignatura}")
         selected_files = []
 
     st.markdown("---")
-    
-    # Botón de Reinicio Manual
-    if st.button("🔄 REINICIAR TEST"):
+    st.metric("Puntuación", f"{st.session_state.score}")
+    if st.button("🔄 Reiniciar desde Cero"):
         reset_quiz()
-        st.rerun() # ESTO es lo que faltaba, fuerza a recargar la página
+        st.rerun()
 
 # ---------------------------------------------------------
-# 5. LÓGICA DE CARGA DE DATOS
+# 4. CARGA DE DATOS
 # ---------------------------------------------------------
-# Solo cargamos datos si cambiaron las selecciones o si la lista está vacía
-current_data = []
+quiz_data = []
 if selected_files:
-    for file in selected_files:
-        path = os.path.join(base_folder, file)
+    for f in selected_files:
         try:
-            with open(path, "r", encoding="utf-8") as f:
-                data = json.load(f)
-                current_data.extend(data)
+            with open(os.path.join(data_path, f), "r", encoding="utf-8") as file:
+                quiz_data.extend(json.load(file))
         except:
-            st.error(f"Error leyendo {file}")
+            st.error(f"Error cargando {f}")
 
 # ---------------------------------------------------------
-# 6. INTERFAZ PRINCIPAL DEL EXAMEN
+# 5. ÁREA PRINCIPAL
 # ---------------------------------------------------------
-if not current_data:
-    st.info("👈 Selecciona unidades en el menú izquierdo para empezar.")
+if not quiz_data:
+    st.info("👈 Selecciona unidades en el menú izquierdo para comenzar.")
 else:
-    # Comprobamos que no nos hayamos pasado del final
-    if st.session_state.index >= len(current_data):
+    # Asegurar índice válido
+    if st.session_state.index >= len(quiz_data):
         st.balloons()
-        st.success(f"¡TERMINASTE! 🏆")
-        st.metric("Tu Puntuación Final", f"{st.session_state.score} / {len(current_data)}")
+        st.success(f"🎉 ¡Examen Finalizado! Puntuación: {st.session_state.score}/{len(quiz_data)}")
         if st.button("Volver a empezar"):
             reset_quiz()
             st.rerun()
     else:
-        # Pregunta actual
-        q = current_data[st.session_state.index]
-        total = len(current_data)
+        q = quiz_data[st.session_state.index]
         
         # Barra de progreso
-        st.progress((st.session_state.index) / total)
-        st.caption(f"Pregunta {st.session_state.index + 1} de {total}")
+        st.progress((st.session_state.index + 1) / len(quiz_data))
+        st.caption(f"Pregunta {st.session_state.index + 1} de {len(quiz_data)}")
 
-        # COLUMNAS: Izquierda (Pregunta) - Derecha (PDF)
-        # Si ya validó, la derecha ocupa espacio (1:1). Si no, la derecha es mínima (1:0.01)
-        col1_width = 1
-        col2_width = 1.5 if st.session_state.validated else 0.01
-        c1, c2 = st.columns([col1_width, col2_width])
+        # --- DISEÑO DE COLUMNAS ---
+        # Si ya validamos, mostramos el PDF a la derecha. Si no, pantalla completa para leer bien.
+        if st.session_state.validated:
+            col1, col2 = st.columns([1, 1.2])
+        else:
+            col1, col2 = st.columns([1, 0.01])
 
-        with c1:
-            st.subheader(q.get("question", "Pregunta sin texto"))
-            st.markdown(f"*{q.get('topic', 'General')}*")
+        with col1:
+            st.subheader(q.get("question"))
+            st.markdown(f"**Tema:** *{q.get('topic')}*")
             
-            # Opciones
-            # El key incluye el index para que al cambiar de pregunta se resetee el radio
-            opcion = st.radio(
-                "Elige la correcta:", 
-                q.get("options", []),
-                key=f"radio_{st.session_state.index}", 
+            # Opciones (Key única para evitar conflictos)
+            user_choice = st.radio(
+                "Tu respuesta:", 
+                q.get("options"), 
+                key=f"q_{st.session_state.index}",
                 disabled=st.session_state.validated
             )
 
             st.markdown("<br>", unsafe_allow_html=True)
 
-            # BOTONES DE ACCIÓN
             if not st.session_state.validated:
-                if st.button("✅ Validar Respuesta"):
+                if st.button("✅ Comprobar", type="primary"):
                     st.session_state.validated = True
-                    if opcion == q.get("answer"):
+                    if user_choice == q.get("answer"):
                         st.session_state.score += 1
-                    st.rerun() # Recargar para mostrar resultados y PDF
+                    st.rerun()
             else:
-                # Mostrar Feedback
-                if opcion == q.get("answer"):
+                # FEEDBACK
+                if user_choice == q.get("answer"):
                     st.markdown(f"<div class='correct'>✅ <b>¡Correcto!</b></div>", unsafe_allow_html=True)
                 else:
-                    st.markdown(f"<div class='incorrect'>❌ <b>Incorrecto</b>. La respuesta era: {q.get('answer')}</div>", unsafe_allow_html=True)
+                    st.markdown(f"<div class='incorrect'>❌ <b>Incorrecto</b><br>La correcta era: <b>{q.get('answer')}</b></div>", unsafe_allow_html=True)
                 
-                st.info(f"ℹ️ {q.get('explanation', '')}")
+                with st.expander("💡 Ver Explicación", expanded=True):
+                    st.write(q.get("explanation"))
 
-                # Botón Siguiente
-                if st.button("➡️ Siguiente Pregunta"):
+                if st.button("➡️ Siguiente Pregunta", type="primary"):
                     st.session_state.index += 1
                     st.session_state.validated = False
                     st.rerun()
 
-        # VISOR PDF (SOLO SI ESTÁ VALIDADO)
-        with c2:
+        # --- VISOR PDF (COLUMNA DERECHA) ---
+        with col2:
             if st.session_state.validated:
-                pdf_file = q.get("source_file")
+                pdf_name = q.get("source_file")
                 page = q.get("page", 1)
                 
-                if pdf_file:
-                    st.markdown(f"#### 📖 Referencia: {pdf_file} (Pág. {page})")
-                    # Llamamos al visor
-                    html = get_pdf_embed(pdf_file, page)
-                    st.markdown(html, unsafe_allow_html=True)
+                if pdf_name:
+                    pdf_url = f"app/static/{pdf_name}" # Ruta relativa mágica de Streamlit
+                    
+                    st.markdown(f"""
+                    <div class="source-box">
+                        📄 <b>Fuente:</b> {pdf_name} (Pág. {page})
+                    </div>
+                    """, unsafe_allow_html=True)
+
+                    # INTENTO 1: Visor incrustado ligero
+                    # Usamos iframe apuntando a la ruta estática directa
+                    pdf_display = f'<iframe src="static/{pdf_name}#page={page}" width="100%" height="700px" style="border:none;"></iframe>'
+                    
+                    # INTENTO 2: Si el iframe falla, aquí está el botón de rescate
+                    st.markdown(pdf_display, unsafe_allow_html=True)
+                    
+                    st.markdown(f"""
+                    <br>
+                    <a href="static/{pdf_name}" target="_blank" style="
+                        display: inline-block;
+                        padding: 10px 20px;
+                        background-color: #6c757d;
+                        color: white;
+                        text-decoration: none;
+                        border-radius: 5px;
+                        font-weight: bold;
+                        text-align: center;
+                        width: 100%;">
+                        ⚠️ ¿No se ve el PDF? Haz clic aquí para abrirlo
+                    </a>
+                    """, unsafe_allow_html=True)
