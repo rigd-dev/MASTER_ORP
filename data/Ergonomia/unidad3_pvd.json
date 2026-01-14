@@ -1,0 +1,182 @@
+[
+  {
+    "topic": "Unidad 3: Definición de Trabajador",
+    "question": "Según el RD 488/1997, ¿quién es considerado 'trabajador usuario' de PVD?",
+    "options": [
+      "A) Cualquiera que use un ordenador 5 minutos al día",
+      "B) El que usa PVD habitualmente durante una parte relevante de su trabajo (más de 2h diarias o 10h semanales)",
+      "C) Solo los informáticos y programadores",
+      "D) Quien tiene el monitor a menos de 40 cm"
+    ],
+    "answer": "B) El que usa PVD habitualmente durante una parte relevante de su trabajo (más de 2h diarias o 10h semanales)",
+    "explanation": "La ley marca este umbral para obligar a la empresa a evaluar el puesto y hacer vigilancia de la salud específica. (Fuente: 1_3_ergo_med_c_s.pdf).",
+    "source_file": "1_3_ergo_med_c_s.pdf",
+    "page": 4
+  },
+  {
+    "topic": "Unidad 3: Distancia Visual",
+    "question": "¿Cuál es la distancia recomendada entre el ojo y la pantalla para evitar la fatiga visual?",
+    "options": ["A) 20-30 cm", "B) Más de 40 cm (generalmente entre 45 y 75 cm)", "C) Exactamente 100 cm", "D) Lo más lejos posible"],
+    "answer": "B) Más de 40 cm (generalmente entre 45 y 75 cm)",
+    "explanation": "Menos de 40 cm obliga al ojo a un esfuerzo de acomodación excesivo, provocando astenopía. (Fuente: 1_3_ergo_med_c_s.pdf).",
+    "source_file": "1_3_ergo_med_c_s.pdf",
+    "page": 12
+  },
+  {
+    "topic": "Unidad 3: Altura de la Pantalla",
+    "question": "¿A qué altura debe situarse el borde superior de la pantalla?",
+    "options": ["A) A nivel de la barbilla", "B) Al nivel de los ojos o ligeramente por debajo", "C) 20 cm por encima de la cabeza", "D) En el suelo para mirar hacia abajo"],
+    "answer": "B) Al nivel de los ojos o ligeramente por debajo",
+    "explanation": "Esto permite que el cuello esté en una posición neutra y la mirada caiga naturalmente unos 20º hacia el centro de la pantalla. (Fuente: 1_3_ergo_med_c_s.pdf).",
+    "source_file": "1_3_ergo_med_c_s.pdf",
+    "page": 14
+  },
+  {
+    "topic": "Unidad 3: Ángulo de Visión",
+    "question": "¿Cuál es el ángulo de inclinación de la línea de visión respecto a la horizontal recomendado?",
+    "options": ["A) 0º (mirada totalmente horizontal)", "B) Entre 15º y 20º hacia abajo", "C) 45º hacia arriba", "D) 90º"],
+    "answer": "B) Entre 15º y 20º hacia abajo",
+    "explanation": "Es la posición de 'mirada de descanso'. Mirar hacia arriba fatiga los músculos oculares y el cuello. (Fuente: 1_3_ergo_med_c_s.pdf).",
+    "source_file": "1_3_ergo_med_c_s.pdf",
+    "page": 14
+  },
+  {
+    "topic": "Unidad 3: El Teclado",
+    "question": "¿Qué característica debe cumplir el teclado según la normativa de PVD?",
+    "options": [
+      "A) Debe ser fijo a la mesa",
+      "B) Debe ser inclinable e independiente de la pantalla",
+      "C) Debe ser de color negro brillante",
+      "D) No debe tener espacio para apoyar las manos"
+    ],
+    "answer": "B) Debe ser inclinable e independiente de la pantalla",
+    "explanation": "La independencia permite al trabajador ajustar la distancia y posición según su propia antropometría. (Fuente: 1_3_ergo_med_c_s.pdf).",
+    "source_file": "1_3_ergo_med_c_s.pdf",
+    "page": 15
+  },
+  {
+    "topic": "Unidad 3: Espacio para Muñecas",
+    "question": "¿Cuánto espacio debe haber entre el teclado y el borde de la mesa?",
+    "options": ["A) Nada", "B) Al menos 10 cm", "C) 50 cm", "D) 2 cm"],
+    "answer": "B) Al menos 10 cm",
+    "explanation": "Este espacio es vital para apoyar las manos y antebrazos, evitando la carga estática en los hombros. (Fuente: 1_3_ergo_med_c_s.pdf).",
+    "source_file": "1_3_ergo_med_c_s.pdf",
+    "page": 16
+  },
+  {
+    "topic": "Unidad 3: Superficie de la Mesa",
+    "question": "¿Cómo debe ser el acabado de la superficie de trabajo?",
+    "options": ["A) De cristal transparente", "B) De acabado mate y color claro suave", "C) De metal pulido", "D) De color negro azabache"],
+    "answer": "B) De acabado mate y color claro suave",
+    "explanation": "El acabado mate evita reflejos molestos y el color claro suave reduce el contraste excesivo con el papel o la pantalla. (Fuente: 4_1_a_unidad_hig_erg_c_s.pdf).",
+    "source_file": "4_1_a_unidad_hig_erg_c_s.pdf",
+    "page": 35
+  },
+  {
+    "topic": "Unidad 3: Iluminación en PVD",
+    "question": "¿Cuál es el nivel de iluminación (lux) recomendado para puestos con PVD?",
+    "options": ["A) 100 lux", "B) Entre 300 y 500 lux", "C) 1000 lux", "D) Trabajar a oscuras"],
+    "answer": "B) Entre 300 y 500 lux",
+    "explanation": "Es el equilibrio para leer documentos en papel sin que la pantalla parezca una lámpara deslumbrante. (Fuente: 1_3_ergo_med_c_s.pdf).",
+    "source_file": "1_3_ergo_med_c_s.pdf",
+    "page": 19
+  },
+  {
+    "topic": "Unidad 3: Posición de Ventanas",
+    "question": "Para evitar deslumbramientos, las ventanas deben contar con:",
+    "options": [
+      "A) Cristales tintados fijos",
+      "B) Dispositivos de cobertura regulables (cortinas/persianas)",
+      "C) Papel de aluminio",
+      "D) No deben tener nada"
+    ],
+    "answer": "B) Dispositivos de cobertura regulables (cortinas/persianas)",
+    "explanation": "Permiten controlar la entrada de luz según la hora del día para evitar reflejos directos o indirectos. (Fuente: 1_3_ergo_med_c_s.pdf).",
+    "source_file": "1_3_ergo_med_c_s.pdf",
+    "page": 20
+  },
+  {
+    "topic": "Unidad 3: El Ratón",
+    "question": "¿Cuál es el diseño ergonómico ideal para un ratón?",
+    "options": [
+      "A) Lo más pequeño posible",
+      "B) Que se adapte a la curva de la mano y permita una posición neutra de la muñeca",
+      "C) Que sea plano como una galleta",
+      "D) Que sea muy pesado"
+    ],
+    "answer": "B) Que se adapte a la curva de la mano y permita una posición neutra de la muñeca",
+    "explanation": "Evita la desviación cubital y la hiperextensión, previniendo el síndrome del túnel carpiano. (Fuente: 1_3_ergo_med_c_s.pdf).",
+    "source_file": "1_3_ergo_med_c_s.pdf",
+    "page": 17
+  },
+  {
+    "topic": "Unidad 3: Pausas en PVD",
+    "question": "En tareas de alta intensidad frente a PVD, ¿qué régimen de pausas se recomienda?",
+    "options": [
+      "A) Una pausa de 1h al final del día",
+      "B) Pausas cortas y frecuentes (ej. 10-15 min cada 2h)",
+      "C) No hay pausas, se trabaja de corrido",
+      "D) Solo cuando se caiga el sistema"
+    ],
+    "answer": "B) Pausas cortas y frecuentes (ej. 10-15 min cada 2h)",
+    "explanation": "Las pausas previenen la fatiga visual y mental antes de que aparezcan los síntomas. (Fuente: 1_3_ergo_med_c_s.pdf).",
+    "source_file": "1_3_ergo_med_c_s.pdf",
+    "page": 22
+  },
+  {
+    "topic": "Unidad 3: Humedad Relativa",
+    "question": "¿Por qué es importante mantener la humedad entre el 40% y 50% en oficinas?",
+    "options": [
+      "A) Para que las plantas no se sequen",
+      "B) Para evitar la sequedad ocular (especialmente en usuarios de lentillas) y la electricidad estática",
+      "C) Para que el papel no se arrugue",
+      "D) Para que no suden los trabajadores"
+    ],
+    "answer": "B) Para evitar la sequedad ocular (especialmente en usuarios de lentillas) y la electricidad estática",
+    "explanation": "El aire seco aumenta la evaporación de la lágrima, causando irritación visual grave. (Fuente: 1_3_ergo_med_c_s.pdf).",
+    "source_file": "1_3_ergo_med_c_s.pdf",
+    "page": 21
+  },
+  {
+    "topic": "Unidad 3: El Portátil",
+    "question": "¿Qué problema ergonómico principal presenta el uso prolongado de un ordenador portátil?",
+    "options": [
+      "A) La batería dura poco",
+      "B) El diseño integrado impide situar la pantalla y el teclado a distancias ergonómicas simultáneamente",
+      "C) Que se calienta mucho",
+      "D) Que es muy caro"
+    ],
+    "answer": "B) El diseño integrado impide situar la pantalla y el teclado a distancias ergonómicas simultáneamente",
+    "explanation": "Si la pantalla está alta, el teclado está alto. Se recomienda usar teclado y ratón externos y un soporte para elevar la pantalla. (Fuente: 1_3_ergo_med_c_s.pdf).",
+    "source_file": "1_3_ergo_med_c_s.pdf",
+    "page": 24
+  },
+  {
+    "topic": "Unidad 3: Atributos del Carácter",
+    "question": "¿Cómo deben ser los caracteres en pantalla según el RD 488/1997?",
+    "options": [
+      "A) Muy pequeños para que quepa todo",
+      "B) Bien definidos, de tamaño adecuado y con espacio suficiente entre caracteres y líneas",
+      "C) Siempre de color rojo",
+      "D) Parpadeantes para llamar la atención"
+    ],
+    "answer": "B) Bien definidos, de tamaño adecuado y con espacio suficiente entre caracteres y líneas",
+    "explanation": "La legibilidad es clave para reducir el esfuerzo visual y evitar el acercamiento excesivo a la pantalla. (Fuente: 1_3_ergo_med_c_s.pdf).",
+    "source_file": "1_3_ergo_med_c_s.pdf",
+    "page": 10
+  },
+  {
+    "topic": "Unidad 3: El Reposapiés",
+    "question": "¿Cuándo es obligatorio o necesario el uso de un reposapiés?",
+    "options": [
+      "A) Siempre, para todos los trabajadores",
+      "B) Cuando el trabajador, tras ajustar la silla a la altura de la mesa, no apoya los pies firmemente en el suelo",
+      "C) Solo si lo pide el médico",
+      "D) Nunca, es mejor cruzar las piernas"
+    ],
+    "answer": "B) Cuando el trabajador, tras ajustar la silla a la altura de la mesa, no apoya los pies firmemente en el suelo",
+    "explanation": "Tener los pies colgando comprime la parte posterior de los muslos y dificulta el retorno venoso. (Fuente: 1_3_ergo_med_c_s.pdf).",
+    "source_file": "1_3_ergo_med_c_s.pdf",
+    "page": 13
+  }
+]

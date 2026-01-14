@@ -1,0 +1,137 @@
+[
+  {
+    "topic": "Unidad 1: Conceptos y Definiciones",
+    "question": "¿Qué sociedad científica fundó Murrell en 1949, a quien se le atribuye el término ergonomía?",
+    "options": ["A) Human Factors Society", "B) Ergonomics Research Society", "C) Asociación Internacional de Ergonomía", "D) Sociedad Española de Biomecánica"],
+    "answer": "B) Ergonomics Research Society",
+    "explanation": "Se atribuye a Murrell el término original al ser uno de los fundadores de la sociedad científica británica Ergonomics Research Society en 1949. (Fuente: 4_1_a_unidad_hig_erg_c_s.pdf).",
+    "source_file": "4_1_a_unidad_hig_erg_c_s.pdf",
+    "page": 4
+  },
+  {
+    "topic": "Unidad 1: Ergonomía de Seguridad",
+    "question": "¿Cuál es el objetivo específico de la Ergonomía de Seguridad?",
+    "options": ["A) Estudiar los contaminantes químicos", "B) Diseñar dispositivos de seguridad, defensas y resguardos", "C) Analizar los horarios y turnos de trabajo", "D) Estudiar el estrés y la ansiedad"],
+    "answer": "B) Diseñar dispositivos de seguridad, defensas y resguardos",
+    "explanation": "La ergonomía de seguridad considera las medidas antropométricas para el diseño y construcción de los dispositivos de seguridad, defensas y resguardos. (Fuente: 4_1_a_unidad_hig_erg_c_s.pdf).",
+    "source_file": "4_1_a_unidad_hig_erg_c_s.pdf",
+    "page": 6
+  },
+  {
+    "topic": "Unidad 1: Ergonomía Temporal",
+    "question": "¿Qué rama de la ergonomía analiza la influencia de los horarios, turnos y pausas sobre el bienestar?",
+    "options": ["A) Ergonomía Ambiental", "B) Ergonomía Temporal", "C) Ergonomía Psicosocial", "D) Ergonomía Geométrica"],
+    "answer": "B) Ergonomía Temporal",
+    "explanation": "La ergonomía temporal estudia la influencia de los tiempos de trabajo sobre el bienestar, analizando horarios, turnos, duración de la jornada y pausas. (Fuente: 4_1_a_unidad_hig_erg_c_s.pdf).",
+    "source_file": "4_1_a_unidad_hig_erg_c_s.pdf",
+    "page": 7
+  },
+  {
+    "topic": "Unidad 1: Antropometría Estática vs Dinámica",
+    "question": "¿En qué se diferencia la antropometría estática de la dinámica?",
+    "options": ["A) La estática mide el peso y la dinámica la altura", "B) La estática mide el cuerpo en reposo; la dinámica considera el cuerpo en movimiento", "C) La dinámica solo mide a hombres", "D) No existe diferencia real"],
+    "answer": "B) La estática mide el cuerpo en reposo; la dinámica considera el cuerpo en movimiento",
+    "explanation": "La antropometría estática mide estructuras sin movimiento, mientras que la dinámica considera las posiciones resultantes del movimiento. (Fuente: 4_1_a_unidad_hig_erg_c_s.pdf).",
+    "source_file": "4_1_a_unidad_hig_erg_c_s.pdf",
+    "page": 7
+  },
+  {
+    "topic": "Unidad 1: Diseño para el Promedio",
+    "question": "¿Cuándo se debe utilizar el 'Principio del diseño para el promedio'?",
+    "options": ["A) Siempre, es el estándar ideal", "B) Solo cuando la precisión tiene poca importancia o su frecuencia de uso es muy baja", "C) Para diseñar la altura de las puertas", "D) Para regular sillas de oficina"],
+    "answer": "B) Solo cuando la dimensión tiene poca importancia o su frecuencia de uso es muy baja",
+    "explanation": "El diseño para el promedio deja fuera a los extremos (grandes y pequeños) y solo se usa en situaciones de muy baja criticidad. (Fuente: 4_1_a_unidad_hig_erg_c_s.pdf).",
+    "source_file": "4_1_a_unidad_hig_erg_c_s.pdf",
+    "page": 15
+  },
+  {
+    "topic": "Unidad 1: Diseño de Puestos de Pie",
+    "question": "¿Cuál es la altura recomendada para el plano de trabajo en tareas que exigen un esfuerzo considerable para un varón?",
+    "options": ["A) 100-110 cm", "B) 90-95 cm", "C) 75-90 cm", "D) 60-70 cm"],
+    "answer": "C) 75-90 cm",
+    "explanation": "Para tareas con esfuerzo físico considerable, el plano de trabajo debe ser más bajo para aprovechar la fuerza del cuerpo. (Fuente: 4_1_a_unidad_hig_erg_c_s.pdf).",
+    "source_file": "4_1_a_unidad_hig_erg_c_s.pdf",
+    "page": 12
+  },
+  {
+    "topic": "Unidad 1: Variabilidad Humana",
+    "question": "En el estudio de la Air Force con 4.000 sujetos, ¿cuántos cumplían con la media en una serie de 10 medidas?",
+    "options": ["A) El 30%", "B) Ninguno", "C) 1.200 sujetos", "D) Solo los varones"],
+    "answer": "B) Ninguno",
+    "explanation": "Este estudio demostró que la persona 'estándar' no existe, invalidando el diseño basado únicamente en promedios. (Fuente: 4_1_a_unidad_hig_erg_c_s.pdf).",
+    "source_file": "4_1_a_unidad_hig_erg_c_s.pdf",
+    "page": 8
+  },
+  {
+    "topic": "Unidad 1: Ergonomía Ambiental",
+    "question": "¿Cuál es el avance cualitativo que establece la ergonomía ambiental frente a la higiene industrial?",
+    "options": ["A) Es más barata", "B) Busca el confort, no solo evitar la enfermedad profesional", "C) Solo estudia el ruido", "D) No hay diferencia"],
+    "answer": "B) Busca el confort, no solo evitar la enfermedad profesional",
+    "explanation": "Mientras la higiene previene enfermedades, la ergonomía ambiental busca niveles de bienestar y confort óptimos. (Fuente: 4_1_a_unidad_hig_erg_c_s.pdf).",
+    "source_file": "4_1_a_unidad_hig_erg_c_s.pdf",
+    "page": 7
+  },
+  {
+    "topic": "Unidad 1: Distancias de Seguridad",
+    "question": "En la fórmula S = (K x T) + C, ¿qué sucede con la distancia si el tiempo de respuesta (T) aumenta?",
+    "options": ["A) La distancia de seguridad (S) debe aumentar", "B) La distancia disminuye", "C) No afecta", "D) Se reduce el valor de K"],
+    "answer": "A) La distancia de seguridad (S) debe aumentar",
+    "explanation": "Si el dispositivo tarda más en reaccionar, debe estar más lejos del peligro para detenerlo a tiempo. (Fuente: 4_1_a_unidad_hig_erg_c_s.pdf).",
+    "source_file": "4_1_a_unidad_hig_erg_c_s.pdf",
+    "page": 43
+  },
+  {
+    "topic": "Unidad 1: Velocidad de Gesto",
+    "question": "¿Qué valor de velocidad de gesto (K) adopta la OSHA para el cálculo de distancias de seguridad?",
+    "options": ["A) 1,0 m/s", "B) 1,6 m/s", "C) 2,5 m/s", "D) 5,0 m/s"],
+    "answer": "B) 1,6 m/s",
+    "explanation": "La OSHA adopta 1,6 m/s como la velocidad estándar a la que una mano se desplaza hacia una zona de peligro. (Fuente: 4_1_a_unidad_hig_erg_c_s.pdf).",
+    "source_file": "4_1_a_unidad_hig_erg_c_s.pdf",
+    "page": 43
+  },
+  {
+    "topic": "Unidad 1: Distancia hacia arriba",
+    "question": "¿Cuál es la distancia de seguridad mínima hacia arriba para evitar alcanzar zonas peligrosas?",
+    "options": ["A) 2.000 mm", "B) 2.500 mm", "C) 2.700 mm", "D) 3.500 mm"],
+    "answer": "C) 2.700 mm",
+    "explanation": "Se establece un margen de 2.700 mm para impedir el acceso accidental por encima de estructuras. (Fuente: 4_1_a_unidad_hig_erg_c_s.pdf).",
+    "source_file": "4_1_a_unidad_hig_erg_c_s.pdf",
+    "page": 42
+  },
+  {
+    "topic": "Unidad 1: Plano de Trabajo",
+    "question": "¿Cómo se define el 'plano de trabajo' en ergonomía de pie?",
+    "options": ["A) La altura de los ojos", "B) El plano horizontal en el que se mueven las manos durante la tarea", "C) La base de la máquina", "D) El suelo"],
+    "answer": "B) El plano horizontal en el que se mueven las manos durante la tarea",
+    "explanation": "Es la altura donde se realiza la actividad manual principal. (Fuente: 4_1_a_unidad_hig_erg_c_s.pdf).",
+    "source_file": "4_1_a_unidad_hig_erg_c_s.pdf",
+    "page": 12
+  },
+  {
+    "topic": "Unidad 1: Ergonomía de Concepción",
+    "question": "¿Cuándo actúa la Ergonomía Preventiva?",
+    "options": ["A) Cuando ya hay lesionados", "B) En la fase de diseño o proyecto del puesto de trabajo", "C) Solo en las revisiones anuales", "D) Después de una inspección de trabajo"],
+    "answer": "B) En la fase de diseño o proyecto del puesto de trabajo",
+    "explanation": "Actúa antes de que el riesgo exista, integrando al humano en el diseño original. (Fuente: 1_1_ergo_med_c_s.pdf).",
+    "source_file": "1_1_ergo_med_c_s.pdf",
+    "page": 8
+  },
+  {
+    "topic": "Unidad 1: Percentiles de Alcance",
+    "question": "Para diseñar el alcance máximo de un estante, ¿qué percentil se debe considerar?",
+    "options": ["A) P5 (el más pequeño)", "B) P95 (el más grande)", "C) P50 (el promedio)", "D) P100"],
+    "answer": "A) P5 (el más pequeño)",
+    "explanation": "Criterio de dimensiones mínimas: si llega el más pequeño, llegan todos. (Fuente: Caso resuelto AEC Diseño puesto.pdf).",
+    "source_file": "Caso resuelto AEC Diseño puesto.pdf",
+    "page": 2
+  },
+  {
+    "topic": "Unidad 1: Percentiles de Holgura",
+    "question": "Para diseñar el ancho de una silla, ¿qué percentil se debe considerar?",
+    "options": ["A) P5", "B) P95", "C) P50", "D) P1"],
+    "answer": "B) P95",
+    "explanation": "Criterio de dimensiones máximas (holgura): si cabe el más grande, caben todos. (Fuente: Caso resuelto AEC Diseño puesto.pdf).",
+    "source_file": "Caso resuelto AEC Diseño puesto.pdf",
+    "page": 2
+  }
+]

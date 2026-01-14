@@ -1,0 +1,217 @@
+[
+  {
+    "topic": "Unidad 2: Ecuación de NIOSH",
+    "question": "¿Cuál es la Constante de Carga (LC) que utiliza la ecuación de NIOSH para condiciones ideales?",
+    "options": ["A) 15 kg", "B) 23 kg", "C) 25 kg", "D) 40 kg"],
+    "answer": "B) 23 kg",
+    "explanation": "Ojo aquí: mientras el INSST recomienda 25 kg como máximo general, la ecuación de NIOSH original parte de una constante de 23 kg (50 lb) para sus cálculos. (Fuente: 1_2_ergo_med_c_s.pdf).",
+    "source_file": "1_2_ergo_med_c_s.pdf", "page": 20
+  },
+  {
+    "topic": "Unidad 2: NIOSH - Multiplicador Horizontal (HM)",
+    "question": "En la ecuación de NIOSH, ¿qué sucede si aumenta la distancia horizontal (H) entre la carga y el cuerpo?",
+    "options": [
+      "A) El peso máximo permitido aumenta",
+      "B) El multiplicador HM disminuye, reduciendo drásticamente el peso máximo recomendado",
+      "C) No afecta al cálculo final",
+      "D) Solo afecta si se gira el tronco"
+    ],
+    "answer": "B) El multiplicador HM disminuye, reduciendo drásticamente el peso máximo recomendado",
+    "explanation": "A mayor distancia, mayor es el momento de fuerza sobre las vértebras lumbares. Es el factor que más penaliza el levantamiento. (Fuente: Guia Tecnica MMC INSST.pdf).",
+    "source_file": "Guia Tecnica MMC INSST.pdf", "page": 22
+  },
+  {
+    "topic": "Unidad 2: Índice de Levantamiento (LI)",
+    "question": "Si al aplicar NIOSH obtienes un Índice de Levantamiento (LI) de 2.5, ¿cómo se interpreta?",
+    "options": [
+      "A) Riesgo aceptable (puesto seguro)",
+      "B) Riesgo moderado, requiere vigilancia",
+      "C) Riesgo inaceptable, requiere rediseño inmediato del puesto",
+      "D) El trabajador está muy fuerte"
+    ],
+    "answer": "C) Riesgo inaceptable, requiere rediseño inmediato del puesto",
+    "explanation": "Un LI > 1 ya indica riesgo para algunos trabajadores; un LI > 3 indica riesgo para la mayoría. Un 2.5 ya es una alerta roja de rediseño. (Fuente: 1_2_ergo_med_c_s.pdf).",
+    "source_file": "1_2_ergo_med_c_s.pdf", "page": 21
+  },
+  {
+    "topic": "Unidad 2: Método REBA",
+    "question": "¿Cuál es la principal aplicación del método REBA (Rapid Entire Body Assessment)?",
+    "options": [
+      "A) Evaluar solo la carga en las manos",
+      "B) Evaluar posturas forzadas de TODO el cuerpo, incluyendo extremidades superiores e inferiores",
+      "C) Medir el ruido en el puesto",
+      "D) Calcular el gasto calórico"
+    ],
+    "answer": "B) Evaluar posturas forzadas de TODO el cuerpo, incluyendo extremidades superiores e inferiores",
+    "explanation": "A diferencia de RULA (que se centra en el tronco superior), REBA analiza también las piernas y es ideal para posturas dinámicas o inestables. (Fuente: AEC-Evaluacion Ergonomica.pdf).",
+    "source_file": "AEC-Evaluacion Ergonomica.pdf", "page": 3
+  },
+  {
+    "topic": "Unidad 2: Método RULA",
+    "question": "¿Para qué tipo de trabajos es más específico el método RULA?",
+    "options": [
+      "A) Construcción pesada",
+      "B) Trabajos sedentarios o de oficina donde se usan principalmente los brazos y el tronco superior",
+      "C) Manejo de carretillas elevadoras",
+      "D) Minería"
+    ],
+    "answer": "B) Trabajos sedentarios o de oficina donde se usan principalmente los brazos y el tronco superior",
+    "explanation": "RULA (Rapid Upper Limb Assessment) se enfoca en cuello, tronco y miembros superiores. Es el estándar para usuarios de PVD. (Fuente: AEC-Evaluacion Ergonomica.pdf).",
+    "source_file": "AEC-Evaluacion Ergonomica.pdf", "page": 2
+  },
+  {
+    "topic": "Unidad 2: Asimetría del Levantamiento",
+    "question": "¿Qué mide el multiplicador de asimetría (AM) en NIOSH?",
+    "options": [
+      "A) El peso de la carga",
+      "B) El ángulo de torsión del tronco respecto a la línea de los hombros",
+      "C) La diferencia de altura entre las manos",
+      "D) Si el trabajador es zurdo o diestro"
+    ],
+    "answer": "B) El ángulo de torsión del tronco respecto a la línea de los hombros",
+    "explanation": "Levantar peso girando el tronco es extremadamente peligroso para los discos intervertebrales; por eso NIOSH penaliza cada grado de giro. (Fuente: Guia Tecnica MMC INSST.pdf).",
+    "source_file": "Guia Tecnica MMC INSST.pdf", "page": 26
+  },
+  {
+    "topic": "Unidad 2: Metabolismo de Actividad",
+    "question": "Si una tarea requiere 4 Kcal/min, ¿cómo se clasifica el nivel de carga de trabajo?",
+    "options": ["A) Ligera", "B) Moderada", "C) Pesada", "D) Muy pesada"],
+    "answer": "B) Moderada",
+    "explanation": "De 2.5 a 5 Kcal/min se considera carga moderada. Por encima de 5 es pesada. (Fuente: 1_2_ergo_med_c_s.pdf).",
+    "source_file": "1_2_ergo_med_c_s.pdf", "page": 10
+  },
+  {
+    "topic": "Unidad 2: Consumo de Oxígeno",
+    "question": "Aproximadamente, ¿cuántas kilocalorías se liberan por cada litro de oxígeno consumido?",
+    "options": ["A) 1 Kcal", "B) 4.85 Kcal", "C) 10 Kcal", "D) 100 Kcal"],
+    "answer": "B) 4.85 Kcal",
+    "explanation": "Es el equivalente calórico del oxígeno, dato clave para calcular el metabolismo mediante espirometría. (Fuente: 1_2_ergo_med_c_s.pdf).",
+    "source_file": "1_2_ergo_med_c_s.pdf", "page": 9
+  },
+  {
+    "topic": "Unidad 2: Fatiga Muscular - Ácido Láctico",
+    "question": "¿Qué sustancia se acumula en el músculo causando dolor y fatiga durante el trabajo anaeróbico?",
+    "options": ["A) Glucosa", "B) Ácido Láctico", "C) Adrenalina", "D) Calcio"],
+    "answer": "B) Ácido Láctico",
+    "explanation": "Cuando el oxígeno no llega rápido (trabajo estático), el músculo quema energía 'sin aire', produciendo lactato que acidifica la fibra muscular. (Fuente: 1_2_ergo_med_c_s.pdf).",
+    "source_file": "1_2_ergo_med_c_s.pdf", "page": 6
+  },
+  {
+    "topic": "Unidad 2: Gasto Energético de Reposo",
+    "question": "¿A qué equivale 1 MET en términos de consumo de oxígeno?",
+    "options": ["A) 1 ml O2 / kg / min", "B) 3.5 ml O2 / kg / min", "C) 10 ml O2 / kg / min", "D) 100 ml O2 / kg / min"],
+    "answer": "B) 3.5 ml O2 / kg / min",
+    "explanation": "Es el consumo de oxígeno estándar de un adulto sentado en reposo. (Fuente: 1_2_ergo_med_c_s.pdf).",
+    "source_file": "1_2_ergo_med_c_s.pdf", "page": 10
+  },
+  {
+    "topic": "Unidad 2: Manipulación en Equipo",
+    "question": "Si dos personas levantan una carga juntas, ¿cuál es la capacidad de levantamiento real?",
+    "options": [
+      "A) La suma de las fuerzas de ambos (100% + 100%)",
+      "B) Aproximadamente el 66% de la suma de sus capacidades individuales",
+      "C) El doble que uno solo siempre",
+      "D) Solo la capacidad del más débil"
+    ],
+    "answer": "B) Aproximadamente el 66% de la suma de sus capacidades individuales",
+    "explanation": "Por la falta de sincronización y el reparto desigual, no se aprovecha el 100% de la fuerza de ambos. (Fuente: Guia Tecnica MMC INSST.pdf).",
+    "source_file": "Guia Tecnica MMC INSST.pdf", "page": 30
+  },
+  {
+    "topic": "Unidad 2: Trastornos Musculoesqueléticos (TME)",
+    "question": "¿Cuál es la lesión más común derivada de posturas forzadas en el cuello por uso de pantallas mal situadas?",
+    "options": ["A) Epicondilitis", "B) Síndrome cervical por tensión", "C) Túnel carpiano", "D) Fascitis plantar"],
+    "answer": "B) Síndrome cervical por tensión",
+    "explanation": "La contracción estática de los trapecios y músculos del cuello causa dolor crónico y contracturas. (Fuente: AEC-Evaluacion Ergonomica.pdf).",
+    "source_file": "AEC-Evaluacion Ergonomica.pdf", "page": 1
+  },
+  {
+    "topic": "Unidad 2: Frecuencia cardíaca de reposo",
+    "question": "En el método de la frecuencia cardíaca, ¿qué se entiende por 'Costo Cardiaco Absoluto'?",
+    "options": [
+      "A) El pulso al terminar el trabajo",
+      "B) La diferencia entre la frecuencia cardíaca media de trabajo y la frecuencia cardíaca de reposo",
+      "C) El máximo de pulsaciones que aguanta el corazón",
+      "D) 220 menos la edad"
+    ],
+    "answer": "B) La diferencia entre la frecuencia cardíaca media de trabajo y la frecuencia cardíaca de reposo",
+    "explanation": "Mide el esfuerzo real que la tarea le 'cuesta' al corazón por encima de su estado normal. (Fuente: 1_2_ergo_med_c_s.pdf).",
+    "source_file": "1_2_ergo_med_c_s.pdf", "page": 11
+  },
+  {
+    "topic": "Unidad 2: Altura de los nudillos",
+    "question": "¿Por qué la altura de los nudillos es la referencia ideal para el origen de un levantamiento?",
+    "options": [
+      "A) Porque es donde el brazo está más relajado",
+      "B) Porque permite que la espalda esté recta y la carga cerca del centro de gravedad",
+      "C) Porque es la altura de las mesas",
+      "D) Porque así se entrena mejor el bíceps"
+    ],
+    "answer": "B) Porque permite que la espalda esté recta y la carga cerca del centro de gravedad",
+    "explanation": "Evita flexiones de tronco peligrosas y permite un agarre seguro. (Fuente: Guia Tecnica MMC INSST.pdf).",
+    "source_file": "Guia Tecnica MMC INSST.pdf", "page": 24
+  },
+  {
+    "topic": "Unidad 2: Duración del levantamiento",
+    "question": "En NIOSH, ¿cómo se clasifica un trabajo que dura entre 1 y 2 horas?",
+    "options": ["A) Corta duración", "B) Duración moderada", "C) Larga duración", "D) Duración puntual"],
+    "answer": "B) Duración moderada",
+    "explanation": "Corta es <1h; Moderada es 1-2h; Larga es 2-8h. Los multiplicadores cambian para ser más estrictos si la tarea es larga. (Fuente: 1_2_ergo_med_c_s.pdf).",
+    "source_file": "1_2_ergo_med_c_s.pdf", "page": 20
+  },
+  {
+    "topic": "Unidad 2: TME - Epicondilitis",
+    "question": "¿Qué movimiento repetitivo suele causar la 'Epicondilitis' o codo de tenista?",
+    "options": [
+      "A) Mirar mucho el monitor",
+      "B) Movimientos repetidos de extensión de muñeca y rotación del antebrazo (atornillar, martillear)",
+      "C) Estar de pie mucho tiempo",
+      "D) El levantamiento de sacos desde el suelo"
+    ],
+    "answer": "B) Movimientos repetidos de extensión de muñeca y rotación del antebrazo (atornillar, martillear)",
+    "explanation": "Se inflaman los tendones que se insertan en la cara externa del codo. (Fuente: 1_2_ergo_med_c_s.pdf).",
+    "source_file": "1_2_ergo_med_c_s.pdf", "page": 17
+  },
+  {
+    "topic": "Unidad 2: Acoplamiento Mano-Carga",
+    "question": "¿Qué factor de corrección se aplica en NIOSH si el agarre de la carga es 'Pobre'?",
+    "options": ["A) No se aplica nada", "B) Se penaliza el peso máximo permitido (multiplicador < 1.0)", "C) Se suma un 10% al peso", "D) Se obliga a usar guantes"],
+    "answer": "B) Se penaliza el peso máximo permitido (multiplicador < 1.0)",
+    "explanation": "Un mal agarre aumenta el riesgo de que la carga se resbale y obliga a una mayor tensión muscular. (Fuente: 1_2_ergo_med_c_s.pdf).",
+    "source_file": "1_2_ergo_med_c_s.pdf", "page": 21
+  },
+  {
+    "topic": "Unidad 2: Movimientos Repetitivos",
+    "question": "Según el método OCRA, ¿cuál es el límite de frecuencia de movimientos del brazo para ser considerado riesgo?",
+    "options": ["A) 1 movimiento por minuto", "B) Más de 40 movimientos por minuto", "C) 100 movimientos al día", "D) Solo depende del peso"],
+    "answer": "B) Más de 40 movimientos por minuto",
+    "explanation": "Frecuencias altas de movimiento sin pausas son la causa principal de lesiones en miembros superiores. (Fuente: 1_2_ergo_med_c_s.pdf).",
+    "source_file": "1_2_ergo_med_c_s.pdf", "page": 25
+  },
+  {
+    "topic": "Unidad 2: Criterio Psicofísico",
+    "question": "¿Qué evalúan las Tablas de Snook y Ciriello?",
+    "options": [
+      "A) El ruido en oficinas",
+      "B) Los pesos y fuerzas máximas aceptables basándose en la percepción de fatiga de los trabajadores",
+      "C) El gasto calórico mediante tablas",
+      "D) El estrés psicosocial"
+    ],
+    "answer": "B) Los pesos y fuerzas máximas aceptables basándose en la percepción de fatiga de los trabajadores",
+    "explanation": "Es un enfoque alternativo a NIOSH basado en lo que la gente 'siente' que puede cargar sin agotarse. (Fuente: 1_2_ergo_med_c_s.pdf).",
+    "source_file": "1_2_ergo_med_c_s.pdf", "page": 23
+  },
+  {
+    "topic": "Unidad 2: Postura y Presión Discal",
+    "question": "¿En qué postura es mayor la presión sobre los discos lumbares (L4-L5)?",
+    "options": [
+      "A) Tumbado bocarriba",
+      "B) Sentado con el tronco inclinado hacia adelante cargando un peso",
+      "C) De pie con la espalda recta",
+      "D) Sentado con la espalda bien apoyada"
+    ],
+    "answer": "B) Sentado con el tronco inclinado hacia adelante cargando un peso",
+    "explanation": "La combinación de estar sentado (donde la pelvis se rota) e inclinarse con peso es la peor situación para la columna. (Fuente: 1_2_ergo_med_c_s.pdf).",
+    "source_file": "1_2_ergo_med_c_s.pdf", "page": 14
+  }
+]

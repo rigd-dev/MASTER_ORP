@@ -1,0 +1,197 @@
+[
+  {
+    "topic": "Unidad 5: Balance Térmico",
+    "question": "¿Cuál es la ecuación básica del balance térmico para que el cuerpo mantenga su temperatura interna?",
+    "options": [
+      "A) M + C + R - E = 0",
+      "B) M ± C ± R - E = 0 (donde M es metabolismo y E evaporación)",
+      "C) Calor ganado = Calor perdido + 100",
+      "D) Solo depende de la temperatura del aire"
+    ],
+    "answer": "B) M ± C ± R - E = 0 (donde M es metabolismo y E evaporación)",
+    "explanation": "El cuerpo debe equilibrar el calor generado (M) y el intercambiado por convección (C), radiación (R) y evaporación (E). (Fuente: 1_5_ergo_med_c_s.pdf).",
+    "source_file": "1_5_ergo_med_c_s.pdf",
+    "page": 4
+  },
+  {
+    "topic": "Unidad 5: Metabolismo (Met)",
+    "question": "¿A cuánto equivale una unidad 'Met' en términos de actividad humana?",
+    "options": [
+      "A) Al gasto de energía corriendo un maratón",
+      "B) Al metabolismo basal de una persona sentada en reposo (aprox. 58 W/m²)",
+      "C) A 1000 calorías por hora",
+      "D) Al calor que genera una bombilla de 100W"
+    ],
+    "answer": "B) Al metabolismo basal de una persona sentada en reposo (aprox. 58 W/m²)",
+    "explanation": "El Met es la unidad de medida del metabolismo. Sentado en reposo es 1 Met; caminando rápido puede ser 3 o 4 Met. (Fuente: 1_5_ergo_med_c_s.pdf).",
+    "source_file": "1_5_ergo_med_c_s.pdf",
+    "page": 6
+  },
+  {
+    "topic": "Unidad 5: Aislamiento Térmico (Clo)",
+    "question": "¿Qué mide la unidad 'Clo' en ergonomía térmica?",
+    "options": [
+      "A) La velocidad del aire",
+      "B) El aislamiento térmico de la ropa",
+      "C) La humedad del ambiente",
+      "D) El tiempo de exposición al sol"
+    ],
+    "answer": "B) El aislamiento térmico de la ropa",
+    "explanation": "0 Clo es desnudo; 1 Clo es un traje de negocios típico. Es fundamental para calcular el bienestar térmico. (Fuente: 1_5_ergo_med_c_s.pdf).",
+    "source_file": "1_5_ergo_med_c_s.pdf",
+    "page": 7
+  },
+  {
+    "topic": "Unidad 5: Índice WBGT",
+    "question": "¿Para qué se utiliza el índice WBGT (Wet Bulb Globe Temperature)?",
+    "options": [
+      "A) Para medir el confort en oficinas",
+      "B) Para evaluar el riesgo de estrés térmico por calor en ambientes industriales",
+      "C) Para calcular la calefacción de un edificio",
+      "D) Para medir el ruido ambiental"
+    ],
+    "answer": "B) Para evaluar el riesgo de estrés térmico por calor en ambientes industriales",
+    "explanation": "Es el método más usado para saber si un trabajador se va a dar un 'golpe de calor'. Combina temperatura húmeda, de globo y de aire. (Fuente: 1_5_ergo_med_c_s.pdf).",
+    "source_file": "1_5_ergo_med_c_s.pdf",
+    "page": 15
+  },
+  {
+    "topic": "Unidad 5: El Método Fanger",
+    "question": "¿Qué dos índices principales utiliza el Método Fanger para evaluar el confort térmico?",
+    "options": [
+      "A) WBGT y Humedad",
+      "B) PMV (Voto Medio Estimado) y PPD (Porcentaje de Personas Insatisfechas)",
+      "C) Met y Clo",
+      "D) Frío y Calor"
+    ],
+    "answer": "B) PMV (Voto Medio Estimado) y PPD (Porcentaje de Personas Insatisfechas)",
+    "explanation": "El PMV predice qué diría la gente sobre el ambiente (-3 frío a +3 calor) y el PPD calcula cuántos se quejarían. (Fuente: 1_5_ergo_med_c_s.pdf).",
+    "source_file": "1_5_ergo_med_c_s.pdf",
+    "page": 12
+  },
+  {
+    "topic": "Unidad 5: Porcentaje de Insatisfechos (PPD)",
+    "question": "Según Fanger, incluso en condiciones de confort óptimo (PMV = 0), ¿cuál es el porcentaje mínimo de personas insatisfechas?",
+    "options": ["A) 0%", "B) 5%", "C) 10%", "D) 20%"],
+    "answer": "B) 5%",
+    "explanation": "Nunca puedes tener a todos contentos. Por diferencias metabólicas, siempre habrá un 5% que tenga frío o calor. (Fuente: 1_5_ergo_med_c_s.pdf).",
+    "source_file": "1_5_ergo_med_c_s.pdf",
+    "page": 13
+  },
+  {
+    "topic": "Unidad 5: Temperatura Radiante Media",
+    "question": "¿Qué instrumento se utiliza para medir la radiación térmica de paredes u hornos?",
+    "options": ["A) Anemómetro", "B) Termómetro de globo", "C) Psicrómetro", "D) Higrómetro"],
+    "answer": "B) Termómetro de globo",
+    "explanation": "La esfera negra absorbe la radiación y permite medir cómo afectan las superficies calientes al trabajador. (Fuente: 1_5_ergo_med_c_s.pdf).",
+    "source_file": "1_5_ergo_med_c_s.pdf",
+    "page": 9
+  },
+  {
+    "topic": "Unidad 5: Evaporación y Humedad",
+    "question": "¿Qué ocurre con la termorregulación si la humedad relativa es muy alta (cerca del 100%)?",
+    "options": [
+      "A) El cuerpo se enfría más rápido",
+      "B) El sudor no se puede evaporar, impidiendo que el cuerpo pierda calor",
+      "C) No afecta para nada",
+      "D) El metabolismo basal disminuye"
+    ],
+    "answer": "B) El sudor no se puede evaporar, impidiendo que el cuerpo pierda calor",
+    "explanation": "Si el aire está saturado de agua, el sudor se queda en la piel y la temperatura interna sube peligrosamente. (Fuente: 1_5_ergo_med_c_s.pdf).",
+    "source_file": "1_5_ergo_med_c_s.pdf",
+    "page": 5
+  },
+  {
+    "topic": "Unidad 5: Aclimatación",
+    "question": "¿En qué consiste el proceso de aclimatación al calor?",
+    "options": [
+      "A) En comprar ropa más fina",
+      "B) En cambios fisiológicos (más sudor y más pronto) tras 7-14 días de exposición",
+      "C) En beber mucha cerveza",
+      "D) Es un proceso puramente psicológico"
+    ],
+    "answer": "B) En cambios fisiológicos (más sudor y más pronto) tras 7-14 días de exposición",
+    "explanation": "El cuerpo aprende a refrigerarse de forma más eficiente. Los trabajadores no aclimatados tienen mucho más riesgo de muerte. (Fuente: 1_5_ergo_med_c_s.pdf).",
+    "source_file": "1_5_ergo_med_c_s.pdf",
+    "page": 16
+  },
+  {
+    "topic": "Unidad 5: Estrés por Frío",
+    "question": "¿Cuál es el riesgo principal de la exposición prolongada al frío intenso (hipotermia)?",
+    "options": [
+      "A) Que baje la temperatura interna por debajo de los 35ºC",
+      "B) Que el trabajador se mueva más rápido",
+      "C) Que aumente la capacidad de concentración",
+      "D) Solo afecta a la piel"
+    ],
+    "answer": "A) Que baje la temperatura interna por debajo de los 35ºC",
+    "explanation": "Por debajo de 35ºC el cuerpo pierde el control y se entra en riesgo mortal. (Fuente: 1_5_ergo_med_c_s.pdf).",
+    "source_file": "1_5_ergo_med_c_s.pdf",
+    "page": 18
+  },
+  {
+    "topic": "Unidad 5: Confort en Oficinas",
+    "question": "Según el R.D. 486/1997, ¿en qué rango debe estar la temperatura para trabajos sedentarios (oficinas)?",
+    "options": ["A) 10-20 ºC", "B) 17-27 ºC", "C) 20-24 ºC", "D) 25-30 ºC"],
+    "answer": "B) 17-27 ºC",
+    "explanation": "Es el rango legal en España. Aunque lo ideal para confort suele estar entre 21 y 24 ºC. (Fuente: 1_5_ergo_med_c_s.pdf).",
+    "source_file": "1_5_ergo_med_c_s.pdf",
+    "page": 20
+  },
+  {
+    "topic": "Unidad 5: Velocidad del Aire",
+    "question": "¿Por qué es peligrosa una velocidad de aire excesiva en el puesto de trabajo?",
+    "options": [
+      "A) Porque vuela los papeles",
+      "B) Porque produce corrientes de aire que causan enfriamientos localizados y disconfort",
+      "C) Porque aumenta la humedad",
+      "D) No es peligrosa, es siempre buena"
+    ],
+    "answer": "B) Porque produce corrientes de aire que causan enfriamientos localizados y disconfort",
+    "explanation": "Las corrientes de aire en el cuello o espalda son una de las quejas principales en oficinas. (Fuente: 1_5_ergo_med_c_s.pdf).",
+    "source_file": "1_5_ergo_med_c_s.pdf",
+    "page": 10
+  },
+  {
+    "topic": "Unidad 5: Índice IREQ",
+    "question": "¿Para qué sirve el índice IREQ?",
+    "options": [
+      "A) Para medir el calor extremo",
+      "B) Para calcular el aislamiento requerido de la vestimenta en ambientes fríos",
+      "C) Para medir el ruido de las máquinas",
+      "D) Para evaluar la luz solar"
+    ],
+    "answer": "B) Para calcular el aislamiento requerido de la vestimenta en ambientes fríos",
+    "explanation": "Indica cuánto 'abrigo' (en Clo) necesita un trabajador para no perder calor en cámaras frigoríficas o exteriores. (Fuente: 1_5_ergo_med_c_s.pdf).",
+    "source_file": "1_5_ergo_med_c_s.pdf",
+    "page": 19
+  },
+  {
+    "topic": "Unidad 5: Golpe de Calor",
+    "question": "¿Cuál es un síntoma claro de golpe de calor inminente?",
+    "options": [
+      "A) Piel fría y húmeda",
+      "B) Piel caliente y SECA (el cuerpo deja de sudar), confusión y temperatura >40ºC",
+      "C) Estornudos constantes",
+      "D) Mucha hambre"
+    ],
+    "answer": "B) Piel caliente y SECA (el cuerpo deja de sudar), confusión y temperatura >40ºC",
+    "explanation": "Es una emergencia médica. Si la piel está seca es porque el sistema de termorregulación ha colapsado. (Fuente: 1_5_ergo_med_c_s.pdf).",
+    "source_file": "1_5_ergo_med_c_s.pdf",
+    "page": 17
+  },
+  {
+    "topic": "Unidad 5: Transmisión por Convección (C)",
+    "question": "¿De qué depende principalmente el intercambio de calor por convección?",
+    "options": [
+      "A) De la luz del sol",
+      "B) De la diferencia de temperatura entre la piel y el aire, y de la velocidad del aire",
+      "C) Del color de la ropa",
+      "D) De lo que el trabajador haya comido"
+    ],
+    "answer": "B) De la diferencia de temperatura entre la piel y el aire, y de la velocidad del aire",
+    "explanation": "El aire al pasar por la piel 'arrastra' el calor. A más aire, más intercambio por convección. (Fuente: 1_5_ergo_med_c_s.pdf).",
+    "source_file": "1_5_ergo_med_c_s.pdf",
+    "page": 5
+  }
+]
