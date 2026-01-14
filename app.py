@@ -3,87 +3,114 @@ import json
 import os
 import base64
 
-# Configuración de página
-st.set_page_config(page_title="MASTER_ORP - Tu Pase al Éxito", layout="wide")
+# --- CONFIGURACIÓN DE PÁGINA ---
+st.set_page_config(page_title="MASTER_ORP - Entrenamiento Pro", layout="wide")
 
-def display_pdf(file_path, page):
-    """Muestra el PDF embebido en la app"""
-    with open(file_path, "rb") as f:
-        base64_pdf = base64.b64encode(f.read()).decode('utf-8')
-    
-    # El parámetro #page=X permite abrir el PDF en la página específica
-    pdf_display = f'<iframe src="data:application/pdf;base64,{base64_pdf}#page={page}" width="100%" height="600" type="application/pdf"></iframe>'
-    st.markdown(pdf_display, unsafe_allow_html=True)
+# Estilo personalizado para botones
+st.markdown("""
+    <style>
+    div.stButton > button:first-child { background-color: #007bff; color: white; }
+    div.stButton > button:hover { background-color: #0056b3; color: white; }
+    </style>
+    """, unsafe_allow_html=True)
 
-# Título y Estilo
-st.title("🚀 MASTER_ORP: Entrenamiento Ninja")
-st.markdown("---")
+# --- FUNCIONES ---
+def get_pdf_display(pdf_path, page):
+    """Genera el código HTML para embeber el PDF"""
+    try:
+        with open(pdf_path, "rb") as f:
+            base64_pdf = base64.b64encode(f.read()).decode('utf-8')
+        # Añadimos el parámetro de página al final del src
+        pdf_display = f'<iframe src="data:application/pdf;base64,{base64_pdf}#page={page}" width="100%" height="800" type="application/pdf"></iframe>'
+        return pdf_display
+    except Exception as e:
+        return f"Error al cargar el PDF: {e}"
 
-# Selección de Asignatura
-asignatura = st.sidebar.selectbox("Elige tu veneno:", ["Psicosociologia", "Ergonomia"])
+# --- INICIO DE LA APP ---
+st.title("🚀 MASTER_ORP: Tu Entrenador Personal")
+
+# Selección de Asignatura en el Sidebar
+asignatura = st.sidebar.selectbox("¿Qué vamos a estudiar hoy?", ["Psicosociologia", "Ergonomia"])
 data_path = f"data/{asignatura}/"
 
-# Cargar archivos de la carpeta
 if os.path.exists(data_path):
-    files = [f for f in os.listdir(data_path) if f.endswith('.json')]
-    selected_files = st.sidebar.multiselect("Selecciona Unidades:", files, default=files[0] if files else None)
+    files = sorted([f for f in os.listdir(data_path) if f.endswith('.json')])
+    selected_files = st.sidebar.multiselect("Selecciona las unidades:", files, default=files if files else None)
     
+    # Cargar todas las preguntas de los archivos seleccionados
     all_questions = []
     for file in selected_files:
         with open(os.path.join(data_path, file), 'r', encoding='utf-8') as f:
             all_questions.extend(json.load(f))
 
     if not all_questions:
-        st.warning("No hay preguntas en esta selección, ojt!")
+        st.warning("Selecciona al menos una unidad para empezar, carnal.")
     else:
-        # Estado del juego
+        # Inicializar variables de estado
         if 'current_q' not in st.session_state:
             st.session_state.current_q = 0
             st.session_state.score = 0
+            st.session_state.answered = False
 
         q_idx = st.session_state.current_q
         
         if q_idx < len(all_questions):
             q = all_questions[q_idx]
             
-            st.subheader(f"Pregunta {q_idx + 1} de {len(all_questions)}")
-            st.info(f"**Tópico:** {q.get('topic', 'General')}")
-            st.write(f"### {q['question']}")
+            # Layout: Pregunta a la izquierda, PDF a la derecha (opcional)
+            col1, col2 = st.columns([1, 1] if st.session_state.answered else [1, 0.01])
             
-            # Opciones
-            ans = st.radio("Cual es la buena?", q['options'], key=f"q_{q_idx}")
-            
-            if st.button("Revisar respuesta"):
-                if ans == q['answer']:
-                    st.success("¡A huevo! Estás perro.")
-                    st.session_state.score += 1
-                else:
-                    st.error(f"¡Ni madres! La buena era: {q['answer']}")
+            with col1:
+                st.markdown(f"**Unidad:** {q.get('topic', 'General')}")
+                st.write(f"### Pregunta {q_idx + 1}: {q['question']}")
                 
-                # Feedback y Referencias
-                st.write(f"**Explicación:** {q.get('explanation', 'No hay explicación, búscala tú.')}")
+                # Opciones de respuesta
+                options = q['options']
+                user_ans = st.radio("Selecciona la respuesta correcta:", options, key=f"radio_{q_idx}")
                 
-                # BOTÓN MÁGICO PARA EL PDF
-                pdf_name = q.get('source_file')
-                page_num = q.get('page', 1)
-                pdf_path = f"static/{pdf_name}"
+                if st.button("Validar Respuesta"):
+                    st.session_state.answered = True
+                
+                if st.session_state.answered:
+                    if user_ans == q['answer']:
+                        st.success("✅ ¡A huevo! Correcto.")
+                    else:
+                        st.error(f"❌ ¡Pendejo! Era: {q['answer']}")
+                    
+                    st.info(f"**Explicación:** {q.get('explanation', 'Revisa la fuente para más detalle.')}")
+                    
+                    # Verificar si existe el PDF
+                    pdf_name = q.get('source_file')
+                    page_num = q.get('page', 1)
+                    pdf_path = f"static/{pdf_name}"
+                    
+                    if pdf_name and os.path.exists(pdf_path):
+                        st.write(f"📍 Fuente: **{pdf_name}** - Página: **{page_num}**")
+                    else:
+                        st.warning(f"⚠️ Archivo {pdf_name} no encontrado en /static")
 
-                if pdf_name and os.path.exists(pdf_path):
-                    st.markdown(f"**Fuente:** {pdf_name} (Pág. {page_num})")
-                    if st.button(f"📖 Ver evidencia en {pdf_name}"):
-                        display_pdf(pdf_path, page_num)
-                else:
-                    st.warning(f"⚠️ No encontré el archivo: {pdf_name} en la carpeta static.")
+                    if st.button("Siguiente Pregunta ➡️"):
+                        st.session_state.current_q += 1
+                        st.session_state.answered = False
+                        st.rerun()
 
-                if st.button("Siguiente pregunta ➡️"):
-                    st.session_state.current_q += 1
-                    st.rerun()
+            with col2:
+                # Si ya contestó y el archivo existe, mostramos el visor
+                if st.session_state.answered:
+                    pdf_name = q.get('source_file')
+                    pdf_path = f"static/{pdf_name}"
+                    if pdf_name and os.path.exists(pdf_path):
+                        st.markdown("### 📖 Evidencia del PDF")
+                        pdf_html = get_pdf_display(pdf_path, q.get('page', 1))
+                        st.markdown(pdf_html, unsafe_allow_html=True)
+
         else:
             st.balloons()
-            st.success(f"¡Terminaste! Sacaste {st.session_state.score} de {len(all_questions)}")
-            if st.button("Reiniciar"):
+            st.success(f"¡Examen terminado! Puntuación: {st.session_state.score} de {len(all_questions)}")
+            if st.button("Reiniciar Entrenamiento"):
                 st.session_state.current_q = 0
                 st.session_state.score = 0
+                st.session_state.answered = False
                 st.rerun()
 else:
-    st.error(f"No veo la carpeta {data_path}. Checa el pinche GitHub.")
+    st.error(f"No encontré la carpeta {data_path}. Revisa que en GitHub esté todo en minúsculas.")
