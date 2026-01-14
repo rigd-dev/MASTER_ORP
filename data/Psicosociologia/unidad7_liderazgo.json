@@ -9,7 +9,7 @@
       "D) Autoridad-Obediencia estricta"
     ],
     "answer": "B) El jefe ejerce el mínimo esfuerzo para realizar el trabajo y mantenerse en el puesto",
-    "explanation": "El estilo 1.1 es la abdicación del líder. No le importa ni la gente ni el trabajo. Es un factor de riesgo psicosocial altísimo por falta de apoyo y rol indefinido. (Fuente: 5_7_unidad_psico_med_c_s.pdf).",
+    "explanation": "El estilo 1.1 representa la abdicación del rol de liderazgo. El directivo muestra nulo interés tanto por las personas como por los resultados, limitándose a transmitir órdenes para conservar su posición. (Fuente: 5_7_unidad_psico_med_c_s.pdf).",
     "source_file": "5_7_unidad_psico_med_c_s.pdf",
     "page": 8
   },
@@ -23,92 +23,288 @@
       "D) Instruir / Dirigir (E1)"
     ],
     "answer": "C) Persuadir / Explicar (E2)",
-    "explanation": "Como el trabajador 'quiere' pero todavía no 'sabe', el líder debe dirigir las tareas pero también explicar las decisiones y apoyar para mantener la motivación. (Fuente: 5_7_unidad_psico_med_c_s.pdf).",
+    "explanation": "Dado que el colaborador tiene disposición pero carece de la competencia técnica necesaria, el líder debe mantener una conducta directiva alta (enseñar) pero incrementando el apoyo emocional para sostener la motivación. (Fuente: 5_7_unidad_psico_med_c_s.pdf).",
     "source_file": "5_7_unidad_psico_med_c_s.pdf",
     "page": 12
   },
   {
     "topic": "Unidad 7: El Efecto Pigmalión",
-    "question": "Merton define el Efecto Pigmalión como una 'profecía autocumplida'. ¿Qué significa esto en la supervisión de seguridad?",
+    "question": "Merton define el Efecto Pigmalión como una 'profecía autocumplida'. ¿Qué implica esto en la supervisión de seguridad?",
     "options": [
-      "A) Que el accidente ocurrirá si el técnico lo predice",
+      "A) Que el accidente ocurrirá si el técnico lo predice estadísticamente",
       "B) Que las expectativas del mando sobre la competencia del trabajador influyen en el comportamiento y rendimiento real de este",
-      "C) Que el trabajador siempre ignora al jefe",
-      "D) Que la formación es inútil si no hay castigos"
+      "C) Que el trabajador ignora sistemáticamente al jefe",
+      "D) Que la formación es ineficaz sin medidas coercitivas"
     ],
     "answer": "B) Que las expectativas del mando sobre la competencia del trabajador influyen en el comportamiento y rendimiento real de este",
-    "explanation": "Si un mando trata a un operario como 'descuidado' o 'incapaz', terminará provocando que el operario actúe así. Si le muestra confianza, su rendimiento mejora. (Fuente: Efecto_Pigmalion.pdf).",
+    "explanation": "Las expectativas positivas o negativas del supervisor se transmiten mediante el lenguaje verbal y no verbal, condicionando inconscientemente la respuesta del trabajador para ajustarse a dicha expectativa. (Fuente: Efecto_Pigmalion.pdf).",
     "source_file": "Efecto_Pigmalion.pdf",
     "page": 1
   },
   {
     "topic": "Unidad 7: Teoría X y Y",
-    "question": "Un mando que aplica la 'Teoría X' de McGregor en prevención de riesgos:",
+    "question": "Un mando que aplica la 'Teoría X' de McGregor en la gestión de la prevención:",
     "options": [
-      "A) Confía en que el trabajador usará los EPIs por responsabilidad propia",
-      "B) Cree que el trabajador es vago por naturaleza y solo evitará riesgos bajo amenaza o control estricto",
-      "C) Fomenta la participación en los comités de seguridad",
-      "D) Delega la inspección de seguridad en los operarios"
+      "A) Confía en la autorresponsabilidad del trabajador",
+      "B) Asume que el trabajador tiene una aversión innata al trabajo y solo cumplirá las normas bajo control estricto y amenaza",
+      "C) Fomenta la participación activa en los comités de seguridad",
+      "D) Delega la inspección de seguridad en los propios operarios"
     ],
-    "answer": "B) Cree que el trabajador es vago por naturaleza y solo evitará riesgos bajo amenaza o control estricto",
-    "explanation": "La Teoría X asume que la gente huye del trabajo y la responsabilidad; por tanto, requiere coacción y control. (Fuente: 5_7_unidad_psico_med_c_s.pdf).",
+    "answer": "B) Asume que el trabajador tiene una aversión innata al trabajo y solo cumplirá las normas bajo control estricto y amenaza",
+    "explanation": "La Teoría X se basa en una concepción pesimista del ser humano, lo que justifica estilos de liderazgo autoritarios y sistemas de control externos rígidos. (Fuente: 5_7_unidad_psico_med_c_s.pdf).",
     "source_file": "5_7_unidad_psico_med_c_s.pdf",
     "page": 10
   },
   {
     "topic": "Unidad 7: Motivaciones del trabajador",
-    "question": "Según el estudio del CEF (Ángel Fernández), ¿cuál es el factor que marca más diferencias entre los colectivos laborales?",
+    "question": "Según el estudio del CEF (Ángel Fernández), ¿cuál es la variable sociodemográfica que marca más diferencias en las motivaciones laborales?",
     "options": [
-      "A) El género (hombre/mujer)",
+      "A) El género",
       "B) La edad",
       "C) El grupo profesional (puesto ocupado)",
-      "D) El tamaño de la ciudad"
+      "D) El tamaño de la población de residencia"
     ],
     "answer": "C) El grupo profesional (puesto ocupado)",
-    "explanation": "El estudio concluye que a distintos grupos profesionales les motivan hechos distintos (en 18 de las 35 motivaciones evaluadas). (Fuente: Las_10_motivaciones_de_los_trabajadores.pdf).",
+    "explanation": "El estudio evidencia que las prioridades motivacionales varían significativamente según la categoría profesional (directivos, técnicos, administrativos), más que por edad o género. (Fuente: Las_10_motivaciones_de_los_trabajadores.pdf).",
     "source_file": "Las_10_motivaciones_de_los_trabajadores.pdf",
     "page": 2
   },
   {
     "topic": "Unidad 7: Poder y Autoridad",
-    "question": "¿Qué diferencia existe entre el Poder y la Autoridad en un mando intermedio?",
+    "question": "¿Qué distinción fundamental existe entre Poder y Autoridad en el contexto organizacional?",
     "options": [
-      "A) Son sinónimos",
-      "B) El Poder es la facultad de imponer la voluntad; la Autoridad es el prestigio reconocido por los demás",
-      "C) La Autoridad solo se tiene si se tiene Poder",
-      "D) El Poder nace del respeto y la Autoridad del miedo"
+      "A) Son términos intercambiables",
+      "B) El Poder es la capacidad formal de imponer la voluntad, mientras que la Autoridad es el derecho legítimo y el prestigio reconocido por los subordinados",
+      "C) La Autoridad precede siempre al Poder",
+      "D) El Poder nace del carisma y la Autoridad de la jerarquía"
     ],
-    "answer": "B) El Poder es la facultad de imponer la voluntad; la Autoridad es el prestigio reconocido por los demás",
-    "explanation": "Un mando puede tener poder (jerarquía) pero no autoridad (respeto). Para la prevención, es vital tener autoridad para que las normas se sigan por convicción. (Fuente: 5_7_unidad_psico_med_c_s.pdf).",
+    "answer": "B) El Poder es la capacidad formal de imponer la voluntad, mientras que la Autoridad es el derecho legítimo y el prestigio reconocido por los subordinados",
+    "explanation": "El poder lo otorga el cargo (potestas), pero la autoridad (auctoritas) se gana mediante el reconocimiento moral y técnico del líder por parte del grupo. (Fuente: 5_7_unidad_psico_med_c_s.pdf).",
     "source_file": "5_7_unidad_psico_med_c_s.pdf",
     "page": 4
   },
   {
     "topic": "Unidad 7: Comunicación del Líder",
-    "question": "¿Por qué se dice que el lenguaje no verbal del mando es más influyente que el verbal?",
+    "question": "¿Por qué el comportamiento no verbal del mando es crítico en cultura de seguridad?",
     "options": [
-      "A) Porque es más difícil de entender",
-      "B) Porque un mal ejemplo (no usar casco) destruye automáticamente un buen discurso de seguridad",
-      "C) Porque no requiere hablar",
-      "D) Solo influye en trabajadores con poca formación"
+      "A) Porque es difícil de interpretar",
+      "B) Porque la incoherencia entre el discurso (decir) y el ejemplo (hacer) invalida cualquier mensaje preventivo",
+      "C) Porque no requiere esfuerzo cognitivo",
+      "D) Solo influye en trabajadores noveles"
     ],
-    "answer": "B) Porque un mal ejemplo (no usar casco) destruye automáticamente un buen discurso de seguridad",
-    "explanation": "El ejemplo es la expresión del lenguaje no verbal. La coherencia entre lo que se dice y lo que se hace es la base del liderazgo en prevención. (Fuente: 5_11_unidad_psico_med_c_s.pdf).",
+    "answer": "B) Porque la incoherencia entre el discurso (decir) y el ejemplo (hacer) invalida cualquier mensaje preventivo",
+    "explanation": "El liderazgo en prevención se basa en la ejemplaridad. Si el líder incumple una norma, transmite el mensaje implícito de que la seguridad es secundaria. (Fuente: 5_11_unidad_psico_med_c_s.pdf).",
     "source_file": "5_11_unidad_psico_med_c_s.pdf",
     "page": 5
   },
   {
     "topic": "Unidad 7: Motivación Española",
-    "question": "¿En qué motivador existe la mayor diferencia entre los encuestados españoles y los de otros países según el estudio del CEF?",
+    "question": "¿Qué factor motivacional destaca en España con una diferencia significativa respecto a otros países según el estudio del CEF?",
     "options": [
-      "A) En el salario",
-      "B) En el hecho de tener un contrato indefinido",
-      "C) En el horario flexible",
-      "D) En la cercanía al domicilio"
+      "A) El nivel salarial",
+      "B) La seguridad contractual (tener un contrato indefinido)",
+      "C) La flexibilidad horaria",
+      "D) La cercanía al lugar de trabajo"
     ],
-    "answer": "B) En el hecho de tener un contrato indefinido",
-    "explanation": "En España el 35% lo marca como motivador frente al 18% en otros países, reflejando la importancia de la seguridad en el empleo. (Fuente: Las_10_motivaciones_de_los_trabajadores.pdf).",
+    "answer": "B) La seguridad contractual (tener un contrato indefinido)",
+    "explanation": "Reflejando características culturales y del mercado laboral, el 35% de los españoles valora la estabilidad contractual como motivador clave, frente al 18% internacional. (Fuente: Las_10_motivaciones_de_los_trabajadores.pdf).",
     "source_file": "Las_10_motivaciones_de_los_trabajadores.pdf",
     "page": 2
+  },
+  {
+    "topic": "Unidad 7: Estilos de Liderazgo (Lewin)",
+    "question": "¿Qué caracteriza al estilo de liderazgo 'Laissez-faire' (Dejar hacer)?",
+    "options": [
+      "A) Control absoluto del líder",
+      "B) El líder renuncia al control y cede toda la responsabilidad de decisión al grupo, interviniendo solo si se le pide",
+      "C) El líder consulta antes de decidir",
+      "D) Alta orientación a la tarea"
+    ],
+    "answer": "B) El líder renuncia al control y cede toda la responsabilidad de decisión al grupo, interviniendo solo si se le pide",
+    "explanation": "Este estilo puede ser efectivo con equipos de expertos altamente cualificados, pero suele generar caos y baja productividad en grupos con poca autonomía. (Fuente: 5_7_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_7_unidad_psico_med_c_s.pdf",
+    "page": 6
+  },
+  {
+    "topic": "Unidad 7: Bases del Poder (French y Raven)",
+    "question": "¿En qué se basa el 'Poder de Referencia'?",
+    "options": [
+      "A) En la capacidad de castigar",
+      "B) En la identificación de los subordinados con el líder y su deseo de imitarle (carisma)",
+      "C) En el conocimiento técnico",
+      "D) En el puesto jerárquico"
+    ],
+    "answer": "B) En la identificación de los subordinados con el líder y su deseo de imitarle (carisma)",
+    "explanation": "Es un poder que emana de las características personales del líder (admiración, lealtad) y no de la estructura formal de la organización. (Fuente: 5_7_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_7_unidad_psico_med_c_s.pdf",
+    "page": 5
+  },
+  {
+    "topic": "Unidad 7: Grid Gerencial (9.9)",
+    "question": "¿Qué representa el estilo 9.9 'Dirección de Equipo' en la rejilla de Blake y Mouton?",
+    "options": [
+      "A) Máximo interés por la producción y mínimo por las personas",
+      "B) Máximo interés tanto por la producción como por las personas",
+      "C) Mínimo interés por ambos factores",
+      "D) Un compromiso medio (5.5)"
+    ],
+    "answer": "B) Máximo interés tanto por la producción como por las personas",
+    "explanation": "Se considera el estilo óptimo o ideal, donde la consecución de objetivos se logra a través del compromiso y la interdependencia de un equipo motivado. (Fuente: 5_7_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_7_unidad_psico_med_c_s.pdf",
+    "page": 9
+  },
+  {
+    "topic": "Unidad 7: Teoría de la Contingencia (Fiedler)",
+    "question": "Según Fiedler, ¿de qué depende la eficacia del liderazgo?",
+    "options": [
+      "A) Exclusivamente de la personalidad del líder",
+      "B) De la interacción entre el estilo del líder y el grado en que la situación le es favorable (control situacional)",
+      "C) De la inteligencia de los empleados",
+      "D) Del presupuesto disponible"
+    ],
+    "answer": "B) De la interacción entre el estilo del líder y el grado en que la situación le es favorable (control situacional)",
+    "explanation": "No existe un líder ideal universal; la eficacia depende del ajuste entre el estilo (orientado a tarea vs relaciones) y el contexto específico. (Fuente: 5_7_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_7_unidad_psico_med_c_s.pdf",
+    "page": 11
+  },
+  {
+    "topic": "Unidad 7: Poder Experto",
+    "question": "Cuando un técnico de prevención es obedecido no por ser jefe, sino porque los trabajadores confían en su conocimiento técnico, ¿qué tipo de poder ejerce?",
+    "options": [
+      "A) Poder Coercitivo",
+      "B) Poder Legítimo",
+      "C) Poder de Experto",
+      "D) Poder de Recompensa"
+    ],
+    "answer": "C) Poder de Experto",
+    "explanation": "Este poder se basa en la percepción de que el líder posee habilidades o conocimientos superiores en un área específica, generando confianza. (Fuente: 5_7_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_7_unidad_psico_med_c_s.pdf",
+    "page": 5
+  },
+  {
+    "topic": "Unidad 7: Liderazgo Democrático",
+    "question": "¿Cuál es una ventaja principal del estilo de liderazgo democrático o participativo?",
+    "options": [
+      "A) Es el más rápido para tomar decisiones en crisis",
+      "B) Aumenta la calidad de las decisiones y el compromiso del grupo con su implementación",
+      "C) Elimina la responsabilidad del líder",
+      "D) Reduce la interacción social"
+    ],
+    "answer": "B) Aumenta la calidad de las decisiones y el compromiso del grupo con su implementación",
+    "explanation": "Al involucrar a los miembros en la toma de decisiones, se reduce la resistencia al cambio y se incrementa la motivación intrínseca. (Fuente: 5_7_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_7_unidad_psico_med_c_s.pdf",
+    "page": 7
+  },
+  {
+    "topic": "Unidad 7: Madurez del Grupo (Hersey)",
+    "question": "En el modelo de Liderazgo Situacional, ¿qué significa 'Madurez M4'?",
+    "options": [
+      "A) El empleado es mayor de edad",
+      "B) Alta competencia y alta motivación/compromiso",
+      "C) Baja competencia y baja motivación",
+      "D) Alta competencia pero baja motivación"
+    ],
+    "answer": "B) Alta competencia y alta motivación/compromiso",
+    "explanation": "Es el nivel máximo de desarrollo. El colaborador es capaz y quiere realizar la tarea, permitiendo al líder un estilo de Delegación (E4). (Fuente: 5_7_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_7_unidad_psico_med_c_s.pdf",
+    "page": 13
+  },
+  {
+    "topic": "Unidad 7: Estilo 1.9 (Club Social)",
+    "question": "En el Grid de Blake y Mouton, el estilo 1.9 (alto interés en personas, bajo en producción) se asocia con:",
+    "options": [
+      "A) Un ambiente de trabajo cómodo y amistoso, pero con bajo ritmo de producción",
+      "B) Un ambiente hostil",
+      "C) La máxima eficiencia",
+      "D) La gestión autoritaria"
+    ],
+    "answer": "A) Un ambiente de trabajo cómodo y amistoso, pero con bajo ritmo de producción",
+    "explanation": "Se priorizan las relaciones humanas y el clima laboral por encima de los objetivos de la empresa, lo que puede llevar a una complacencia ineficaz. (Fuente: 5_7_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_7_unidad_psico_med_c_s.pdf",
+    "page": 9
+  },
+  {
+    "topic": "Unidad 7: Delegación",
+    "question": "¿Qué condición es indispensable para delegar eficazmente una tarea de prevención?",
+    "options": [
+      "A) Que la tarea sea aburrida",
+      "B) Transferir la responsabilidad de la ejecución, pero manteniendo la responsabilidad final sobre los resultados",
+      "C) Desentenderse completamente del tema",
+      "D) Delegar solo en becarios"
+    ],
+    "answer": "B) Transferir la responsabilidad de la ejecución, pero manteniendo la responsabilidad final sobre los resultados",
+    "explanation": "La delegación implica otorgar autoridad para actuar, pero el líder retiene la 'accountability' (rendición de cuentas) final. (Fuente: 5_7_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_7_unidad_psico_med_c_s.pdf",
+    "page": 14
+  },
+  {
+    "topic": "Unidad 7: Motivación y Edad",
+    "question": "Según el estudio del CEF, ¿qué factor motivacional gana importancia con la edad?",
+    "options": [
+      "A) La formación continua",
+      "B) La seguridad y estabilidad en el empleo",
+      "C) La promoción rápida",
+      "D) Los viajes de empresa"
+    ],
+    "answer": "B) La seguridad y estabilidad en el empleo",
+    "explanation": "A medida que aumenta la edad y las responsabilidades familiares, la estabilidad se vuelve prioritaria frente a factores como el desarrollo o la promoción. (Fuente: Las_10_motivaciones_de_los_trabajadores.pdf).",
+    "source_file": "Las_10_motivaciones_de_los_trabajadores.pdf",
+    "page": 3
+  },
+  {
+    "topic": "Unidad 7: Poder Coercitivo",
+    "question": "¿Qué efecto a largo plazo suele tener el uso exclusivo del Poder Coercitivo (castigo)?",
+    "options": [
+      "A) Genera lealtad y compromiso",
+      "B) Provoca resistencia, hostilidad y cumplimiento mínimo de la norma",
+      "C) Fomenta la creatividad",
+      "D) Es el sistema más eficiente"
+    ],
+    "answer": "B) Provoca resistencia, hostilidad y cumplimiento mínimo de la norma",
+    "explanation": "El miedo al castigo solo asegura la obediencia mientras existe vigilancia; cuando esta desaparece, la conducta insegura reaparece. (Fuente: 5_7_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_7_unidad_psico_med_c_s.pdf",
+    "page": 5
+  },
+  {
+    "topic": "Unidad 7: Liderazgo Transaccional",
+    "question": "¿En qué se basa el Liderazgo Transaccional?",
+    "options": [
+      "A) En la inspiración y el carisma",
+      "B) En un intercambio de recompensas por desempeño (cumplimiento de objetivos)",
+      "C) En no hacer nada",
+      "D) En la amistad"
+    ],
+    "answer": "B) En un intercambio de recompensas por desempeño (cumplimiento de objetivos)",
+    "explanation": "El líder establece metas claras y promete premios a cambio de su cumplimiento, gestionando por excepción (interviniendo solo ante desviaciones). (Fuente: 5_7_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_7_unidad_psico_med_c_s.pdf",
+    "page": 16
+  },
+  {
+    "topic": "Unidad 7: Motivación de Logro",
+    "question": "Según McClelland, ¿qué busca una persona con alta 'Necesidad de Logro'?",
+    "options": [
+      "A) Tener muchos amigos",
+      "B) Controlar a los demás",
+      "C) Superar retos difíciles y asumir responsabilidades personales por el éxito",
+      "D) Evitar riesgos a toda costa"
+    ],
+    "answer": "C) Superar retos difíciles y asumir responsabilidades personales por el éxito",
+    "explanation": "Estas personas se motivan ante desafíos que les permiten poner a prueba sus habilidades y recibir feedback directo sobre su desempeño. (Fuente: 5_7_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_7_unidad_psico_med_c_s.pdf",
+    "page": 19
+  },
+  {
+    "topic": "Unidad 7: Liderazgo Transformacional",
+    "question": "¿Qué diferencia al Liderazgo Transformacional del Transaccional?",
+    "options": [
+      "A) El Transformacional paga mejor",
+      "B) El Transformacional inspira a los seguidores a trascender sus intereses personales por el bien del equipo",
+      "C) El Transformacional es más autoritario",
+      "D) No hay diferencia"
+    ],
+    "answer": "B) El Transformacional inspira a los seguidores a trascender sus intereses personales por el bien del equipo",
+    "explanation": "Utiliza el carisma, la estimulación intelectual y la consideración individualizada para generar cambios profundos en la motivación y valores de los empleados. (Fuente: 5_7_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_7_unidad_psico_med_c_s.pdf",
+    "page": 17
   }
 ]

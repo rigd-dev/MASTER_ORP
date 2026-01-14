@@ -1,57 +1,57 @@
 [
   {
     "topic": "Unidad 9: Definición de Estrés",
-    "question": "Según Hans Selye, el estrés es una respuesta 'inespecífica' del organismo. ¿Qué significa esto?",
+    "question": "Según Hans Selye, el estrés es una respuesta 'inespecífica' del organismo. ¿Qué implica este concepto?",
     "options": [
-      "A) Que solo ocurre ante problemas graves",
-      "B) Que la respuesta fisiológica es la misma (activación) independientemente del tipo de estresor",
-      "C) Que no se puede medir médicamente",
-      "D) Que el cuerpo no sabe cómo reaccionar"
+      "A) Que solo ocurre ante problemas graves e identificables",
+      "B) Que la respuesta fisiológica de activación (SGA) es biológicamente similar independientemente de la naturaleza del estresor",
+      "C) Que no se puede cuantificar clínicamente",
+      "D) Que el cuerpo reacciona de forma aleatoria e impredecible"
     ],
-    "answer": "B) Que la respuesta fisiológica es la misma (activación) independientemente del tipo de estresor",
-    "explanation": "Ya sea un robo o un exceso de trabajo, el cuerpo libera las mismas hormonas (cortisol, adrenalina). Lo que cambia es la intensidad y la duración. (Fuente: 5_9_unidad_psico_med_c_s.pdf).",
+    "answer": "B) Que la respuesta fisiológica de activación (SGA) es biológicamente similar independientemente de la naturaleza del estresor",
+    "explanation": "El organismo activa el mismo mecanismo neuroendocrino (ejes simpático-adrenal e hipotalámico-hipofisario) ante cualquier demanda que rompa la homeostasis, sea física o emocional. (Fuente: 5_9_unidad_psico_med_c_s.pdf).",
     "source_file": "5_9_unidad_psico_med_c_s.pdf",
     "page": 3
   },
   {
     "topic": "Unidad 9: Fases del SGA",
-    "question": "¿Cuál es la fase del Síndrome General de Adaptación donde el organismo intenta 'reparar' los daños de la fase de alarma y volver al equilibrio?",
+    "question": "¿Qué caracteriza a la 'Fase de Resistencia' en el Síndrome General de Adaptación?",
     "options": [
-      "A) Fase de Agotamiento",
-      "B) Fase de Resistencia",
-      "C) Fase de Choque",
-      "D) Fase de Recuperación Final"
+      "A) El colapso inmediato de los órganos",
+      "B) El intento del organismo de adaptarse al estresor mantenido, tratando de recuperar el equilibrio homeostático",
+      "C) La reacción inicial de sorpresa y alarma",
+      "D) La aparición inmediata de patologías crónicas"
     ],
-    "answer": "B) Fase de Resistencia",
-    "explanation": "En esta fase, el cuerpo resiste el estresor. Si el estresor se mantiene demasiado tiempo, se pasa inevitablemente a la fase de Agotamiento, donde aparecen las enfermedades. (Fuente: 5_9_unidad_psico_med_c_s.pdf).",
+    "answer": "B) El intento del organismo de adaptarse al estresor mantenido, tratando de recuperar el equilibrio homeostático",
+    "explanation": "Si la alarma persiste, el cuerpo entra en resistencia para mantener el funcionamiento. Si esta fase se prolonga sin recuperación, sobreviene inevitablemente el agotamiento. (Fuente: 5_9_unidad_psico_med_c_s.pdf).",
     "source_file": "5_9_unidad_psico_med_c_s.pdf",
     "page": 4
   },
   {
     "topic": "Unidad 9: Eustrés vs Distrés",
-    "question": "¿Qué diferencia al Eustrés del Distrés?",
+    "question": "Desde la perspectiva preventiva, ¿cómo se diferencia conceptualmente el Eustrés del Distrés?",
     "options": [
-      "A) El Eustrés es el estrés 'bueno' (estimulante y necesario) y el Distrés es el 'malo' (crónico y dañino)",
-      "B) El Eustrés solo lo sufren los jefes",
-      "C) El Distrés es necesario para la supervivencia",
-      "D) Son exactamente lo mismo bajo diferentes nombres"
+      "A) El Eustrés facilita la adaptación y el rendimiento; el Distrés es patológico y supera la capacidad de respuesta",
+      "B) El Eustrés afecta solo a directivos",
+      "C) El Distrés es necesario para la supervivencia inmediata",
+      "D) Son términos sinónimos sin diferencia clínica"
     ],
-    "answer": "A) El Eustrés es el estrés 'bueno' (estimulante y necesario) y el Distrés es el 'malo' (crónico y dañino)",
-    "explanation": "El Eustrés nos mantiene alerta y productivos. El problema es el Distrés, que es cuando el nivel de activación supera nuestra capacidad de respuesta y nos enferma. (Fuente: 5_9_unidad_psico_med_c_s.pdf).",
+    "answer": "A) El Eustrés facilita la adaptación y el rendimiento; el Distrés es patológico y supera la capacidad de respuesta",
+    "explanation": "El Eustrés se asocia a un nivel de activación óptimo para la tarea. El Distrés surge cuando las demandas son excesivas o crónicas, provocando disfunción y enfermedad. (Fuente: 5_9_unidad_psico_med_c_s.pdf).",
     "source_file": "5_9_unidad_psico_med_c_s.pdf",
     "page": 2
   },
   {
     "topic": "Unidad 9: Síndrome de Burnout",
-    "question": "De acuerdo con el modelo de Maslach, ¿cuáles son las tres dimensiones que definen el Síndrome de Quemado por el trabajo (Burnout)?",
+    "question": "Según el modelo tridimensional de Maslach y Jackson, ¿cuáles son los componentes del Burnout?",
     "options": [
-      "A) Cansancio, Sueño e Irritabilidad",
-      "B) Agotamiento emocional, Despersonalización y Baja realización personal",
-      "C) Dolor de cabeza, Falta de apetito y Mareos",
-      "D) Mal salario, Mal jefe y Malas instalaciones"
+      "A) Fatiga física, dolor muscular y sueño",
+      "B) Agotamiento emocional, Despersonalización (Cinismo) y Baja realización personal",
+      "C) Ansiedad, depresión y pánico",
+      "D) Conflictividad, absentismo y rotación"
     ],
-    "answer": "B) Agotamiento emocional, Despersonalización y Baja realización personal",
-    "explanation": "Esta es LA definición de Burnout. Si no hay despersonalización (tratar a la gente como objetos), probablemente sea estrés común, no Burnout. (Fuente: 5_9_unidad_psico_med_c_s.pdf).",
+    "answer": "B) Agotamiento emocional, Despersonalización (Cinismo) y Baja realización personal",
+    "explanation": "Estas tres dimensiones configuran el cuadro clínico específico del Burnout, diferenciándolo del estrés laboral común o la fatiga simple. (Fuente: 5_9_unidad_psico_med_c_s.pdf).",
     "source_file": "5_9_unidad_psico_med_c_s.pdf",
     "page": 6
   },
@@ -65,36 +65,246 @@
       "D) Alta demanda y Alto control"
     ],
     "answer": "B) Baja demanda y Bajo control",
-    "explanation": "Los trabajos pasivos (como un guarda de seguridad que solo mira una pantalla sin hacer nada) generan atrofia de habilidades y falta de motivación. (Fuente: CLASE 9-10-11.pdf).",
+    "explanation": "Los trabajos pasivos se asocian con una disminución de la capacidad de resolución de problemas y una atrofia de las habilidades por falta de uso (desmotivación). (Fuente: CLASE 9-10-11.pdf).",
     "source_file": "CLASE 9-10-11.pdf",
     "page": 15
   },
   {
     "topic": "Unidad 9: Modelo de Siegrist",
-    "question": "¿Cuál es la premisa principal del modelo 'Esfuerzo-Recompensa' de Siegrist?",
+    "question": "¿Cuál es la hipótesis central del modelo 'Esfuerzo-Recompensa' (ERI) de Siegrist?",
     "options": [
-      "A) Que el estrés aparece cuando el salario es muy bajo",
-      "B) Que el estrés surge del desequilibrio entre un alto esfuerzo y una baja recompensa (dinero, estima o estabilidad)",
-      "C) Que esforzarse mucho siempre es bueno para la salud",
-      "D) Que la recompensa solo debe ser económica"
+      "A) El estrés depende únicamente de la carga física",
+      "B) El estrés deriva de la falta de reciprocidad entre el alto esfuerzo invertido y las bajas recompensas recibidas",
+      "C) El salario es el único motivador",
+      "D) El control sobre la tarea no es relevante"
     ],
-    "answer": "B) Que el estrés surge del desequilibrio entre un alto esfuerzo y una baja recompensa (dinero, estima o estabilidad)",
-    "explanation": "Si el trabajador siente que da mucho y recibe poco a cambio (no solo dinero, sino también respeto o seguridad), su salud cardiovascular se resiente. (Fuente: CLASE 9-10-11.pdf).",
+    "answer": "B) El estrés deriva de la falta de reciprocidad entre el alto esfuerzo invertido y las bajas recompensas recibidas",
+    "explanation": "La recompensa no es solo económica, sino que incluye estima, respeto, seguridad laboral y oportunidades de promoción. El desequilibrio predice riesgo cardiovascular. (Fuente: CLASE 9-10-11.pdf).",
     "source_file": "CLASE 9-10-11.pdf",
     "page": 17
   },
   {
-    "topic": "Unidad 9: Consecuencias del Estrés",
-    "question": "¿Qué síntoma cognitivo es típico de un trabajador bajo estrés crónico?",
+    "topic": "Unidad 9: Consecuencias Cognitivas",
+    "question": "¿Qué efecto cognitivo es característico del estrés laboral crónico?",
     "options": [
-      "A) Mejora de la memoria a corto plazo",
-      "B) Dificultad para tomar decisiones y pérdida de capacidad de concentración",
-      "C) Aumento de la creatividad",
-      "D) Mayor rapidez en el procesamiento de datos"
+      "A) Incremento de la memoria a largo plazo",
+      "B) Deterioro de las funciones ejecutivas: dificultad para la toma de decisiones y déficit de atención",
+      "C) Aumento de la creatividad y la innovación",
+      "D) Mayor velocidad de procesamiento de datos"
     ],
-    "answer": "B) Dificultad para tomar decisiones y pérdida de capacidad de concentración",
-    "explanation": "El estrés 'bloquea' la corteza prefrontal. Por eso, un trabajador estresado es un peligro: comete más errores y no sabe reaccionar ante imprevistos. (Fuente: 5_9_unidad_psico_med_c_s.pdf).",
+    "answer": "B) Deterioro de las funciones ejecutivas: dificultad para la toma de decisiones y déficit de atención",
+    "explanation": "La saturación por estrés afecta negativamente a la corteza prefrontal, aumentando la tasa de errores y la incapacidad para gestionar imprevistos. (Fuente: 5_9_unidad_psico_med_c_s.pdf).",
     "source_file": "5_9_unidad_psico_med_c_s.pdf",
     "page": 8
+  },
+  {
+    "topic": "Unidad 9: Estrategias de Afrontamiento",
+    "question": "¿En qué consiste el 'Afrontamiento centrado en el problema'?",
+    "options": [
+      "A) En negar la existencia del estrés",
+      "B) En realizar acciones directas para alterar o eliminar la fuente de estrés (ej. planificar, buscar información)",
+      "C) En regular la respuesta emocional (ej. relajación, desahogo)",
+      "D) En tomar medicación"
+    ],
+    "answer": "B) En realizar acciones directas para alterar o eliminar la fuente de estrés (ej. planificar, buscar información)",
+    "explanation": "Es la estrategia más efectiva a largo plazo cuando la situación es modificable, ya que ataca la causa raíz del estresor. (Fuente: 5_9_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_9_unidad_psico_med_c_s.pdf",
+    "page": 11
+  },
+  {
+    "topic": "Unidad 9: Afrontamiento Emocional",
+    "question": "¿Cuándo es más útil el 'Afrontamiento centrado en la emoción'?",
+    "options": [
+      "A) Siempre",
+      "B) Cuando la situación estresante es incontrolable o inevitable (ej. duelo, despido irreversible)",
+      "C) Cuando hay que cumplir un plazo de entrega",
+      "D) Nunca, siempre es mejor actuar"
+    ],
+    "answer": "B) Cuando la situación estresante es incontrolable o inevitable (ej. duelo, despido irreversible)",
+    "explanation": "Cuando no se puede cambiar la realidad, la estrategia adaptativa es gestionar el impacto emocional que esta produce en el individuo. (Fuente: 5_9_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_9_unidad_psico_med_c_s.pdf",
+    "page": 11
+  },
+  {
+    "topic": "Unidad 9: Personalidad Tipo A",
+    "question": "¿Qué patrón de conducta se asocia con el 'Patrón de Personalidad Tipo A'?",
+    "options": [
+      "A) Relajación y paciencia",
+      "B) Competitividad, impaciencia, hostilidad y urgencia temporal",
+      "C) Sumisión y pasividad",
+      "D) Introversión y análisis"
+    ],
+    "answer": "B) Competitividad, impaciencia, hostilidad y urgencia temporal",
+    "explanation": "Este patrón es un factor de vulnerabilidad individual importante, estando fuertemente correlacionado con un mayor riesgo de enfermedades coronarias. (Fuente: 5_9_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_9_unidad_psico_med_c_s.pdf",
+    "page": 9
+  },
+  {
+    "topic": "Unidad 9: Locus de Control",
+    "question": "¿Qué implica tener un 'Locus de Control Externo' frente al estrés?",
+    "options": [
+      "A) Creer que uno tiene capacidad para influir en los resultados",
+      "B) Percibir que los eventos dependen de la suerte, el destino u otros poderosos, sintiéndose indefenso",
+      "C) Controlar a los demás",
+      "D) Ser muy ordenado"
+    ],
+    "answer": "B) Percibir que los eventos dependen de la suerte, el destino u otros poderosos, sintiéndose indefenso",
+    "explanation": "El locus externo predispone a una mayor ansiedad y pasividad (indefensión aprendida) al sentir que no se puede hacer nada para cambiar la situación. (Fuente: 5_3_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_3_unidad_psico_med_c_s.pdf",
+    "page": 7
+  },
+  {
+    "topic": "Unidad 9: Niveles de Intervención",
+    "question": "¿Cuál es una medida de 'Intervención Primaria' frente al estrés laboral?",
+    "options": [
+      "A) Enseñar técnicas de relajación al trabajador",
+      "B) Rediseñar el puesto de trabajo y la organización para eliminar o reducir los factores de riesgo",
+      "C) Ofrecer terapia psicológica a los afectados",
+      "D) El tratamiento farmacológico"
+    ],
+    "answer": "B) Rediseñar el puesto de trabajo y la organización para eliminar o reducir los factores de riesgo",
+    "explanation": "La intervención primaria es la única verdaderamente preventiva, ya que actúa sobre la fuente del problema (la organización) y no sobre el individuo. (Fuente: 5_9_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_9_unidad_psico_med_c_s.pdf",
+    "page": 14
+  },
+  {
+    "topic": "Unidad 9: Intervención Secundaria",
+    "question": "¿Qué objetivo tiene la 'Intervención Secundaria'?",
+    "options": [
+      "A) Eliminar el riesgo de origen",
+      "B) Dotar al trabajador de recursos y habilidades para afrontar mejor el estrés (ej. formación, gestión del tiempo)",
+      "C) Curar la enfermedad",
+      "D) Indemnizar al trabajador"
+    ],
+    "answer": "B) Dotar al trabajador de recursos y habilidades para afrontar mejor el estrés (ej. formación, gestión del tiempo)",
+    "explanation": "Busca modificar la respuesta del individuo ante los estresores que no se han podido eliminar, aumentando su resistencia. (Fuente: 5_9_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_9_unidad_psico_med_c_s.pdf",
+    "page": 14
+  },
+  {
+    "topic": "Unidad 9: Despersonalización",
+    "question": "Dentro del Burnout, ¿cómo se manifiesta la 'Despersonalización'?",
+    "options": [
+      "A) Como pérdida de memoria",
+      "B) Como una actitud cínica, distante y fría hacia los usuarios, clientes o pacientes (cosificación)",
+      "C) Como un sentimiento de fracaso profesional",
+      "D) Como un dolor físico intenso"
+    ],
+    "answer": "B) Como una actitud cínica, distante y fría hacia los usuarios, clientes o pacientes (cosificación)",
+    "explanation": "Es un mecanismo de defensa disfuncional para protegerse del agotamiento emocional, tratando a las personas como objetos burocráticos. (Fuente: 5_9_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_9_unidad_psico_med_c_s.pdf",
+    "page": 6
+  },
+  {
+    "topic": "Unidad 9: Modelo de Karasek (Activo)",
+    "question": "¿Qué caracteriza a un trabajo 'Activo' (High Strain) según Karasek?",
+    "options": [
+      "A) Baja demanda y Bajo control",
+      "B) Alta demanda y Alto control",
+      "C) Alta demanda y Bajo control",
+      "D) Baja demanda y Alto control"
+    ],
+    "answer": "B) Alta demanda y Alto control",
+    "explanation": "Es la situación ideal de aprendizaje y motivación. Aunque la exigencia es alta, el trabajador tiene autonomía para decidir cómo afrontarla. (Fuente: CLASE 9-10-11.pdf).",
+    "source_file": "CLASE 9-10-11.pdf",
+    "page": 15
+  },
+  {
+    "topic": "Unidad 9: Workaholism",
+    "question": "¿Qué define la adicción al trabajo (Workaholism)?",
+    "options": [
+      "A) Trabajar muchas horas por necesidad económica",
+      "B) Una necesidad interna compulsiva de trabajar excesivamente, acompañada de pensamientos recurrentes sobre el trabajo fuera de horario",
+      "C) Disfrutar mucho del trabajo",
+      "D) Tener dos empleos"
+    ],
+    "answer": "B) Una necesidad interna compulsiva de trabajar excesivamente, acompañada de pensamientos recurrentes sobre el trabajo fuera de horario",
+    "explanation": "A diferencia del trabajador comprometido, el adicto al trabajo no disfruta necesariamente, sino que trabaja para aliviar sentimientos de culpa o ansiedad. (Fuente: 5_9_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_9_unidad_psico_med_c_s.pdf",
+    "page": 16
+  },
+  {
+    "topic": "Unidad 9: Rol del Apoyo Social",
+    "question": "¿Qué es el 'Efecto Buffer' o Amortiguador del apoyo social?",
+    "options": [
+      "A) Que el apoyo social elimina el trabajo",
+      "B) Que la presencia de apoyo social atenúa la relación entre los estresores laborales y sus consecuencias negativas sobre la salud",
+      "C) Que los compañeros hacen tu trabajo",
+      "D) Que el jefe te invita a café"
+    ],
+    "answer": "B) Que la presencia de apoyo social atenúa la relación entre los estresores laborales y sus consecuencias negativas sobre la salud",
+    "explanation": "El apoyo instrumental y emocional de compañeros y supervisores es uno de los factores de protección más potentes contra el estrés. (Fuente: 5_11_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_11_unidad_psico_med_c_s.pdf",
+    "page": 7
+  },
+  {
+    "topic": "Unidad 9: Mobbing - Definición",
+    "question": "¿Qué elemento es indispensable para calificar una situación como Acoso Psicológico (Mobbing)?",
+    "options": [
+      "A) Un conflicto puntual o discusión fuerte",
+      "B) La sistematicidad, repetición y prolongación en el tiempo de conductas hostiles hacia una persona o grupo",
+      "C) Que el agresor sea el jefe (Bossing)",
+      "D) Que haya violencia física"
+    ],
+    "answer": "B) La sistematicidad, repetición y prolongación en el tiempo de conductas hostiles hacia una persona o grupo",
+    "explanation": "El mobbing no es un hecho aislado, sino un proceso de demolición psicológica continuado (al menos una vez por semana durante 6 meses, según Leymann). (Fuente: 5_9_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_9_unidad_psico_med_c_s.pdf",
+    "page": 18
+  },
+  {
+    "topic": "Unidad 9: Estrés de Rol",
+    "question": "¿Qué es el 'Conflicto de Rol'?",
+    "options": [
+      "A) No saber qué hacer",
+      "B) Cuando el trabajador recibe demandas incompatibles o incongruentes (ej. 'hazlo rápido pero con máxima calidad sin recursos')",
+      "C) Pelearse con un compañero",
+      "D) Tener demasiado trabajo"
+    ],
+    "answer": "B) Cuando el trabajador recibe demandas incompatibles o incongruentes (ej. 'hazlo rápido pero con máxima calidad sin recursos')",
+    "explanation": "Ocurre cuando el sujeto se ve atrapado entre expectativas lógicas contrapuestas, generando alta tensión psicológica. (Fuente: 5_1_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_1_unidad_psico_med_c_s.pdf",
+    "page": 14
+  },
+  {
+    "topic": "Unidad 9: Trastornos Psicosomáticos",
+    "question": "¿Cuál es un trastorno psicofisiológico típicamente asociado al estrés laboral?",
+    "options": [
+      "A) Fractura ósea",
+      "B) Trastornos gastrointestinales (úlceras, colon irritable) y cardiovasculares (hipertensión)",
+      "C) Miopía",
+      "D) Gripe común"
+    ],
+    "answer": "B) Trastornos gastrointestinales (úlceras, colon irritable) y cardiovasculares (hipertensión)",
+    "explanation": "La activación crónica del sistema nervioso autónomo altera la función de los órganos diana, convirtiendo la tensión psíquica en daño físico. (Fuente: 5_9_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_9_unidad_psico_med_c_s.pdf",
+    "page": 7
+  },
+  {
+    "topic": "Unidad 9: Burnout vs Depresión",
+    "question": "¿Cuál es una diferencia clave entre Burnout y Depresión?",
+    "options": [
+      "A) No hay diferencia",
+      "B) El Burnout es específico del contexto laboral, mientras que la depresión es generalizada a todas las facetas de la vida",
+      "C) El Burnout se cura con vacaciones",
+      "D) La depresión siempre es genética"
+    ],
+    "answer": "B) El Burnout es específico del contexto laboral, mientras que la depresión es generalizada a todas las facetas de la vida",
+    "explanation": "Aunque los síntomas se solapan en fases avanzadas, el origen y el foco del Burnout están estrictamente vinculados a la relación con el trabajo. (Fuente: 5_9_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_9_unidad_psico_med_c_s.pdf",
+    "page": 6
+  },
+  {
+    "topic": "Unidad 9: Karasek (Alta Tensión)",
+    "question": "En el modelo de Karasek, ¿cuál es el cuadrante de mayor riesgo para la salud (Alta Tensión)?",
+    "options": [
+      "A) Alta Demanda y Alto Control",
+      "B) Alta Demanda y Bajo Control",
+      "C) Baja Demanda y Alto Control",
+      "D) Baja Demanda y Bajo Control"
+    ],
+    "answer": "B) Alta Demanda y Bajo Control",
+    "explanation": "La combinación de altas exigencias psicológicas con nula capacidad de decisión (bajo control) es el predictor más fuerte de enfermedad relacionada con el estrés. (Fuente: CLASE 9-10-11.pdf).",
+    "source_file": "CLASE 9-10-11.pdf",
+    "page": 15
   }
 ]

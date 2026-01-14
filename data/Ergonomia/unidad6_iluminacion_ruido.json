@@ -4,7 +4,7 @@
     "question": "Según el RD 486/1997, ¿cuál es el nivel mínimo de iluminación para tareas con 'Exigencias visuales altas'?",
     "options": ["A) 100 lux", "B) 200 lux", "C) 500 lux", "D) 1000 lux"],
     "answer": "C) 500 lux",
-    "explanation": "Para oficinas y tareas de dibujo o montaje de precisión, el mínimo legal son 500 lux. (Fuente: 1_6_ergo_med_c_s.pdf).",
+    "explanation": "Para oficinas y tareas de dibujo o montaje de precisión, el mínimo legal establecido son 500 lux. (Fuente: 1_6_ergo_med_c_s.pdf).",
     "source_file": "1_6_ergo_med_c_s.pdf", "page": 8
   },
   {
@@ -12,7 +12,7 @@
     "question": "¿Qué iluminación mínima debe haber en vías de circulación de uso ocasional?",
     "options": ["A) 25 lux", "B) 50 lux", "C) 100 lux", "D) 150 lux"],
     "answer": "A) 25 lux",
-    "explanation": "En zonas donde solo se pasa de vez en cuando, el mínimo baja a 25 lux para evitar tropezones. (Fuente: 1_6_ergo_med_c_s.pdf).",
+    "explanation": "En zonas de tránsito ocasional, el nivel mínimo se reduce a 25 lux, suficiente para asegurar el desplazamiento seguro. (Fuente: 1_6_ergo_med_c_s.pdf).",
     "source_file": "1_6_ergo_med_c_s.pdf", "page": 8
   },
   {
@@ -25,7 +25,7 @@
       "D) No existe el deslumbramiento indirecto"
     ],
     "answer": "B) El producido por la reflexión de la luz en superficies brillantes (pantallas, mesas, cristales)",
-    "explanation": "Es el enemigo número uno en oficinas. Se corrige con superficies mate y orientando bien las luces. (Fuente: 1_6_ergo_med_c_s.pdf).",
+    "explanation": "Es una de las causas principales de fatiga visual en oficinas. Se corrige utilizando superficies mate y orientando adecuadamente las luminarias. (Fuente: 1_6_ergo_med_c_s.pdf).",
     "source_file": "1_6_ergo_med_c_s.pdf", "page": 10
   },
   {
@@ -38,7 +38,7 @@
       "D) Para que no haya sombras de colores"
     ],
     "answer": "B) Para evitar que el ojo tenga que adaptarse constantemente a distintos niveles de brillo, causando fatiga",
-    "explanation": "El ojo se cansa si tiene que abrir y cerrar la pupila continuamente al pasar de una zona muy brillante a una oscura. (Fuente: 1_6_ergo_med_c_s.pdf).",
+    "explanation": "Los cambios bruscos de luminancia obligan al ojo a un esfuerzo continuo de acomodación pupilar, acelerando la fatiga visual. (Fuente: 1_6_ergo_med_c_s.pdf).",
     "source_file": "1_6_ergo_med_c_s.pdf", "page": 11
   },
   {
@@ -46,7 +46,7 @@
     "question": "Según el RD 286/2006, ¿cuál es el nivel de pico (Lpico) que no debe superarse NUNCA?",
     "options": ["A) 80 dB(C)", "B) 110 dB(C)", "C) 137 dB(C)", "D) 140 dB(C)"],
     "answer": "D) 140 dB(C)",
-    "explanation": "140 decibelios es el límite máximo absoluto. Por encima de eso, el daño al tímpano puede ser instantáneo. (Fuente: RD 286/2006).",
+    "explanation": "140 dB(C) es el valor límite de exposición. Superar este umbral, aunque sea un instante, puede causar daños auditivos irreversibles inmediatos. (Fuente: RD 286/2006).",
     "source_file": "1_6_ergo_med_c_s.pdf", "page": 15
   },
   {
@@ -54,7 +54,7 @@
     "question": "¿A partir de qué nivel de ruido diario (LAeq,d) es obligatorio el uso de protectores auditivos (EPIs)?",
     "options": ["A) 80 dB(A)", "B) 85 dB(A)", "C) 90 dB(A)", "D) 100 dB(A)"],
     "answer": "B) 85 dB(A)",
-    "explanation": "A los 80 dB(A) la empresa debe ponerlos a disposición, pero a los 85 dB(A) el uso es OBLIGATORIO. (Fuente: RD 286/2006).",
+    "explanation": "A los 80 dB(A) la empresa debe ponerlos a disposición, pero a partir de los 85 dB(A) su uso por parte del trabajador es obligatorio. (Fuente: RD 286/2006).",
     "source_file": "1_6_ergo_med_c_s.pdf", "page": 16
   },
   {
@@ -62,7 +62,7 @@
     "question": "Si una máquina produce 80 dB y ponemos otra igual al lado, ¿cuál es el nivel de ruido total?",
     "options": ["A) 160 dB", "B) 80 dB", "C) 83 dB", "D) 90 dB"],
     "answer": "C) 83 dB",
-    "explanation": "El ruido es logarítmico. Al duplicar la fuente de sonido, el nivel solo aumenta 3 decibelios. (Fuente: 1_6_ergo_med_c_s.pdf).",
+    "explanation": "Debido a la escala logarítmica del sonido, duplicar la fuente de emisión sonora equivale a un incremento de solo 3 decibelios. (Fuente: 1_6_ergo_med_c_s.pdf).",
     "source_file": "1_6_ergo_med_c_s.pdf", "page": 14
   },
   {
@@ -75,7 +75,7 @@
       "D) Colores fluorescentes"
     ],
     "answer": "B) Fondo claro y letra oscura (contrato positivo)",
-    "explanation": "El contraste positivo es el que menos fatiga la vista en lectura prolongada de documentos o pantallas. (Fuente: 1_6_ergo_med_c_s.pdf).",
+    "explanation": "El contraste positivo (letras oscuras sobre fondo claro) es el que genera menor fatiga visual en la lectura de documentos y pantallas. (Fuente: 1_6_ergo_med_c_s.pdf).",
     "source_file": "1_6_ergo_med_c_s.pdf", "page": 12
   },
   {
@@ -88,7 +88,7 @@
       "D) El precio de la lámpara"
     ],
     "answer": "B) La capacidad de la luz para reproducir fielmente los colores de los objetos (de 0 a 100)",
-    "explanation": "En tareas donde el color es crítico (pintura, laboratorios), se necesita un IRC cercano a 100. (Fuente: 1_6_ergo_med_c_s.pdf).",
+    "explanation": "En tareas donde la distinción de colores es crítica (ej. laboratorios, control de calidad), se requiere un IRC cercano a 100. (Fuente: 1_6_ergo_med_c_s.pdf).",
     "source_file": "1_6_ergo_med_c_s.pdf", "page": 13
   },
   {
@@ -101,7 +101,7 @@
       "D) Que la máquina se caliente"
     ],
     "answer": "B) Que una pieza que gira rápido parezca estar parada o moviéndose despacio, causando accidentes",
-    "explanation": "Ocurre con ciertos fluorescentes. Puede hacer que un operario meta la mano en una sierra creyendo que está detenida. (Fuente: 1_6_ergo_med_c_s.pdf).",
+    "explanation": "Este efecto visual puede inducir al error de creer que una máquina está detenida, provocando atrapamientos graves. (Fuente: 1_6_ergo_med_c_s.pdf).",
     "source_file": "1_6_ergo_med_c_s.pdf", "page": 14
   },
   {
@@ -114,7 +114,7 @@
       "D) Una vez cada 10 años"
     ],
     "answer": "B) Cuando se superan los valores superiores de exposición que dan lugar a una acción (85 dB(A) diario o 137 dB(C) de pico)",
-    "explanation": "La vigilancia de la salud es obligatoria por encima de estos niveles para detectar precozmente la hipoacusia inducida por ruido. (Fuente: RD 286/2006).",
+    "explanation": "La vigilancia de la salud auditiva es obligatoria a partir de estos niveles para la detección precoz de hipoacusia laboral. (Fuente: RD 286/2006).",
     "source_file": "1_6_ergo_med_c_s.pdf",
     "page": 17
   },
@@ -128,7 +128,7 @@
       "D) Multiplicar la protección por dos si se usan tapones"
     ],
     "answer": "B) Aplicar un factor de corrección por uso real, ya que en el trabajo nunca se colocan tan bien como en el laboratorio",
-    "explanation": "El ajuste imperfecto, el sudor o el uso de gafas reducen la protección real del EPI respecto a la teórica. (Fuente: 1_6_ergo_med_c_s.pdf).",
+    "explanation": "El ajuste imperfecto, el uso de gafas u otros EPIs reducen la atenuación real respecto a la teórica de laboratorio. (Fuente: 1_6_ergo_med_c_s.pdf).",
     "source_file": "1_6_ergo_med_c_s.pdf",
     "page": 20
   },
@@ -142,7 +142,7 @@
       "D) El tiempo que tardan en encenderse"
     ],
     "answer": "B) Un coeficiente que prevé la pérdida de luz por envejecimiento de las lámparas y acumulación de suciedad",
-    "explanation": "Si no se limpia el polvo de las luminarias, el nivel de luxes puede caer hasta un 50% en pocos meses. (Fuente: 1_6_ergo_med_c_s.pdf).",
+    "explanation": "Sin un plan de mantenimiento, el nivel de iluminación útil puede descender significativamente debido al polvo y desgaste de luminarias. (Fuente: 1_6_ergo_med_c_s.pdf).",
     "source_file": "1_6_ergo_med_c_s.pdf",
     "page": 22
   },
@@ -156,7 +156,7 @@
       "D) No tiene más efectos"
     ],
     "answer": "B) Aumento del estrés, hipertensión arterial y problemas digestivos",
-    "explanation": "El ruido actúa como un estresor biológico que dispara el sistema nervioso simpático. (Fuente: 1_6_ergo_med_c_s.pdf).",
+    "explanation": "El ruido actúa como un estresor biológico que activa el sistema nervioso simpático, generando efectos fisiológicos más allá del oído. (Fuente: 1_6_ergo_med_c_s.pdf).",
     "source_file": "1_6_ergo_med_c_s.pdf",
     "page": 14
   },
@@ -165,7 +165,7 @@
     "question": "¿Qué nivel mínimo de iluminación debe garantizar la luz de emergencia en las vías de evacuación?",
     "options": ["A) 1 lux", "B) 5 lux", "C) 10 lux", "D) 100 lux"],
     "answer": "A) 1 lux",
-    "explanation": "Parece poco, pero 1 lux a nivel del suelo es suficiente para ver obstáculos y salir del edificio sin matarse. (Fuente: RD 486/1997).",
+    "explanation": "1 lux a nivel del suelo es el mínimo normativo para garantizar la identificación de la ruta de evacuación y obstáculos en caso de fallo eléctrico. (Fuente: RD 486/1997).",
     "source_file": "1_6_ergo_med_c_s.pdf",
     "page": 25
   },
@@ -179,7 +179,7 @@
       "D) El sonómetro es para el agua"
     ],
     "answer": "B) El sonómetro mide ruido puntual; el dosímetro lo lleva el trabajador para medir la dosis acumulada en la jornada",
-    "explanation": "Para puestos con mucha movilidad, el dosímetro es la única forma de saber la exposición real diaria. (Fuente: 1_6_ergo_med_c_s.pdf).",
+    "explanation": "Para puestos con movilidad, el dosímetro es la única herramienta capaz de medir la exposición real diaria del trabajador. (Fuente: 1_6_ergo_med_c_s.pdf).",
     "source_file": "1_6_ergo_med_c_s.pdf",
     "page": 19
   },
@@ -188,7 +188,7 @@
     "question": "¿Qué tipo de luz se recomienda para crear un ambiente 'relajado' en una zona de descanso?",
     "options": ["A) Luz fría (azulada, >5000K)", "B) Luz cálida (amarillenta, <3000K)", "C) Luz verde", "D) Luz ultravioleta"],
     "answer": "B) Luz cálida (amarillenta, <3000K)",
-    "explanation": "La luz cálida favorece el descanso, mientras que la fría estimula la atención y se usa en quirófanos u oficinas. (Fuente: 1_6_ergo_med_c_s.pdf).",
+    "explanation": "La temperatura de color baja (cálida) favorece la relajación, mientras que la luz fría estimula la alerta y se prefiere en zonas de trabajo. (Fuente: 1_6_ergo_med_c_s.pdf).",
     "source_file": "1_6_ergo_med_c_s.pdf",
     "page": 12
   },
@@ -197,7 +197,7 @@
     "question": "¿Qué rango de frecuencias es el más sensible para el oído humano y el más afectado por el ruido industrial?",
     "options": ["A) 20 Hz - 100 Hz", "B) 2.000 Hz - 4.000 Hz", "C) Por encima de 20.000 Hz", "D) El infrasonido"],
     "answer": "B) 2.000 Hz - 4.000 Hz",
-    "explanation": "La 'muesca' de los 4.000 Hz es el primer signo de sordera profesional en las audiometrías. (Fuente: 1_6_ergo_med_c_s.pdf).",
+    "explanation": "El escotoma o 'muesca' audiométrica en 4.000 Hz es el primer indicador clínico de hipoacusia inducida por ruido. (Fuente: 1_6_ergo_med_c_s.pdf).",
     "source_file": "1_6_ergo_med_c_s.pdf",
     "page": 15
   },
@@ -211,7 +211,7 @@
       "D) Si el trabajador es joven"
     ],
     "answer": "B) Cuando produce grandes contrastes entre la zona de trabajo y el resto del entorno",
-    "explanation": "Tener una zona muy iluminada y el resto a oscuras causa fatiga visual extrema por la adaptación constante de la pupila. (Fuente: 1_6_ergo_med_c_s.pdf).",
+    "explanation": "Un contraste excesivo entre el área de tarea y el fondo provoca fatiga visual debido a la adaptación constante de la retina. (Fuente: 1_6_ergo_med_c_s.pdf).",
     "source_file": "1_6_ergo_med_c_s.pdf",
     "page": 9
   },
@@ -220,7 +220,7 @@
     "question": "Si duplicamos el tiempo de exposición a un nivel de ruido constante, ¿cuánto aumenta el nivel de exposición diario?",
     "options": ["A) Se dobla el número de decibelios", "B) Aumenta 3 dB(A)", "C) No aumenta si el ruido es el mismo", "D) Aumenta 10 dB(A)"],
     "answer": "B) Aumenta 3 dB(A)",
-    "explanation": "Al igual que con la intensidad, duplicar el tiempo de exposición equivale a un incremento de 3 dB en la dosis diaria. (Fuente: 1_6_ergo_med_c_s.pdf).",
+    "explanation": "Debido a la relación energía-tiempo, duplicar la duración de la exposición equivale a un incremento de 3 dB en la dosis de ruido recibida. (Fuente: 1_6_ergo_med_c_s.pdf).",
     "source_file": "1_6_ergo_med_c_s.pdf",
     "page": 16
   }

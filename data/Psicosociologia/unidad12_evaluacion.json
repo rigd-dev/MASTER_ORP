@@ -1,86 +1,310 @@
 [
   {
     "topic": "Unidad 12: El Método FPSICO 4.0",
-    "question": "¿Cuál es la principal característica del método FPSICO del INSST?",
+    "question": "¿Cuál es la principal característica metodológica del método FPSICO del INSST?",
     "options": [
-      "A) Es un método de observación directa por el técnico",
-      "B) Es un cuestionario de autoinforme, estandarizado, que garantiza el anonimato del trabajador",
+      "A) Es una lista de chequeo de observación directa por parte del técnico",
+      "B) Es un cuestionario de autoinforme estandarizado que garantiza el anonimato del trabajador",
       "C) Es una entrevista clínica individual obligatoria",
-      "D) Solo sirve para medir el estrés en directivos"
+      "D) Se basa únicamente en datos de absentismo"
     ],
-    "answer": "B) Es un cuestionario de autoinforme, estandarizado, que garantiza el anonimato del trabajador",
-    "explanation": "El FPSICO es la herramienta oficial del INSST. Se basa en la percepción del trabajador y es fundamental que sea anónimo para que las respuestas sean reales. (Fuente: 5_12_unidad_psico_med_c_s.pdf).",
+    "answer": "B) Es un cuestionario de autoinforme estandarizado que garantiza el anonimato del trabajador",
+    "explanation": "Al basarse en la percepción subjetiva del trabajador sobre sus condiciones, el anonimato y la estandarización son requisitos sine qua non para la validez de los resultados. (Fuente: 5_12_unidad_psico_med_c_s.pdf).",
     "source_file": "5_12_unidad_psico_med_c_s.pdf",
     "page": 4
   },
   {
     "topic": "Unidad 12: Factores Psicosociales FPSICO",
-    "question": "¿Qué factor del FPSICO evalúa la cantidad de trabajo en relación con el tiempo disponible para realizarlo?",
+    "question": "En el método FPSICO, ¿qué evalúa el factor 'Carga de Trabajo'?",
     "options": [
-      "A) Autonomía temporal",
-      "B) Carga de trabajo",
-      "C) Demandas psicológicas",
-      "D) Participación/Supervisión"
+      "A) El peso de los objetos que se levantan",
+      "B) El volumen de tareas en relación con el tiempo disponible (presión temporal) y la dificultad de las mismas",
+      "C) La relación con los compañeros",
+      "D) El salario percibido"
     ],
-    "answer": "B) Carga de trabajo",
-    "explanation": "La carga de trabajo mide tanto el volumen de tareas como la presión de tiempos. Es el factor que más suele salir 'en rojo' en las evaluaciones. (Fuente: 5_12_unidad_psico_med_c_s.pdf).",
+    "answer": "B) El volumen de tareas en relación con el tiempo disponible (presión temporal) y la dificultad de las mismas",
+    "explanation": "Este factor integra la carga cuantitativa (cantidad/tiempo) y la carga cualitativa (complejidad/atención), siendo uno de los riesgos más prevalentes. (Fuente: 5_12_unidad_psico_med_c_s.pdf).",
     "source_file": "5_12_unidad_psico_med_c_s.pdf",
     "page": 8
   },
   {
     "topic": "Unidad 12: Procedimiento de Evaluación",
-    "question": "¿Cuál es el primer paso indispensable antes de pasar los cuestionarios en una empresa?",
+    "question": "¿Cuál es un paso previo indispensable antes del trabajo de campo (encuestas) en una evaluación psicosocial?",
     "options": [
       "A) Despedir a los trabajadores conflictivos",
-      "B) Constituir un Grupo de Trabajo (Comité de Seguridad y Salud) para asegurar la participación de los trabajadores",
-      "C) Comprar el software más caro",
-      "D) Hacer una inspección de seguridad en las máquinas"
+      "B) Constituir un Grupo de Trabajo paritario (empresa-trabajadores) para consensuar la metodología y el proceso",
+      "C) Comprar el software informático más avanzado",
+      "D) Realizar una inspección de seguridad industrial"
     ],
-    "answer": "B) Constituir un Grupo de Trabajo (Comité de Seguridad y Salud) para asegurar la participación de los trabajadores",
-    "explanation": "Sin la confianza y participación de los delegados de prevención, la evaluación psicosocial está condenada al fracaso y a la falta de veracidad. (Fuente: CLASE 9-10-11.pdf).",
+    "answer": "B) Constituir un Grupo de Trabajo paritario (empresa-trabajadores) para consensuar la metodología y el proceso",
+    "explanation": "La participación de los Representantes de los Trabajadores desde el diseño de la evaluación es un requisito legal y técnico para asegurar la confianza y viabilidad del proceso. (Fuente: CLASE 9-10-11.pdf).",
     "source_file": "CLASE 9-10-11.pdf",
     "page": 19
   },
   {
     "topic": "Unidad 12: Niveles de Riesgo",
-    "question": "Si en una evaluación FPSICO un factor sale en nivel de riesgo 'Muy Elevado', ¿qué debe hacer la empresa?",
+    "question": "Si un factor obtiene una puntuación de 'Riesgo Muy Elevado' en el FPSICO, ¿cuál es la actuación requerida?",
     "options": [
-      "A) Repetir la encuesta el año que viene",
-      "B) Realizar una intervención inmediata y un análisis profundo para eliminar o reducir el riesgo",
-      "C) Ignorarlo si la producción va bien",
-      "D) Darle una charla de motivación a los empleados"
+      "A) Repetir la evaluación al año siguiente",
+      "B) Intervención inmediata y análisis específico para eliminar o reducir el riesgo",
+      "C) Ignorarlo si la productividad es buena",
+      "D) Realizar formación genérica sobre estrés"
     ],
-    "answer": "B) Realizar una intervención inmediata y un análisis profundo para eliminar o reducir el riesgo",
-    "explanation": "Un riesgo 'Muy Elevado' indica una probabilidad alta de daño a la salud. La ley obliga a tomar medidas preventivas técnicas u organizativas. (Fuente: 5_12_unidad_psico_med_c_s.pdf).",
+    "answer": "B) Intervención inmediata y análisis específico para eliminar o reducir el riesgo",
+    "explanation": "Un nivel 'Muy Elevado' indica una alta probabilidad de daño para la salud, exigiendo medidas correctoras urgentes (técnicas u organizativas), no solo paliativas. (Fuente: 5_12_unidad_psico_med_c_s.pdf).",
     "source_file": "5_12_unidad_psico_med_c_s.pdf",
     "page": 12
   },
   {
     "topic": "Unidad 12: Método ISTAS-21 (CoPsoQ)",
-    "question": "¿Cuál es el origen del método de evaluación ISTAS-21?",
+    "question": "¿Cuál es el origen y característica distintiva del método ISTAS-21?",
     "options": [
-      "A) Es una adaptación española del cuestionario danés CoPsoQ",
-      "B) Es un método creado por la NASA para sus astronautas",
-      "C) Es un invento de las mutuas españolas",
-      "D) Proviene de la medicina del trabajo alemana"
+      "A) Es una adaptación española del cuestionario danés CoPsoQ e incluye la dimensión 'Doble Presencia'",
+      "B) Es un método creado por la NASA",
+      "C) Es un método cualitativo basado solo en entrevistas",
+      "D) Es una norma ISO"
     ],
-    "answer": "A) Es una adaptación española del cuestionario danés CoPsoQ",
-    "explanation": "Es el otro gran método usado en España, muy valorado por los sindicatos porque incluye dimensiones sobre la 'doble presencia' (trabajo y casa). (Fuente: 5_12_unidad_psico_med_c_s.pdf).",
+    "answer": "A) Es una adaptación española del cuestionario danés CoPsoQ e incluye la dimensión 'Doble Presencia'",
+    "explanation": "Es uno de los métodos más utilizados en España. Destaca por medir la interferencia trabajo-casa (doble presencia), un factor crítico en la salud laboral moderna. (Fuente: 5_12_unidad_psico_med_c_s.pdf).",
     "source_file": "5_12_unidad_psico_med_c_s.pdf",
     "page": 6
   },
   {
     "topic": "Unidad 12: Criterio Técnico 104/2021",
-    "question": "Según el Criterio Técnico 104/2021 de la ITSS, ¿qué no se considera una evaluación de riesgos psicosociales válida?",
+    "question": "Según el Criterio Técnico 104/2021 de la ITSS, ¿qué NO se considera una evaluación de riesgos psicosociales válida?",
     "options": [
-      "A) La que usa el método FPSICO",
-      "B) El uso exclusivo de entrevistas sin metodología estandarizada o 'encuestas de clima laboral'",
-      "C) La que incluye a toda la plantilla",
-      "D) La que proponen los delegados de prevención"
+      "A) El método FPSICO",
+      "B) Las 'encuestas de clima laboral' o de satisfacción sin metodología preventiva estandarizada",
+      "C) El método ISTAS-21",
+      "D) Los métodos cuantitativos validados"
     ],
-    "answer": "B) El uso exclusivo de entrevistas sin metodología estandarizada o 'encuestas de clima laboral'",
-    "explanation": "La Inspección de Trabajo distingue entre 'clima laboral' (satisfacción) y 'riesgos psicosociales' (salud). Las encuestas de satisfacción no valen legalmente como evaluación de riesgos. (Fuente: CLASE 9-10-11.pdf).",
+    "answer": "B) Las 'encuestas de clima laboral' o de satisfacción sin metodología preventiva estandarizada",
+    "explanation": "La Inspección de Trabajo es clara: medir la satisfacción o el clima no es medir riesgos para la salud. Se requiere una identificación y valoración técnica de factores de riesgo. (Fuente: CLASE 9-10-11.pdf).",
     "source_file": "CLASE 9-10-11.pdf",
     "page": 22
+  },
+  {
+    "topic": "Unidad 12: Tasa de Respuesta",
+    "question": "Para que los resultados de una evaluación psicosocial sean representativos, ¿qué tasa de respuesta mínima se suele recomendar?",
+    "options": [
+      "A) Basta con el 10%",
+      "B) Al menos el 60% de la plantilla (o de la muestra seleccionada)",
+      "C) El 100% es obligatorio siempre",
+      "D) No importa la tasa si responden los jefes"
+    ],
+    "answer": "B) Al menos el 60% de la plantilla (o de la muestra seleccionada)",
+    "explanation": "Una participación baja (inferior al 60%) invalida las conclusiones estadísticas, ya que los resultados no reflejarían la realidad colectiva de la organización. (Fuente: 5_12_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_12_unidad_psico_med_c_s.pdf",
+    "page": 9
+  },
+  {
+    "topic": "Unidad 12: Triangulación",
+    "question": "¿En qué consiste la 'Triangulación' en la evaluación psicosocial?",
+    "options": [
+      "A) En hacer la evaluación tres veces",
+      "B) En combinar métodos cuantitativos (cuestionarios) con cualitativos (entrevistas, grupos de discusión) e indicadores objetivos",
+      "C) En evaluar solo tres departamentos",
+      "D) En usar tres colores en el informe"
+    ],
+    "answer": "B) En combinar métodos cuantitativos (cuestionarios) con cualitativos (entrevistas, grupos de discusión) e indicadores objetivos",
+    "explanation": "El cuestionario dice 'qué' pasa, pero a menudo se necesitan técnicas cualitativas para entender 'por qué' pasa y diseñar las medidas adecuadas. (Fuente: 5_12_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_12_unidad_psico_med_c_s.pdf",
+    "page": 15
+  },
+  {
+    "topic": "Unidad 12: Definición de Rol (FPSICO)",
+    "question": "¿Qué mide el factor 'Definición de Rol' en el FPSICO?",
+    "options": [
+      "A) El tipo de contrato",
+      "B) La claridad de las funciones (ambigüedad) y la existencia de demandas contradictorias (conflicto de rol)",
+      "C) El estatus social",
+      "D) La formación académica"
+    ],
+    "answer": "B) La claridad de las funciones (ambigüedad) y la existencia de demandas contradictorias (conflicto de rol)",
+    "explanation": "Evalúa si el trabajador sabe qué se espera de él y si las órdenes que recibe son coherentes. La falta de definición es un potente generador de estrés. (Fuente: 5_12_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_12_unidad_psico_med_c_s.pdf",
+    "page": 8
+  },
+  {
+    "topic": "Unidad 12: Autonomía",
+    "question": "¿Qué diferencia existe entre 'Autonomía Temporal' y 'Autonomía Decisional'?",
+    "options": [
+      "A) Son lo mismo",
+      "B) La temporal se refiere a gestionar el ritmo y pausas; la decisional a elegir el método y orden de las tareas",
+      "C) La temporal es para turnos de noche",
+      "D) La decisional es solo para directivos"
+    ],
+    "answer": "B) La temporal se refiere a gestionar el ritmo y pausas; la decisional a elegir el método y orden de las tareas",
+    "explanation": "Ambas son sub-dimensiones del factor Autonomía. Un trabajador puede tener libertad para decidir cuándo parar (temporal) pero no cómo hacer su trabajo (decisional). (Fuente: 5_12_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_12_unidad_psico_med_c_s.pdf",
+    "page": 7
+  },
+  {
+    "topic": "Unidad 12: Periodicidad",
+    "question": "¿Cuándo debe repetirse (reevaluarse) la evaluación de riesgos psicosociales?",
+    "options": [
+      "A) Nunca, se hace una sola vez",
+      "B) Periódicamente (ej. cada 4-5 años), tras daños a la salud o tras cambios organizativos importantes",
+      "C) Cada mes",
+      "D) Solo si lo pide el Inspector"
+    ],
+    "answer": "B) Periódicamente (ej. cada 4-5 años), tras daños a la salud o tras cambios organizativos importantes",
+    "explanation": "La evaluación es un proceso vivo. Si cambian las condiciones de trabajo o se detectan patologías, la evaluación anterior queda obsoleta. (Fuente: CLASE 9-10-11.pdf).",
+    "source_file": "CLASE 9-10-11.pdf",
+    "page": 21
+  },
+  {
+    "topic": "Unidad 12: Indicadores Objetivos",
+    "question": "¿Cuál es un ejemplo de indicador objetivo de riesgo psicosocial que complementa al cuestionario?",
+    "options": [
+      "A) La opinión del gerente",
+      "B) Las tasas de absentismo, rotación de personal y accidentalidad",
+      "C) El color de la oficina",
+      "D) El número de ventanas"
+    ],
+    "answer": "B) Las tasas de absentismo, rotación de personal y accidentalidad",
+    "explanation": "Un alto índice de bajas o rotación no deseada suele ser la 'punta del iceberg' de una organización 'tóxica' o estresante. (Fuente: 5_12_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_12_unidad_psico_med_c_s.pdf",
+    "page": 16
+  },
+  {
+    "topic": "Unidad 12: Interés por el Trabajador (FPSICO)",
+    "question": "¿Qué evalúa el factor 'Interés por el Trabajador / Compensación'?",
+    "options": [
+      "A) El sueldo base",
+      "B) El grado en que la empresa muestra preocupación por la promoción, formación y estabilidad del empleado",
+      "C) Si el jefe saluda por la mañana",
+      "D) Los regalos de Navidad"
+    ],
+    "answer": "B) El grado en que la empresa muestra preocupación por la promoción, formación y estabilidad del empleado",
+    "explanation": "Mide la percepción de apoyo organizacional y justicia. La falta de promoción o la inseguridad contractual puntúan negativamente aquí. (Fuente: 5_12_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_12_unidad_psico_med_c_s.pdf",
+    "page": 10
+  },
+  {
+    "topic": "Unidad 12: Fiabilidad (Alfa de Cronbach)",
+    "question": "En la validación de un método de evaluación, ¿qué indica un coeficiente 'Alfa de Cronbach' alto?",
+    "options": [
+      "A) Que el método es muy caro",
+      "B) Que el método tiene una alta fiabilidad y consistencia interna (sus ítems miden lo que dicen medir)",
+      "C) Que es muy difícil de responder",
+      "D) Que sirve para medir ruido"
+    ],
+    "answer": "B) Que el método tiene una alta fiabilidad y consistencia interna (sus ítems miden lo que dicen medir)",
+    "explanation": "Para que un cuestionario sea técnicamente válido (como FPSICO o ISTAS), debe superar pruebas estadísticas de fiabilidad rigurosas. (Fuente: 5_12_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_12_unidad_psico_med_c_s.pdf",
+    "page": 5
+  },
+  {
+    "topic": "Unidad 12: Jerarquía de Intervención",
+    "question": "Tras la evaluación, ¿qué tipo de medidas preventivas tienen prioridad?",
+    "options": [
+      "A) Las medidas individuales (ej. enseñar a relajarse)",
+      "B) Las medidas organizativas y colectivas (actuar sobre el origen del riesgo)",
+      "C) El uso de EPIs",
+      "D) Despedir a los afectados"
+    ],
+    "answer": "B) Las medidas organizativas y colectivas (actuar sobre el origen del riesgo)",
+    "explanation": "Como en cualquier disciplina preventiva, se debe priorizar la eliminación del riesgo en origen (organización del trabajo) sobre la protección del individuo. (Fuente: CLASE 9-10-11.pdf).",
+    "source_file": "CLASE 9-10-11.pdf",
+    "page": 23
+  },
+  {
+    "topic": "Unidad 12: Confidencialidad",
+    "question": "¿Quién tiene acceso a los cuestionarios rellenos individualmente por los trabajadores?",
+    "options": [
+      "A) El empresario",
+      "B) Únicamente el personal técnico o sanitario encargado de la evaluación, nunca la dirección ni los compañeros",
+      "C) El delegado de personal",
+      "D) Recursos Humanos"
+    ],
+    "answer": "B) Únicamente el personal técnico o sanitario encargado de la evaluación, nunca la dirección ni los compañeros",
+    "explanation": "La empresa solo recibe los resultados agregados (estadísticas globales). Romper la confidencialidad invalida el proceso y es ilegal. (Fuente: 5_12_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_12_unidad_psico_med_c_s.pdf",
+    "page": 14
+  },
+  {
+    "topic": "Unidad 12: Relaciones y Apoyo Social",
+    "question": "¿Qué aspectos cubre el factor 'Relaciones y Apoyo Social'?",
+    "options": [
+      "A) Las fiestas de empresa",
+      "B) El apoyo de superiores y compañeros, así como la exposición a situaciones de violencia o acoso",
+      "C) La relación con los proveedores",
+      "D) El uso de redes sociales"
+    ],
+    "answer": "B) El apoyo de superiores y compañeros, así como la exposición a situaciones de violencia o acoso",
+    "explanation": "Evalúa la calidad de las interacciones humanas. Un bajo apoyo social es un amplificador del estrés laboral. (Fuente: 5_12_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_12_unidad_psico_med_c_s.pdf",
+    "page": 9
+  },
+  {
+    "topic": "Unidad 12: Participación (Legal)",
+    "question": "Según el Art. 33 de la Ley de Prevención (LPRL), ¿a quién debe consultar el empresario antes de elegir la metodología de evaluación?",
+    "options": [
+      "A) A nadie, es potestad de la dirección",
+      "B) A los Delegados de Prevención",
+      "C) Al Ministerio de Trabajo",
+      "D) A los clientes"
+    ],
+    "answer": "B) A los Delegados de Prevención",
+    "explanation": "La elección del método no es unilateral; requiere consulta y participación de los representantes de los trabajadores. (Fuente: CLASE 9-10-11.pdf).",
+    "source_file": "CLASE 9-10-11.pdf",
+    "page": 18
+  },
+  {
+    "topic": "Unidad 12: Medidas Cualitativas",
+    "question": "¿Cuándo es recomendable utilizar 'Grupos de Discusión' o 'Entrevistas Semiestructuradas'?",
+    "options": [
+      "A) Nunca, son subjetivas",
+      "B) Después de la fase cuantitativa, para interpretar los resultados y proponer medidas concretas ajustadas a la realidad",
+      "C) En lugar del cuestionario para ahorrar tiempo",
+      "D) Solo si hay huelga"
+    ],
+    "answer": "B) Después de la fase cuantitativa, para interpretar los resultados y proponer medidas concretas ajustadas a la realidad",
+    "explanation": "Ayudan a contextualizar los datos fríos del cuestionario (ej. ¿por qué sale alta la carga de trabajo en el departamento X?). (Fuente: 5_12_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_12_unidad_psico_med_c_s.pdf",
+    "page": 15
+  },
+  {
+    "topic": "Unidad 12: Informe de Resultados",
+    "question": "¿Qué debe incluir obligatoriamente el Informe de Evaluación Psicosocial?",
+    "options": [
+      "A) Los nombres de los trabajadores estresados",
+      "B) La identificación de riesgos, la valoración de su magnitud y la propuesta de medidas preventivas priorizadas",
+      "C) Solo gráficos de colores",
+      "D) La facturación de la empresa"
+    ],
+    "answer": "B) La identificación de riesgos, la valoración de su magnitud y la propuesta de medidas preventivas priorizadas",
+    "explanation": "El informe no es el fin, sino el medio para planificar la actividad preventiva. Sin propuesta de medidas, la evaluación es estéril. (Fuente: 5_12_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_12_unidad_psico_med_c_s.pdf",
+    "page": 13
+  },
+  {
+    "topic": "Unidad 12: Ámbito de Aplicación",
+    "question": "¿A qué trabajadores debe cubrir la evaluación de riesgos psicosociales?",
+    "options": [
+      "A) Solo a los fijos",
+      "B) A todos los puestos de trabajo de la empresa, independientemente del tipo de contrato o jerarquía",
+      "C) Solo a los que tienen gente a cargo",
+      "D) Solo a los operarios de fábrica"
+    ],
+    "answer": "B) A todos los puestos de trabajo de la empresa, independientemente del tipo de contrato o jerarquía",
+    "explanation": "El riesgo psicosocial es universal. Desde el director general hasta el becario están expuestos a factores de organización del trabajo. (Fuente: CLASE 9-10-11.pdf).",
+    "source_file": "CLASE 9-10-11.pdf",
+    "page": 20
+  },
+  {
+    "topic": "Unidad 12: Burnout (MBI)",
+    "question": "¿Es el cuestionario MBI (Maslach Burnout Inventory) una evaluación de riesgos psicosociales?",
+    "options": [
+      "A) Sí, es el mejor método",
+      "B) No, es una herramienta de diagnóstico de daños (salud), no de evaluación de factores de riesgo (origen)",
+      "C) Sí, pero solo para hospitales",
+      "D) Es igual que el FPSICO"
+    ],
+    "answer": "B) No, es una herramienta de diagnóstico de daños (salud), no de evaluación de factores de riesgo (origen)",
+    "explanation": "Medir cuánta gente está 'quemada' (daño) no es lo mismo que medir qué condiciones organizativas (riesgo) lo provocan. Se complementan, pero no se sustituyen. (Fuente: 5_12_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_12_unidad_psico_med_c_s.pdf",
+    "page": 17
   }
 ]

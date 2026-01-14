@@ -9,7 +9,7 @@
       "D) Calcular el sueldo justo según el esfuerzo"
     ],
     "answer": "B) Evaluar las condiciones de trabajo de la forma más objetiva y global posible",
-    "explanation": "El LEST fue el primer método que intentó cuantificar no solo lo físico, sino también el entorno, la carga mental y los aspectos sociales. (Fuente: 1_7_ergo_med_c_s.pdf).",
+    "explanation": "El LEST fue pionero en intentar cuantificar de manera conjunta la carga física, el entorno ambiental, la carga mental y los aspectos psicosociales. (Fuente: 1_7_ergo_med_c_s.pdf).",
     "source_file": "1_7_ergo_med_c_s.pdf", "page": 4
   },
   {
@@ -17,7 +17,7 @@
     "question": "¿Cuál de estas dimensiones NO forma parte de la evaluación del método LEST?",
     "options": ["A) Entorno físico", "B) Carga mental", "C) Aspectos psicosociales", "D) Riesgo de incendio"],
     "answer": "D) Riesgo de incendio",
-    "explanation": "El LEST se centra en la ergonomía y psicosociología: entorno, carga física, carga mental, autonomía y relaciones sociales. (Fuente: 1_7_ergo_med_c_s.pdf).",
+    "explanation": "El LEST estructura su análisis en 5 dimensiones: entorno físico, carga física, carga mental, aspectos psicosociales y tiempos de trabajo. (Fuente: 1_7_ergo_med_c_s.pdf).",
     "source_file": "1_7_ergo_med_c_s.pdf", "page": 5
   },
   {
@@ -30,7 +30,7 @@
       "D) Solo lo pueden aplicar médicos"
     ],
     "answer": "B) Está diseñado específicamente para la optimización de puestos en cadenas de montaje",
-    "explanation": "Renault creó este método para mejorar las condiciones de trabajo en sus fábricas, enfocándose mucho en la repetitividad y la seguridad. (Fuente: 1_7_ergo_med_c_s.pdf).",
+    "explanation": "Desarrollado por la industria automotriz, este método pone especial énfasis en la seguridad y la repetitividad propias de las líneas de producción. (Fuente: 1_7_ergo_med_c_s.pdf).",
     "source_file": "1_7_ergo_med_c_s.pdf", "page": 12
   },
   {
@@ -43,7 +43,7 @@
       "D) Every Worker Analysis"
     ],
     "answer": "B) Ergonomic Workplace Analysis (Análisis Ergonómico del Puesto de Trabajo)",
-    "explanation": "Es un método finlandés muy completo que utiliza escalas del 1 al 5 para calificar cada factor del puesto. (Fuente: 1_7_ergo_med_c_s.pdf).",
+    "explanation": "Es un método desarrollado en Finlandia que permite evaluar puestos complejos utilizando escalas de valoración del 1 al 5 para cada ítem. (Fuente: 1_7_ergo_med_c_s.pdf).",
     "source_file": "1_7_ergo_med_c_s.pdf", "page": 15
   },
   {
@@ -56,7 +56,7 @@
       "D) Porque solo se puede aplicar en Francia"
     ],
     "answer": "B) Porque fue diseñado para trabajos repetitivos de ciclo corto y poca cualificación",
-    "explanation": "Al aplicarlo en oficinas o puestos creativos, el LEST suele fallar en la valoración de la carga mental y la autonomía. (Fuente: 1_7_ergo_med_c_s.pdf).",
+    "explanation": "Al aplicarse en puestos cualificados o de oficina, el LEST suele mostrar carencias en la evaluación precisa de la carga mental y la autonomía. (Fuente: 1_7_ergo_med_c_s.pdf).",
     "source_file": "1_7_ergo_med_c_s.pdf", "page": 8
   },
   {
@@ -69,7 +69,7 @@
       "D) Las horas de sueño"
     ],
     "answer": "B) La cantidad de esfuerzo cognitivo y atención requerida por la tarea",
-    "explanation": "Mide la presión temporal, la complejidad de la información y la responsabilidad de las decisiones. (Fuente: 1_7_ergo_med_c_s.pdf).",
+    "explanation": "Evalúa factores como la presión de tiempo, la complejidad del procesamiento de información y el nivel de atención sostenida necesario. (Fuente: 1_7_ergo_med_c_s.pdf).",
     "source_file": "1_7_ergo_med_c_s.pdf", "page": 10
   },
   {
@@ -77,12 +77,12 @@
     "question": "En el sistema de puntuación del LEST (0 a 10), ¿qué significa una puntuación de 8-10?",
     "options": ["A) Situación satisfactoria", "B) Molestias débiles", "C) Riesgo de fatiga", "D) Situación nociva"],
     "answer": "D) Situación nociva",
-    "explanation": "A diferencia de otros métodos, en el LEST cuanto mayor es la nota, peor es la condición. (Fuente: 1_7_ergo_med_c_s.pdf).",
+    "explanation": "El LEST utiliza una escala inversa donde 0 es la situación óptima y 10 representa una condición nociva que requiere intervención urgente. (Fuente: 1_7_ergo_med_c_s.pdf).",
     "source_file": "1_7_ergo_med_c_s.pdf", "page": 7
   },
   {
     "topic": "Unidad 7: Participación del Trabajador",
-    "question": "¿Cuál es un defecto común del método LEST según los críticos?",
+    "question": "¿Cuál es una crítica común al método LEST respecto a la participación del trabajador?",
     "options": [
       "A) Que es demasiado rápido",
       "B) Que no tiene suficientemente en cuenta la opinión subjetiva del trabajador",
@@ -90,7 +90,7 @@
       "D) Que es solo para mujeres"
     ],
     "answer": "B) Que no tiene suficientemente en cuenta la opinión subjetiva del trabajador",
-    "explanation": "Es un método muy 'desde fuera', basado en la observación del técnico, ignorando a veces la vivencia real del operario. (Fuente: 1_7_ergo_med_c_s.pdf).",
+    "explanation": "Es un método basado en la observación externa técnica, lo que a veces deja de lado la percepción real y experiencia del propio operario. (Fuente: 1_7_ergo_med_c_s.pdf).",
     "source_file": "1_7_ergo_med_c_s.pdf", "page": 9
   },
   {
@@ -103,7 +103,7 @@
       "D) De la iluminación de la oficina"
     ],
     "answer": "B) De los procesos mentales como la percepción, memoria y razonamiento en la interacción con sistemas",
-    "explanation": "Busca que el 'software' o la interfaz de la máquina sea fácil de entender para el cerebro humano. (Fuente: 1_8_ergo_med_c_s.pdf).",
+    "explanation": "Su objetivo es optimizar la compatibilidad entre las capacidades cognitivas humanas y el diseño de interfaces, software y sistemas de control. (Fuente: 1_8_ergo_med_c_s.pdf).",
     "source_file": "1_8_ergo_med_c_s.pdf", "page": 3
   },
   {
@@ -116,7 +116,7 @@
       "D) Que sea indestructible"
     ],
     "answer": "B) Que pueda ser utilizado por usuarios específicos para lograr objetivos con eficacia, eficiencia y satisfacción",
-    "explanation": "La usabilidad es la medida de la facilidad de uso de una herramienta o sistema. (Fuente: 1_8_ergo_med_c_s.pdf).",
+    "explanation": "La usabilidad (ISO 9241) mide la calidad de la interacción usuario-sistema en términos de facilidad de aprendizaje y uso. (Fuente: 1_8_ergo_med_c_s.pdf).",
     "source_file": "1_8_ergo_med_c_s.pdf", "page": 5
   },
   {
@@ -129,15 +129,15 @@
       "D) No afecta al rendimiento"
     ],
     "answer": "B) Aumento de errores, bloqueo y fatiga mental extrema",
-    "explanation": "El cerebro tiene un límite de bits por segundo que puede procesar. Superarlo es un riesgo de accidente. (Fuente: 1_8_ergo_med_c_s.pdf).",
+    "explanation": "El cerebro humano tiene un ancho de banda limitado; superar este límite provoca omisiones, retrasos y decisiones erróneas. (Fuente: 1_8_ergo_med_c_s.pdf).",
     "source_file": "1_8_ergo_med_c_s.pdf", "page": 8
   },
   {
     "topic": "Unidad 7: Memoria de Trabajo",
-    "question": "¿Cuál es la limitación típica de la memoria a corto plazo en humanos?",
+    "question": "¿Cuál es la limitación típica de la memoria a corto plazo en humanos (Ley de Miller)?",
     "options": ["A) Puede recordar 100 números", "B) Aproximadamente 7 ± 2 elementos durante unos segundos", "C) No tiene límites", "D) Solo recuerda colores"],
     "answer": "B) Aproximadamente 7 ± 2 elementos durante unos segundos",
-    "explanation": "Diseñar interfaces que obliguen a recordar más de 7 datos a la vez garantiza que el trabajador cometerá errores. (Fuente: 1_8_ergo_med_c_s.pdf).",
+    "explanation": "Diseñar interfaces que exijan retener más de 7 elementos simultáneamente sobrecarga la memoria operativa y genera errores. (Fuente: 1_8_ergo_med_c_s.pdf).",
     "source_file": "1_8_ergo_med_c_s.pdf", "page": 10
   },
   {
@@ -150,7 +150,7 @@
       "D) El sueño nocturno"
     ],
     "answer": "B) La pérdida de capacidad de detectar señales críticas en tareas monótonas de larga duración",
-    "explanation": "Tras 20-30 min de mirar una pantalla sin estímulos, la probabilidad de pasar por alto un error aumenta drásticamente. (Fuente: 1_8_ergo_med_c_s.pdf).",
+    "explanation": "Tras 20-30 minutos de monitoreo continuo sin estímulos variados, la tasa de detección de errores del operador cae drásticamente. (Fuente: 1_8_ergo_med_c_s.pdf).",
     "source_file": "1_8_ergo_med_c_s.pdf", "page": 12
   },
   {
@@ -158,12 +158,12 @@
     "question": "¿Cuál es el principio de 'Feedback' en el diseño de interfaces?",
     "options": [
       "A) Que la máquina hable con el usuario",
-      "B) Que el sistema informe siempre al usuario de qué está pasando y si su acción tuvo éxito",
+      "B) Que el sistema informe siempre al usuario del estado de su acción (éxito o error)",
       "C) Que el usuario dé su opinión a la empresa",
       "D) Que la pantalla sea táctil"
     ],
-    "answer": "B) Que el sistema informe siempre al usuario de qué está pasando y si su acción tuvo éxito",
-    "explanation": "Sin feedback, el usuario se frustra y no sabe si ha cometido un error o si la máquina se ha colgado. (Fuente: 1_8_ergo_med_c_s.pdf).",
+    "answer": "B) Que el sistema informe siempre al usuario del estado de su acción (éxito o error)",
+    "explanation": "Sin una retroalimentación clara e inmediata, el usuario experimenta incertidumbre y no puede corregir posibles errores operativos. (Fuente: 1_8_ergo_med_c_s.pdf).",
     "source_file": "1_8_ergo_med_c_s.pdf", "page": 14
   },
   {
@@ -171,12 +171,12 @@
     "question": "¿Qué importancia tiene el 'Modelo Mental' del usuario en la ergonomía cognitiva?",
     "options": [
       "A) Ninguna",
-      "B) El diseño debe coincidir con cómo el usuario cree que funciona el sistema para que sea intuitivo",
+      "B) El diseño debe coincidir con la expectativa lógica del usuario sobre cómo funciona el sistema",
       "C) Es solo para psicólogos",
       "D) Sirve para medir el cociente intelectual"
     ],
-    "answer": "B) El diseño debe coincidir con cómo el usuario cree que funciona el sistema para que sea intuitivo",
-    "explanation": "Si el diseño contradice la lógica previa del usuario, se producirán errores constantes por 'confusión de esquema'. (Fuente: 1_8_ergo_med_c_s.pdf).",
+    "answer": "B) El diseño debe coincidir con la expectativa lógica del usuario sobre cómo funciona el sistema",
+    "explanation": "Si el diseño del sistema contradice el modelo mental del usuario (ej. interruptor arriba para apagar), se inducirán errores sistemáticos. (Fuente: 1_8_ergo_med_c_s.pdf).",
     "source_file": "1_8_ergo_med_c_s.pdf", "page": 6
   },
   {
@@ -189,7 +189,7 @@
       "D) El mando debe ser siempre rojo"
     ],
     "answer": "B) Debe haber compatibilidad espacial (si giro a la derecha, la aguja debe ir a la derecha)",
-    "explanation": "La falta de compatibilidad causa errores de dirección en situaciones de emergencia o estrés. (Fuente: 1_8_ergo_med_c_s.pdf).",
+    "explanation": "La compatibilidad espacial reduce el tiempo de procesamiento mental y es crítica para evitar errores en situaciones de emergencia. (Fuente: 1_8_ergo_med_c_s.pdf).",
     "source_file": "1_8_ergo_med_c_s.pdf", "page": 16
   },
   {
@@ -202,7 +202,7 @@
       "D) Como un fallo de la máquina"
     ],
     "answer": "B) Como un fallo en la ejecución de una acción automática bien aprendida",
-    "explanation": "Es el típico error de 'quería frenar y aceleré' en una tarea que sabes hacer perfectamente. (Fuente: 1_8_ergo_med_c_s.pdf).",
+    "explanation": "Se trata de un error de ejecución en una rutina conocida (ej. pisar el acelerador queriendo pisar el freno) por falta de atención, no por falta de conocimiento. (Fuente: 1_8_ergo_med_c_s.pdf).",
     "source_file": "1_8_ergo_med_c_s.pdf", "page": 18
   },
   {
@@ -215,7 +215,7 @@
       "D) El crecimiento de las uñas"
     ],
     "answer": "B) La variabilidad de la frecuencia cardíaca y la frecuencia de parpadeo",
-    "explanation": "Cuando el cerebro está muy concentrado, el parpadeo disminuye y el corazón se vuelve más rígido en su ritmo. (Fuente: 1_8_ergo_med_c_s.pdf).",
+    "explanation": "Bajo alta demanda cognitiva, se observa una disminución del parpadeo y una reducción en la variabilidad del ritmo cardíaco (mayor regularidad). (Fuente: 1_8_ergo_med_c_s.pdf).",
     "source_file": "1_8_ergo_med_c_s.pdf", "page": 11
   },
   {
@@ -223,7 +223,7 @@
     "question": "¿Qué variables considera el LEST para el factor ambiente térmico?",
     "options": ["A) Solo la temperatura", "B) Temperatura, velocidad del aire y humedad", "C) El color de la pared", "D) El ruido de la calefacción"],
     "answer": "B) Temperatura, velocidad del aire y humedad",
-    "explanation": "Aplica los principios de la termorregulación para dar una nota global al ambiente. (Fuente: 1_7_ergo_med_c_s.pdf).",
+    "explanation": "Evalúa el riesgo de disconfort térmico integrando estas tres variables básicas para determinar si el ambiente es nocivo. (Fuente: 1_7_ergo_med_c_s.pdf).",
     "source_file": "1_7_ergo_med_c_s.pdf", "page": 20
   },
   {
@@ -236,7 +236,7 @@
       "D) Una lista de herramientas necesarias"
     ],
     "answer": "B) Descomponer una tarea compleja en sub-tareas más simples para identificar puntos críticos de error",
-    "explanation": "Permite entender dónde se satura la memoria o la atención del trabajador. (Fuente: 1_8_ergo_med_c_s.pdf).",
+    "explanation": "Es una técnica fundamental para entender la estructura de la actividad y localizar dónde se superan las capacidades cognitivas del operario. (Fuente: 1_8_ergo_med_c_s.pdf).",
     "source_file": "1_8_ergo_med_c_s.pdf", "page": 22
   }
 ]

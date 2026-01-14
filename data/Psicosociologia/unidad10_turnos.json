@@ -4,97 +4,307 @@
     "question": "¿Qué es un ritmo circadiano en el contexto de la prevención de riesgos?",
     "options": [
       "A) Un ciclo de sueño que dura exactamente 12 horas",
-      "B) Ciclos biológicos con una periodicidad de unas 24 horas (como la temperatura o el ciclo sueño-vigilia)",
+      "B) Ciclos biológicos con una periodicidad aproximada de 24 horas (como la temperatura corporal o el ciclo sueño-vigilia)",
       "C) El ritmo de producción de una máquina en turnos rotativos",
-      "D) La velocidad con la que un trabajador cambia de turno"
+      "D) La velocidad de rotación de los turnos de trabajo"
     ],
-    "answer": "B) Ciclos biológicos con una periodicidad de unas 24 horas (como la temperatura o el ciclo sueño-vigilia)",
-    "explanation": "El cuerpo humano está diseñado para estar activo de día y dormir de noche. Alterar esto con turnos nocturnos choca con nuestro 'reloj biológico'. (Fuente: 5_10_unidad_psico_med_c_s.pdf).",
+    "answer": "B) Ciclos biológicos con una periodicidad aproximada de 24 horas (como la temperatura corporal o el ciclo sueño-vigilia)",
+    "explanation": "El organismo humano está programado genéticamente para la actividad diurna y el descanso nocturno. El trabajo a turnos genera una desincronización de este reloj biológico. (Fuente: 5_10_unidad_psico_med_c_s.pdf).",
     "source_file": "5_10_unidad_psico_med_c_s.pdf",
     "page": 2
   },
   {
     "topic": "Unidad 10: La Hora del Error",
-    "question": "¿Por qué el periodo entre las 03:00 y las 05:00 AM se considera el más peligroso para el trabajador nocturno?",
+    "question": "¿Por qué el periodo entre las 03:00 y las 05:00 AM se considera crítico para el trabajador nocturno?",
     "options": [
-      "A) Porque hay menos luz ambiental",
-      "B) Porque coincide con el nadir (punto más bajo) de la temperatura corporal y la máxima somnolencia",
-      "C) Porque el jefe no está supervisando",
-      "D) Porque es cuando se acaba el café en la oficina"
+      "A) Por la falta de iluminación natural",
+      "B) Porque coincide con el nadir (punto más bajo) de la temperatura corporal y el nivel máximo de somnolencia",
+      "C) Porque disminuye la supervisión jerárquica",
+      "D) Porque aumentan los niveles de adrenalina"
     ],
-    "answer": "B) Porque coincide con el nadir (punto más bajo) de la temperatura corporal y la máxima somnolencia",
-    "explanation": "En esas horas, nuestras capacidades cognitivas están por los suelos. Es cuando ocurren la mayoría de los errores catastróficos por fatiga. (Fuente: 5_10_unidad_psico_med_c_s.pdf).",
+    "answer": "B) Porque coincide con el nadir (punto más bajo) de la temperatura corporal y el nivel máximo de somnolencia",
+    "explanation": "En esta franja horaria, la capacidad cognitiva y la alerta fisiológica descienden a sus mínimos absolutos, aumentando exponencialmente la probabilidad de error humano. (Fuente: 5_10_unidad_psico_med_c_s.pdf).",
     "source_file": "5_10_unidad_psico_med_c_s.pdf",
     "page": 4
   },
   {
     "topic": "Unidad 10: Definición Legal",
-    "question": "Según el Estatuto de los Trabajadores, ¿cuántas horas nocturnas debe realizar un trabajador al año para ser considerado 'Trabajador Nocturno'?",
+    "question": "Según el Estatuto de los Trabajadores, ¿cuándo se considera a un empleado como 'Trabajador Nocturno'?",
     "options": [
-      "A) Al menos 500 horas",
-      "B) Al menos una tercera parte de su jornada anual o realizar 3 horas diarias en periodo nocturno",
-      "C) Cualquier trabajador que haga una noche al mes",
-      "D) Solo si trabaja exclusivamente de 22:00 a 06:00"
+      "A) Al realizar al menos 500 horas nocturnas al año",
+      "B) Al realizar al menos una tercera parte de su jornada anual en horario nocturno o un mínimo de 3 horas diarias en dicho periodo",
+      "C) Al trabajar ocasionalmente de noche",
+      "D) Solo si trabaja en turno fijo de noche"
     ],
-    "answer": "B) Al menos una tercera parte de su jornada anual o realizar 3 horas diarias en periodo nocturno",
-    "explanation": "Es la definición legal española. Ser considerado trabajador nocturno implica derechos a vigilancia de la salud específica y limitaciones en horas extras. (Fuente: CLASE 14-15.pdf).",
+    "answer": "B) Al realizar al menos una tercera parte de su jornada anual en horario nocturno o un mínimo de 3 horas diarias en dicho periodo",
+    "explanation": "Esta definición jurídica otorga derechos específicos en materia de seguridad y salud, como la evaluación médica gratuita y limitaciones en la jornada. (Fuente: CLASE 14-15.pdf).",
     "source_file": "CLASE 14-15.pdf",
     "page": 2
   },
   {
     "topic": "Unidad 10: Sistemas de Rotación",
-    "question": "¿Qué característica define a la rotación 'lenta' frente a la 'rápida'?",
+    "question": "¿Qué ventaja presenta la rotación 'rápida' (cambio cada 1-2 días) frente a la 'lenta' (semanal)?",
     "options": [
-      "A) La lenta cambia cada 2 días y la rápida cada mes",
-      "B) La lenta cambia cada semana o quincena; la rápida cambia de turno cada 1 o 2 días",
-      "C) La rápida solo se da en hospitales",
-      "D) No hay diferencia, ambas dañan igual"
+      "A) Permite una adaptación completa al horario nocturno",
+      "B) Evita que los ritmos circadianos se desestructuren profundamente, facilitando la recuperación en los días libres",
+      "C) Es más sencilla de gestionar administrativamente",
+      "D) No presenta ninguna ventaja"
     ],
-    "answer": "B) La lenta cambia cada semana o quincena; la rápida cambia de turno cada 1 o 2 días",
-    "explanation": "La rotación rápida (M-M-T-T-N-N) evita que los ritmos circadianos se desajusten del todo, aunque genera fatiga acumulada. (Fuente: 5_10_unidad_psico_med_c_s.pdf).",
+    "answer": "B) Evita que los ritmos circadianos se desestructuren profundamente, facilitando la recuperación en los días libres",
+    "explanation": "La rotación lenta (semanal) es la más perjudicial porque el cuerpo empieza a adaptarse al cambio justo cuando se vuelve a cambiar de turno, manteniendo una desincronización perpetua. (Fuente: 5_10_unidad_psico_med_c_s.pdf).",
     "source_file": "5_10_unidad_psico_med_c_s.pdf",
     "page": 9
   },
   {
-    "topic": "Unidad 10: Consecuencias para la Salud",
-    "question": "¿Qué patología es más frecuente en trabajadores con turnicidad crónica?",
+    "topic": "Unidad 10: Consecuencias Gastrointestinales",
+    "question": "¿Cuál es la causa principal de los trastornos digestivos (dispepsia, gastritis) en trabajadores a turnos?",
     "options": [
-      "A) Solo problemas de vista",
-      "B) Trastornos gastrointestinales (gastritis, úlceras) debido a la alteración de los horarios de comidas",
-      "C) Pérdida de audición",
-      "D) Mejora del sistema inmunológico"
+      "A) El consumo de cafeína",
+      "B) La alteración de los hábitos alimentarios y la ingesta durante la fase de desactivación gástrica nocturna",
+      "C) El estrés térmico",
+      "D) La falta de agua potable"
     ],
-    "answer": "B) Trastornos gastrointestinales (gastritis, úlceras) debido a la alteración de los horarios de comidas",
-    "explanation": "Al comer cuando el cuerpo debería estar durmiendo, el sistema digestivo no funciona correctamente, provocando patologías crónicas. (Fuente: 5_10_unidad_psico_med_c_s.pdf).",
+    "answer": "B) La alteración de los hábitos alimentarios y la ingesta durante la fase de desactivación gástrica nocturna",
+    "explanation": "Comer durante la noche, cuando el sistema digestivo está en reposo circadiano, altera el metabolismo y favorece la aparición de úlceras y problemas crónicos. (Fuente: 5_10_unidad_psico_med_c_s.pdf).",
     "source_file": "5_10_unidad_psico_med_c_s.pdf",
     "page": 6
   },
   {
     "topic": "Unidad 10: Sentido de la Rotación",
-    "question": "Desde el punto de vista ergonómico, ¿cuál es el sentido de rotación recomendado?",
+    "question": "Ergonómicamente, ¿cuál es el sentido de rotación de turnos más recomendable?",
     "options": [
-      "A) Rotación hacia atrás o anti-horaria (Noche -> Tarde -> Mañana)",
-      "B) Rotación hacia adelante o horaria (Mañana -> Tarde -> Noche)",
-      "C) Es indiferente si se descansa 12 horas",
-      "D) Siempre empezar por el turno de noche"
+      "A) Anti-horario (Noche -> Tarde -> Mañana)",
+      "B) Horario o hacia delante (Mañana -> Tarde -> Noche)",
+      "C) Aleatorio",
+      "D) Depende de la edad del trabajador"
     ],
-    "answer": "B) Rotación hacia adelante o horaria (Mañana -> Tarde -> Noche)",
-    "explanation": "El cuerpo humano se adapta mejor al retraso de fase (ir a dormir más tarde) que al adelanto de fase. (Fuente: 5_10_unidad_psico_med_c_s.pdf).",
+    "answer": "B) Horario o hacia delante (Mañana -> Tarde -> Noche)",
+    "explanation": "El organismo tolera mejor el 'retraso de fase' (alargar el día, acostarse más tarde) que el adelanto de fase, aprovechando la tendencia natural del ciclo circadiano >24h. (Fuente: 5_10_unidad_psico_med_c_s.pdf).",
     "source_file": "5_10_unidad_psico_med_c_s.pdf",
     "page": 10
   },
   {
     "topic": "Unidad 10: Aspectos Sociales",
-    "question": "¿Cómo afecta el trabajo a turnos a la vida social del trabajador según la Unidad 10?",
+    "question": "¿Qué impacto psicosocial destaca en el trabajo a turnos según el concepto de 'desincronización social'?",
     "options": [
-      "A) No afecta si el trabajador tiene buena actitud",
-      "B) Genera una desincronización social: dificultad para participar en actividades familiares y asociativas",
-      "C) Ayuda a tener más tiempo libre por la mañana",
-      "D) Solo afecta a los trabajadores solteros"
+      "A) Mejora las relaciones vecinales",
+      "B) Dificulta la participación en la vida familiar y social, aumentando el riesgo de aislamiento",
+      "C) Facilita la realización de trámites bancarios",
+      "D) No tiene impacto significativo"
     ],
-    "answer": "B) Genera una desincronización social: dificultad para participar en actividades familiares y asociativas",
-    "explanation": "El trabajador vive 'a contrapié' de la sociedad. Esto aumenta el riesgo de aislamiento y problemas familiares. (Fuente: 5_10_unidad_psico_med_c_s.pdf).",
+    "answer": "B) Dificulta la participación en la vida familiar y social, aumentando el riesgo de aislamiento",
+    "explanation": "El trabajador vive en un tiempo desfasado respecto a la comunidad y la familia, lo que empobrece su red de apoyo social y afectivo. (Fuente: 5_10_unidad_psico_med_c_s.pdf).",
     "source_file": "5_10_unidad_psico_med_c_s.pdf",
     "page": 7
+  },
+  {
+    "topic": "Unidad 10: Melatonina",
+    "question": "¿Qué papel juega la melatonina en el trabajo nocturno?",
+    "options": [
+      "A) Es una hormona que se segrega con la luz y nos mantiene despiertos",
+      "B) Es la hormona inductora del sueño, cuya secreción se inhibe por la exposición a la luz artificial durante el turno de noche",
+      "C) Es una vitamina para la vista",
+      "D) No afecta al sueño"
+    ],
+    "answer": "B) Es la hormona inductora del sueño, cuya secreción se inhibe por la exposición a la luz artificial durante el turno de noche",
+    "explanation": "La luz suprime la melatonina. Esto ayuda a mantenerse despierto trabajando, pero dificulta el sueño reparador posterior si se sale de día. (Fuente: 5_10_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_10_unidad_psico_med_c_s.pdf",
+    "page": 3
+  },
+  {
+    "topic": "Unidad 10: Factor Edad",
+    "question": "¿A partir de qué edad disminuye significativamente la tolerancia fisiológica al trabajo a turnos?",
+    "options": [
+      "A) 25-30 años",
+      "B) 40-50 años",
+      "C) 60 años",
+      "D) La edad no influye"
+    ],
+    "answer": "B) 40-50 años",
+    "explanation": "Con la edad, los ritmos circadianos se vuelven más rígidos y el sueño más fragmentado, haciendo mucho más difícil la recuperación tras un turno de noche. (Fuente: 5_10_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_10_unidad_psico_med_c_s.pdf",
+    "page": 12
+  },
+  {
+    "topic": "Unidad 10: Cronotipos",
+    "question": "¿Qué cronotipo de trabajador se adapta peor al trabajo nocturno?",
+    "options": [
+      "A) Los vespertinos ('búhos')",
+      "B) Los matutinos extremos ('alondras')",
+      "C) Los intermedios",
+      "D) No existe relación con el cronotipo"
+    ],
+    "answer": "B) Los matutinos extremos ('alondras')",
+    "explanation": "Las personas matutinas tienen su pico de activación temprano y necesitan dormir pronto; sufren más fatiga y trastornos del sueño en turnos de noche. (Fuente: 5_10_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_10_unidad_psico_med_c_s.pdf",
+    "page": 13
+  },
+  {
+    "topic": "Unidad 10: Deuda de Sueño",
+    "question": "¿Qué caracteriza al sueño diurno (después de un turno de noche)?",
+    "options": [
+      "A) Es más profundo y reparador",
+      "B) Es más corto, fragmentado y menos reparador que el sueño nocturno",
+      "C) Tiene más fases REM",
+      "D) Es idéntico al nocturno si se usan tapones"
+    ],
+    "answer": "B) Es más corto, fragmentado y menos reparador que el sueño nocturno",
+    "explanation": "Debido al ritmo circadiano de temperatura ascendente y al ruido ambiental diurno, el trabajador pierde entre 1 y 2 horas de sueño diarias (deuda de sueño). (Fuente: 5_10_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_10_unidad_psico_med_c_s.pdf",
+    "page": 5
+  },
+  {
+    "topic": "Unidad 10: Limitación de Jornada",
+    "question": "Según el RD 1561/1995, ¿cuál es el límite de jornada para trabajos con riesgos especiales o tensiones en horario nocturno?",
+    "options": [
+      "A) 12 horas",
+      "B) 8 horas diarias de promedio en un periodo de 24 horas",
+      "C) No hay límite",
+      "D) 6 horas"
+    ],
+    "answer": "B) 8 horas diarias de promedio en un periodo de 24 horas",
+    "explanation": "La normativa prohíbe realizar horas extraordinarias a los trabajadores nocturnos salvo excepciones muy concretas por fuerza mayor. (Fuente: CLASE 14-15.pdf).",
+    "source_file": "CLASE 14-15.pdf",
+    "page": 4
+  },
+  {
+    "topic": "Unidad 10: Recomendación Dietética",
+    "question": "¿Qué recomendación dietética es adecuada para el turno de noche?",
+    "options": [
+      "A) Comidas copiosas ricas en grasas para tener energía",
+      "B) Comidas ligeras, calientes y de fácil digestión, evitando azúcares rápidos",
+      "C) Ayuno absoluto durante 12 horas",
+      "D) Beber alcohol para entrar en calor"
+    ],
+    "answer": "B) Comidas ligeras, calientes y de fácil digestión, evitando azúcares rápidos",
+    "explanation": "Se busca mantener la glucemia estable sin sobrecargar la digestión, evitando la somnolencia postprandial (modorra). (Fuente: 5_10_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_10_unidad_psico_med_c_s.pdf",
+    "page": 15
+  },
+  {
+    "topic": "Unidad 10: Siestas (Napping)",
+    "question": "¿Qué función cumplen las 'siestas estratégicas' (napping) antes o durante el turno de noche?",
+    "options": [
+      "A) No sirven de nada",
+      "B) Una siesta corta (15-20 min) puede restaurar temporalmente la alerta sin provocar inercia del sueño grave",
+      "C) Deben ser de al menos 2 horas",
+      "D) Están prohibidas siempre"
+    ],
+    "answer": "B) Una siesta corta (15-20 min) puede restaurar temporalmente la alerta sin provocar inercia del sueño grave",
+    "explanation": "Es una medida preventiva eficaz (si la organización lo permite) para combatir el pico de somnolencia de las 04:00 AM. (Fuente: 5_10_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_10_unidad_psico_med_c_s.pdf",
+    "page": 16
+  },
+  {
+    "topic": "Unidad 10: Iluminación en Turno Noche",
+    "question": "¿Cómo debe gestionarse la iluminación en un puesto nocturno?",
+    "options": [
+      "A) Luz tenue para relajar",
+      "B) Iluminación intensa al inicio y medio del turno para mantener la activación, reduciéndola al final",
+      "C) Luces estroboscópicas",
+      "D) Oscuridad total"
+    ],
+    "answer": "B) Iluminación intensa al inicio y medio del turno para mantener la activación, reduciéndola al final",
+    "explanation": "La luz intensa inhibe la melatonina y mantiene la alerta. Reducirla al final facilita la conciliación del sueño al llegar a casa. (Fuente: 5_10_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_10_unidad_psico_med_c_s.pdf",
+    "page": 17
+  },
+  {
+    "topic": "Unidad 10: Protección Maternidad",
+    "question": "En relación con el trabajo nocturno y la maternidad, ¿qué establece la Ley de Prevención?",
+    "options": [
+      "A) No hay restricciones",
+      "B) Si la evaluación detecta riesgo para el embarazo o lactancia, la trabajadora debe ser eximida del trabajo nocturno",
+      "C) Solo se reduce el sueldo",
+      "D) Debe trabajar más horas de día"
+    ],
+    "answer": "B) Si la evaluación detecta riesgo para el embarazo o lactancia, la trabajadora debe ser eximida del trabajo nocturno",
+    "explanation": "El trabajo a turnos y nocturno se considera un factor de riesgo para el embarazo (parto prematuro, bajo peso), requiriendo adaptación o cambio de puesto. (Fuente: CLASE 14-15.pdf).",
+    "source_file": "CLASE 14-15.pdf",
+    "page": 5
+  },
+  {
+    "topic": "Unidad 10: Cronodisrupción",
+    "question": "¿Qué es la 'Cronodisrupción'?",
+    "options": [
+      "A) Un reloj roto",
+      "B) La alteración relevante del orden temporal interno de los ritmos fisiológicos y bioquímicos",
+      "C) Llegar tarde al trabajo",
+      "D) La pausa del bocadillo"
+    ],
+    "answer": "B) La alteración relevante del orden temporal interno de los ritmos fisiológicos y bioquímicos",
+    "explanation": "Es el término médico para el caos interno que produce el trabajo a turnos, vinculado con mayor incidencia de cáncer y síndrome metabólico. (Fuente: 5_10_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_10_unidad_psico_med_c_s.pdf",
+    "page": 3
+  },
+  {
+    "topic": "Unidad 10: Vigilancia de la Salud",
+    "question": "¿Con qué periodicidad deben pasar reconocimiento médico los trabajadores nocturnos?",
+    "options": [
+      "A) Cada 5 años",
+      "B) A intervalos regulares (generalmente anual o bianual) según protocolo específico",
+      "C) Nunca, es voluntario",
+      "D) Solo al ser contratados"
+    ],
+    "answer": "B) A intervalos regulares (generalmente anual o bianual) según protocolo específico",
+    "explanation": "La vigilancia de la salud es obligatoria y gratuita para detectar precozmente inadaptaciones al trabajo nocturno. (Fuente: CLASE 14-15.pdf).",
+    "source_file": "CLASE 14-15.pdf",
+    "page": 3
+  },
+  {
+    "topic": "Unidad 10: Aislamiento del Ruido",
+    "question": "¿Cuál es una medida fundamental para mejorar la calidad del sueño diurno del trabajador nocturno?",
+    "options": [
+      "A) Dormir con la televisión puesta",
+      "B) Aislamiento acústico y lumínico estricto del dormitorio",
+      "C) Tomar café antes de dormir",
+      "D) Dormir en el sofá"
+    ],
+    "answer": "B) Aislamiento acústico y lumínico estricto del dormitorio",
+    "explanation": "El ruido ambiental diurno y la luz son los principales enemigos del sueño reparador. Se recomienda el uso de tapones y persianas opacas. (Fuente: 5_10_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_10_unidad_psico_med_c_s.pdf",
+    "page": 14
+  },
+  {
+    "topic": "Unidad 10: Límite de Turnos Consecutivos",
+    "question": "¿Cuál es la recomendación ergonómica sobre el número máximo de turnos de noche consecutivos?",
+    "options": [
+      "A) 7 noches seguidas",
+      "B) Máximo 2 o 3 noches consecutivas",
+      "C) 15 noches seguidas",
+      "D) Mínimo 5 noches"
+    ],
+    "answer": "B) Máximo 2 o 3 noches consecutivas",
+    "explanation": "Limitar las noches consecutivas evita una acumulación excesiva de deuda de sueño y minimiza la alteración del ritmo circadiano. (Fuente: 5_10_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_10_unidad_psico_med_c_s.pdf",
+    "page": 11
+  },
+  {
+    "topic": "Unidad 10: Tiempo de Recuperación",
+    "question": "Tras un ciclo de turnos de noche, ¿cuánto tiempo de descanso se recomienda antes de volver al turno de mañana?",
+    "options": [
+      "A) 8 horas",
+      "B) Al menos 24-48 horas",
+      "C) 12 horas",
+      "D) Ninguno"
+    ],
+    "answer": "B) Al menos 24-48 horas",
+    "explanation": "Es necesario un periodo de lavado ('wash-out') para permitir la resincronización de los ritmos biológicos antes de invertir el ciclo de sueño. (Fuente: 5_10_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_10_unidad_psico_med_c_s.pdf",
+    "page": 11
+  },
+  {
+    "topic": "Unidad 10: Fatiga Crónica",
+    "question": "¿Qué síntoma diferencia a la 'Fatiga Crónica' (patológica) derivada de la turnicidad de la fatiga normal?",
+    "options": [
+      "A) Desaparece con una noche de sueño",
+      "B) No desaparece tras el descanso habitual y se acompaña de síntomas psicosomáticos (irritabilidad, insomnio)",
+      "C) Solo aparece los viernes",
+      "D) Aumenta el apetito"
+    ],
+    "answer": "B) No desaparece tras el descanso habitual y se acompaña de síntomas psicosomáticos (irritabilidad, insomnio)",
+    "explanation": "La persistencia de la fatiga tras los periodos de recuperación indica que se ha superado el umbral de adaptación del trabajador. (Fuente: 5_2_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_2_unidad_psico_med_c_s.pdf",
+    "page": 5
   }
 ]

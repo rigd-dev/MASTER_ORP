@@ -3,84 +3,280 @@
     "topic": "Unidad 8: Humanización del Trabajo",
     "question": "¿Cuál es la diferencia fundamental entre 'Ampliación de tareas' (Job Enlargement) y 'Enriquecimiento de tareas' (Job Enrichment)?",
     "options": [
-      "A) Son sinónimos y significan dar más trabajo al operario",
+      "A) Son términos sinónimos que implican aumentar la carga de trabajo",
       "B) La Ampliación es horizontal (más tareas del mismo nivel); el Enriquecimiento es vertical (más responsabilidad y autonomía)",
-      "C) El Enriquecimiento es solo para directivos y la Ampliación para obreros",
-      "D) La Ampliación reduce el sueldo y el Enriquecimiento lo aumenta"
+      "C) El Enriquecimiento se aplica solo a la alta dirección",
+      "D) La Ampliación implica una reducción salarial"
     ],
     "answer": "B) La Ampliación es horizontal (más tareas del mismo nivel); el Enriquecimiento es vertical (más responsabilidad y autonomía)",
-    "explanation": "Pregunta clásica de examen. Dar más tareas repetitivas (Ampliación) no motiva, solo cansa más. El Enriquecimiento busca que el trabajador controle su tarea, planifique y decida, atacando la alienación. (Fuente: 5_8_unidad_psico_med_c_s.pdf).",
+    "explanation": "La ampliación combate la monotonía añadiendo variedad, pero el enriquecimiento ataca la alienación devolviendo al trabajador el control, la planificación y el autocontrol de su tarea. (Fuente: 5_8_unidad_psico_med_c_s.pdf).",
     "source_file": "5_8_unidad_psico_med_c_s.pdf",
     "page": 5
   },
   {
     "topic": "Unidad 8: Alienación Laboral",
-    "question": "Según el material de la asignatura, ¿qué factor organizacional contribuye más a la 'Alienación' del trabajador?",
+    "question": "Desde la perspectiva psicosocial, ¿qué factor contribuye principalmente a la 'Alienación' del trabajador?",
     "options": [
-      "A) El uso de uniformes incómodos",
-      "B) La excesiva fragmentación de las tareas (el trabajador no ve el producto final ni el sentido de su esfuerzo)",
-      "C) Trabajar en turnos de noche",
-      "D) No tener contacto con el cliente directo"
+      "A) El uso de equipos de protección individual incómodos",
+      "B) La excesiva fragmentación de las tareas, donde el trabajador pierde el sentido global del producto y de su esfuerzo",
+      "C) La realización de turnos nocturnos",
+      "D) La falta de contacto directo con el cliente"
     ],
-    "answer": "B) La excesiva fragmentación de las tareas (el trabajador no ve el producto final ni el sentido de su esfuerzo)",
-    "explanation": "La alienación ocurre cuando el trabajo pierde su sentido humano y el operario se siente como una pieza más de la máquina. Es un riesgo psicosocial grave en cadenas de montaje. (Fuente: 5_8_unidad_psico_med_c_s.pdf).",
+    "answer": "B) La excesiva fragmentación de las tareas, donde el trabajador pierde el sentido global del producto y de su esfuerzo",
+    "explanation": "La alienación surge cuando el trabajo se deshumaniza y el individuo se percibe como un engranaje sustituible, sin comprender la utilidad final de su labor. (Fuente: 5_8_unidad_psico_med_c_s.pdf).",
     "source_file": "5_8_unidad_psico_med_c_s.pdf",
     "page": 3
   },
   {
     "topic": "Unidad 8: Tecnoestrés",
-    "question": "El Tecnoestrés se define como un estado psicológico negativo relacionado con el uso de las TIC. ¿Cuál es su componente de 'Tecnoansiedad'?",
+    "question": "El Tecnoestrés incluye la 'Tecnoansiedad'. ¿Cómo se caracteriza esta dimensión?",
     "options": [
-      "A) El miedo a que se rompa el ordenador",
-      "B) Un alto nivel de activación fisiológica no placentera y sentimientos de tensión ante el uso de tecnología",
-      "C) La adicción a las redes sociales durante la jornada",
-      "D) El rechazo a usar cualquier tipo de software nuevo"
+      "A) Por el miedo a dañar el hardware",
+      "B) Por un alto nivel de activación fisiológica no placentera y tensión ante el uso (o la expectativa de uso) de tecnología",
+      "C) Por la adicción al uso de redes sociales",
+      "D) Por la negativa absoluta a utilizar ordenadores"
     ],
-    "answer": "B) Un alto nivel de activación fisiológica no placentera y sentimientos de tensión ante el uso de tecnología",
-    "explanation": "La tecnoansiedad es la variante más común: el trabajador se siente incapaz de manejar las herramientas y eso le genera ansiedad y miedo. (Fuente: 5_8_unidad_psico_med_c_s.pdf).",
+    "answer": "B) Por un alto nivel de activación fisiológica no placentera y tensión ante el uso (o la expectativa de uso) de tecnología",
+    "explanation": "El trabajador experimenta sensación de incapacidad y amenaza ante la tecnología, lo que desencadena respuestas de ansiedad y conductas de evitación. (Fuente: 5_8_unidad_psico_med_c_s.pdf).",
     "source_file": "5_8_unidad_psico_med_c_s.pdf",
     "page": 13
   },
   {
     "topic": "Unidad 8: Riesgos del Teletrabajo",
-    "question": "¿Cuál es el riesgo psicosocial específico del teletrabajo que se menciona como más crítico en la Unidad 8?",
+    "question": "¿Cuál es el riesgo psicosocial más crítico asociado específicamente al teletrabajo?",
     "options": [
-      "A) El riesgo eléctrico en el domicilio",
-      "B) El desdibujamiento de las fronteras entre la vida laboral y la vida privada (aislamiento y falta de desconexión)",
-      "C) La falta de iluminación adecuada en casa",
-      "D) La reducción del contacto con la familia"
+      "A) El riesgo de contacto eléctrico",
+      "B) El desdibujamiento de las fronteras entre la vida laboral y la vida privada (falta de desconexión)",
+      "C) La iluminación deficiente en el hogar",
+      "D) La pérdida de beneficios sociales"
     ],
-    "answer": "B) El desdibujamiento de las fronteras entre la vida laboral y la vida privada (aislamiento y falta de desconexión)",
-    "explanation": "Al no haber una separación física entre oficina y hogar, el trabajador puede sentir que está 'siempre disponible', lo que genera estrés crónico y problemas de conciliación. (Fuente: CLASE 14-15.pdf).",
+    "answer": "B) El desdibujamiento de las fronteras entre la vida laboral y la vida privada (falta de desconexión)",
+    "explanation": "La ausencia de separación física y temporal clara dificulta la recuperación psicológica, generando conflictos de conciliación y fatiga crónica. (Fuente: CLASE 14-15.pdf).",
     "source_file": "CLASE 14-15.pdf",
     "page": 31
   },
   {
     "topic": "Unidad 8: Nuevas Tecnologías",
-    "question": "¿Qué es la 'Tecnofatiga' dentro del marco del Tecnoestrés?",
+    "question": "¿Qué define a la 'Tecnofatiga' dentro del síndrome de Tecnoestrés?",
     "options": [
-      "A) Cansancio ocular por mirar la pantalla",
-      "B) Agotamiento cognitivo y fatiga mental debido a la sobreexposición y el manejo de flujos excesivos de información",
-      "C) Que la batería de los equipos se agote rápido",
-      "D) El aburrimiento por usar tecnología obsoleta"
+      "A) Fatiga visual por pantallas",
+      "B) Agotamiento cognitivo y fatiga mental derivados de la sobreexposición a flujos excesivos de información",
+      "C) El desgaste físico de los equipos informáticos",
+      "D) El aburrimiento por tareas repetitivas digitales"
     ],
-    "answer": "B) Agotamiento cognitivo y fatiga mental debido a la sobreexposición y el manejo de flujos excesivos de información",
-    "explanation": "La tecnofatiga aparece por el exceso de información (infoxicación) y la necesidad de estar procesando datos constantemente sin descanso. (Fuente: 5_8_unidad_psico_med_c_s.pdf).",
+    "answer": "B) Agotamiento cognitivo y fatiga mental derivados de la sobreexposición a flujos excesivos de información",
+    "explanation": "Conocida también como 'síndrome de fatiga informativa', se produce por la saturación cognitiva ante la necesidad de procesar datos continuamente. (Fuente: 5_8_unidad_psico_med_c_s.pdf).",
     "source_file": "5_8_unidad_psico_med_c_s.pdf",
     "page": 14
   },
   {
     "topic": "Unidad 8: Participación",
-    "question": "¿Por qué la participación de los trabajadores es una medida de prevención psicosocial de primer orden?",
+    "question": "¿Por qué la participación de los trabajadores se considera una medida preventiva psicosocial de primer nivel?",
     "options": [
-      "A) Porque así trabajan más horas sin quejarse",
-      "B) Porque aumenta el control sobre la tarea, reduce la incertidumbre y mejora la autoestima",
-      "C) Porque sustituye la necesidad de tener un Técnico de Prevención",
-      "D) Solo sirve para decidir el color de las paredes de la oficina"
+      "A) Porque permite a la empresa reducir costes de supervisión",
+      "B) Porque aumenta el control sobre la tarea, reduce la incertidumbre y mejora la identificación con los objetivos",
+      "C) Porque elimina la jerarquía organizacional",
+      "D) Porque es un requisito burocrático legal"
     ],
-    "answer": "B) Porque aumenta el control sobre la tarea, reduce la incertidumbre y mejora la autoestima",
-    "explanation": "La falta de control es uno de los mayores estresores. Al participar en el diseño de su trabajo, el individuo recupera autonomía y salud. (Fuente: 5_11_unidad_psico_med_c_s.pdf).",
+    "answer": "B) Porque aumenta el control sobre la tarea, reduce la incertidumbre y mejora la identificación con los objetivos",
+    "explanation": "Incrementar la autonomía y la participación actúa directamente sobre la autoestima y la satisfacción, amortiguando los efectos del estrés laboral. (Fuente: 5_11_unidad_psico_med_c_s.pdf).",
     "source_file": "5_11_unidad_psico_med_c_s.pdf",
     "page": 4
+  },
+  {
+    "topic": "Unidad 8: Rotación de Puestos",
+    "question": "¿Cuál es el objetivo principal de la 'Rotación de puestos' como medida organizativa?",
+    "options": [
+      "A) Cubrir las bajas por enfermedad",
+      "B) Alternar a los trabajadores en tareas con diferentes requerimientos físicos y mentales para prevenir la fatiga y la monotonía",
+      "C) Castigar a los trabajadores menos productivos",
+      "D) Aumentar la competitividad entre empleados"
+    ],
+    "answer": "B) Alternar a los trabajadores en tareas con diferentes requerimientos físicos y mentales para prevenir la fatiga y la monotonía",
+    "explanation": "La polivalencia permite reducir la carga estática o repetitiva sobre grupos musculares específicos y aporta variedad cognitiva. (Fuente: 5_8_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_8_unidad_psico_med_c_s.pdf",
+    "page": 4
+  },
+  {
+    "topic": "Unidad 8: Grupos Semiautónomos",
+    "question": "¿Qué caracteriza a los 'Grupos de trabajo semiautónomos'?",
+    "options": [
+      "A) Son grupos sin líder",
+      "B) El grupo asume la responsabilidad de la producción, organizándose internamente (ritmo, pausas, reparto de tareas) con mínima supervisión externa",
+      "C) Son grupos temporales para fiestas de empresa",
+      "D) Son equipos que trabajan exclusivamente online"
+    ],
+    "answer": "B) El grupo asume la responsabilidad de la producción, organizándose internamente (ritmo, pausas, reparto de tareas) con mínima supervisión externa",
+    "explanation": "Representan uno de los niveles más altos de humanización, fomentando la cooperación, la responsabilidad colectiva y la autonomía grupal. (Fuente: 5_8_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_8_unidad_psico_med_c_s.pdf",
+    "page": 6
+  },
+  {
+    "topic": "Unidad 8: Tecnoadicción",
+    "question": "¿En qué consiste la 'Tecnoadicción'?",
+    "options": [
+      "A) En comprar siempre el último modelo de móvil",
+      "B) En la compulsión incontrolable a utilizar las TIC en todo momento y lugar, sintiendo malestar si no se está conectado",
+      "C) En trabajar muchas horas voluntariamente",
+      "D) En ser experto en programación"
+    ],
+    "answer": "B) En la compulsión incontrolable a utilizar las TIC en todo momento y lugar, sintiendo malestar si no se está conectado",
+    "explanation": "Es el tecnoestrés por sobreidentificación. El trabajador es incapaz de desconectar, extendiendo la jornada laboral indefinidamente. (Fuente: 5_8_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_8_unidad_psico_med_c_s.pdf",
+    "page": 15
+  },
+  {
+    "topic": "Unidad 8: Derecho a la Desconexión",
+    "question": "¿Qué garantiza el Derecho a la Desconexión Digital (LOPDGDD)?",
+    "options": [
+      "A) Que la empresa pague el internet de casa",
+      "B) El derecho del trabajador a no responder comunicaciones empresariales fuera de su horario laboral para garantizar el descanso",
+      "C) El derecho a no usar ordenadores en el trabajo",
+      "D) Que se corte la luz a las 18:00"
+    ],
+    "answer": "B) El derecho del trabajador a no responder comunicaciones empresariales fuera de su horario laboral para garantizar el descanso",
+    "explanation": "Es una medida legal fundamental para prevenir el 'burnout' digital y proteger la intimidad personal y familiar. (Fuente: CLASE 14-15.pdf).",
+    "source_file": "CLASE 14-15.pdf",
+    "page": 33
+  },
+  {
+    "topic": "Unidad 8: Trabajo a Turnos",
+    "question": "¿Cuál es el principal efecto negativo del trabajo a turnos (especialmente el nocturno) sobre la salud?",
+    "options": [
+      "A) La pérdida de visión",
+      "B) La alteración de los ritmos circadianos (cronodisrupción) y los trastornos del sueño",
+      "C) El dolor de espalda",
+      "D) La pérdida de audición"
+    ],
+    "answer": "B) La alteración de los ritmos circadianos (cronodisrupción) y los trastornos del sueño",
+    "explanation": "Forzar al organismo a trabajar en fase de descanso biológico provoca fatiga crónica, problemas digestivos y mayor riesgo cardiovascular. (Fuente: 5_8_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_8_unidad_psico_med_c_s.pdf",
+    "page": 18
+  },
+  {
+    "topic": "Unidad 8: Taylorismo",
+    "question": "¿Qué principio del Taylorismo intenta combatir la humanización del trabajo?",
+    "options": [
+      "A) La alta productividad",
+      "B) La separación radical entre quienes piensan (planifican) y quienes ejecutan el trabajo",
+      "C) El uso de máquinas",
+      "D) El pago por objetivos"
+    ],
+    "answer": "B) La separación radical entre quienes piensan (planifican) y quienes ejecutan el trabajo",
+    "explanation": "El modelo taylorista vacía de contenido intelectual la tarea del operario. La humanización busca reintegrar la ejecución con la planificación. (Fuente: 5_8_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_8_unidad_psico_med_c_s.pdf",
+    "page": 2
+  },
+  {
+    "topic": "Unidad 8: Trabajo Emocional",
+    "question": "¿Qué se entiende por 'Trabajo Emocional' como factor de riesgo?",
+    "options": [
+      "A) Trabajar con familiares",
+      "B) La necesidad de regular y mostrar emociones específicas (ej. sonreír siempre) como parte de las exigencias del puesto",
+      "C) Llorar en el trabajo",
+      "D) Tener un jefe muy sensible"
+    ],
+    "answer": "B) La necesidad de regular y mostrar emociones específicas (ej. sonreír siempre) como parte de las exigencias del puesto",
+    "explanation": "Común en el sector servicios. La disonancia emocional (fingir lo que no se siente) es un predictor fuerte de Burnout. (Fuente: 5_1_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_1_unidad_psico_med_c_s.pdf",
+    "page": 16
+  },
+  {
+    "topic": "Unidad 8: Doble Presencia",
+    "question": "¿A qué se refiere el concepto de 'Doble Presencia'?",
+    "options": [
+      "A) Tener dos trabajos",
+      "B) La necesidad de atender simultáneamente las demandas del trabajo remunerado y las responsabilidades domésticas/familiares",
+      "C) Estar físicamente pero mentalmente ausente",
+      "D) Trabajar en equipo"
+    ],
+    "answer": "B) La necesidad de atender simultáneamente las demandas del trabajo remunerado y las responsabilidades domésticas/familiares",
+    "explanation": "Afecta mayoritariamente a mujeres y es una fuente importante de estrés por sobrecarga de roles y falta de tiempo. (Fuente: 5_1_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_1_unidad_psico_med_c_s.pdf",
+    "page": 17
+  },
+  {
+    "topic": "Unidad 8: Job Crafting",
+    "question": "¿Qué es el 'Job Crafting' (Rediseño del trabajo)?",
+    "options": [
+      "A) Hacer manualidades en la oficina",
+      "B) Un proceso proactivo donde el propio trabajador modifica tareas o relaciones para ajustarlas a sus fortalezas y necesidades",
+      "C) Que la empresa te cambie de puesto",
+      "D) Un software de diseño"
+    ],
+    "answer": "B) Un proceso proactivo donde el propio trabajador modifica tareas o relaciones para ajustarlas a sus fortalezas y necesidades",
+    "explanation": "Es una estrategia individual de humanización 'de abajo a arriba', donde el empleado adapta el puesto para darle mayor significado. (Fuente: CLASE 14-15.pdf).",
+    "source_file": "CLASE 14-15.pdf",
+    "page": 25
+  },
+  {
+    "topic": "Unidad 8: Presentismo",
+    "question": "¿Qué fenómeno es contrario al absentismo pero también perjudicial?",
+    "options": [
+      "A) La puntualidad",
+      "B) El Presentismo (estar físicamente en el puesto pero con productividad nula o trabajando enfermo)",
+      "C) El teletrabajo",
+      "D) La formación"
+    ],
+    "answer": "B) El Presentismo (estar físicamente en el puesto pero con productividad nula o trabajando enfermo)",
+    "explanation": "Puede deberse a miedo al despido o alta presión. Genera errores, contagios y cronificación de enfermedades. (Fuente: 5_1_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_1_unidad_psico_med_c_s.pdf",
+    "page": 19
+  },
+  {
+    "topic": "Unidad 8: Síndrome de Boreout",
+    "question": "¿En qué se diferencia el 'Boreout' del 'Burnout'?",
+    "options": [
+      "A) Son lo mismo",
+      "B) El Burnout es por sobrecarga y el Boreout es por infraexigencia (aburrimiento extremo y falta de sentido)",
+      "C) El Boreout es físico y el Burnout mental",
+      "D) El Boreout solo afecta a becarios"
+    ],
+    "answer": "B) El Burnout es por sobrecarga y el Boreout es por infraexigencia (aburrimiento extremo y falta de sentido)",
+    "explanation": "La falta de desafío y la monotonía extrema pueden ser tan dañinas psicológicamente como el exceso de trabajo. (Fuente: 5_8_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_8_unidad_psico_med_c_s.pdf",
+    "page": 8
+  },
+  {
+    "topic": "Unidad 8: Horario Flexible",
+    "question": "¿Cuál es el principal beneficio psicosocial de la implementación de 'Horarios Flexibles'?",
+    "options": [
+      "A) Que la gente llegue tarde",
+      "B) La mejora de la conciliación vida laboral-familiar y la percepción de autonomía",
+      "C) El ahorro de energía eléctrica",
+      "D) La reducción del salario"
+    ],
+    "answer": "B) La mejora de la conciliación vida laboral-familiar y la percepción de autonomía",
+    "explanation": "Permitir al trabajador adaptar sus tiempos de entrada/salida aumenta su satisfacción y reduce el conflicto de roles. (Fuente: 5_8_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_8_unidad_psico_med_c_s.pdf",
+    "page": 10
+  },
+  {
+    "topic": "Unidad 8: Tecno-inseguridad",
+    "question": "¿Qué define a la 'Tecno-inseguridad'?",
+    "options": [
+      "A) Miedo a que hackeen la empresa",
+      "B) El miedo del trabajador a perder su empleo en favor de la tecnología o por no saber actualizarse",
+      "C) La falta de contraseñas seguras",
+      "D) La inseguridad física del equipo"
+    ],
+    "answer": "B) El miedo del trabajador a perder su empleo en favor de la tecnología o por no saber actualizarse",
+    "explanation": "Es un estresor ligado a la obsolescencia de habilidades y la percepción de amenaza por la automatización. (Fuente: 5_8_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_8_unidad_psico_med_c_s.pdf",
+    "page": 13
+  },
+  {
+    "topic": "Unidad 8: Apoyo Social",
+    "question": "En el contexto de la organización del trabajo, ¿qué función cumple el 'Apoyo Social'?",
+    "options": [
+      "A) Organizar fiestas",
+      "B) Actúa como 'amortiguador' (buffer) moderando el impacto de los estresores sobre la salud",
+      "C) Distraer a los trabajadores",
+      "D) No tiene función preventiva"
+    ],
+    "answer": "B) Actúa como 'amortiguador' (buffer) moderando el impacto de los estresores sobre la salud",
+    "explanation": "Tener buenas relaciones con compañeros y supervisores reduce significativamente la percepción de amenaza y la tensión laboral. (Fuente: 5_11_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_11_unidad_psico_med_c_s.pdf",
+    "page": 7
   }
 ]

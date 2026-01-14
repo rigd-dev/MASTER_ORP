@@ -3,84 +3,308 @@
     "topic": "Unidad 11: Definición de Mobbing",
     "question": "Según Heinz Leymann, ¿cuál es el criterio temporal mínimo para considerar una situación como 'Acoso Psicológico' (Mobbing)?",
     "options": [
-      "A) Al menos una vez al mes durante un año",
-      "B) Al menos una vez por semana durante un periodo de 6 meses",
-      "C) Un solo insulto grave frente a testigos",
-      "D) Tres discusiones fuertes en una misma semana"
+      "A) Un conflicto puntual grave",
+      "B) Al menos una vez por semana durante un periodo continuado de al menos 6 meses",
+      "C) Tres discusiones en un mes",
+      "D) Cualquier conducta hostil percibida"
     ],
-    "answer": "B) Al menos una vez por semana durante un periodo de 6 meses",
-    "explanation": "El Mobbing requiere frecuencia y duración. Un conflicto puntual no es acoso; la clave es la repetición sistemática para destruir a la persona. (Fuente: 5_11_unidad_psico_med_c_s.pdf).",
+    "answer": "B) Al menos una vez por semana durante un periodo continuado de al menos 6 meses",
+    "explanation": "El Mobbing se define por la sistematicidad y la recurrencia. No es un conflicto aislado, sino un proceso de destrucción psicológica continuado en el tiempo. (Fuente: 5_11_unidad_psico_med_c_s.pdf).",
     "source_file": "5_11_unidad_psico_med_c_s.pdf",
     "page": 4
   },
   {
     "topic": "Unidad 11: Tipos de Acoso",
-    "question": "¿Qué es el 'Mobbing Ascendente'?",
+    "question": "¿En qué consiste el 'Mobbing Ascendente'?",
     "options": [
-      "A) El realizado por un jefe hacia sus subordinados",
-      "B) El realizado por un grupo de subordinados hacia un superior jerárquico",
+      "A) El realizado por un superior jerárquico contra un subordinado",
+      "B) El realizado por uno o varios subordinados contra una persona de nivel jerárquico superior",
       "C) El que ocurre entre compañeros del mismo nivel",
-      "D) El que ejerce la empresa contra un sindicato"
+      "D) El acoso institucional"
     ],
-    "answer": "B) El realizado por un grupo de subordinados hacia un superior jerárquico",
-    "explanation": "Es menos común pero ocurre, por ejemplo, cuando un equipo rechaza a un nuevo jefe impuesto o externo y le hacen el vacío. (Fuente: 5_11_unidad_psico_med_c_s.pdf).",
+    "answer": "B) El realizado por uno o varios subordinados contra una persona de nivel jerárquico superior",
+    "explanation": "Ocurre cuando un grupo rechaza la autoridad de un nuevo mando, o cuando un subordinado utiliza alianzas informales para desestabilizar a su jefe. (Fuente: 5_11_unidad_psico_med_c_s.pdf).",
     "source_file": "5_11_unidad_psico_med_c_s.pdf",
     "page": 6
   },
   {
     "topic": "Unidad 11: Fases del Mobbing",
-    "question": "¿Cuál es la fase del acoso donde la empresa suele intervenir de forma errónea, tratando al acosado como el 'problema'?",
+    "question": "Dentro del proceso de Mobbing, ¿qué caracteriza a la 'Fase de Estigmatización'?",
     "options": [
-      "A) Fase de Conflicto",
-      "B) Fase de Estigmatización",
-      "C) Fase de Intervención desde la Dirección",
-      "D) Fase de Marginación"
+      "A) El inicio del conflicto",
+      "B) La adopción por parte de la organización de la versión del acosador, etiquetando a la víctima como 'conflictiva' o 'difícil'",
+      "C) La baja médica de la víctima",
+      "D) La resolución del problema"
     ],
-    "answer": "B) Fase de Estigmatización",
-    "explanation": "En esta fase, el acosador ya logró que los demás vean a la víctima como 'difícil' o 'conflictiva'. La dirección suele castigar a la víctima en lugar de investigar al acosador. (Fuente: 5_11_unidad_psico_med_c_s.pdf).",
+    "answer": "B) La adopción por parte de la organización de la versión del acosador, etiquetando a la víctima como 'conflictiva' o 'difícil'",
+    "explanation": "En esta fase crítica, la dirección o RRHH, en lugar de investigar, culpabiliza a la víctima del mal ambiente, consolidando el acoso. (Fuente: 5_11_unidad_psico_med_c_s.pdf).",
     "source_file": "5_11_unidad_psico_med_c_s.pdf",
     "page": 8
   },
   {
     "topic": "Unidad 11: Violencia de Tipo II",
-    "question": "En la clasificación de la violencia laboral, ¿cuál es la de 'Tipo II'?",
+    "question": "Según la clasificación de la California OSHA, ¿qué define a la Violencia Laboral de Tipo II?",
     "options": [
-      "A) Violencia entre compañeros (Mobbing)",
-      "B) Violencia ejercida por clientes, pacientes o usuarios hacia los trabajadores",
-      "C) Violencia por intrusión externa (robos)",
-      "D) Violencia de género en el trabajo"
+      "A) Violencia intrusiva (robos) sin relación con la empresa",
+      "B) Violencia ejercida por clientes, pacientes o usuarios hacia los trabajadores durante la prestación del servicio",
+      "C) Violencia entre compañeros de trabajo",
+      "D) Violencia doméstica trasladada al trabajo"
     ],
-    "answer": "B) Violencia ejercida por clientes, pacientes o usuarios hacia los trabajadores",
-    "explanation": "Es la violencia más común en el sector salud (pacientes) y servicios (clientes). El agresor tiene una relación legítima con la empresa. (Fuente: 5_11_unidad_psico_med_c_s.pdf).",
+    "answer": "B) Violencia ejercida por clientes, pacientes o usuarios hacia los trabajadores durante la prestación del servicio",
+    "explanation": "Es la tipología más frecuente en el sector sanitario, educativo y de servicios, donde el agresor tiene una relación legítima con la organización. (Fuente: 5_11_unidad_psico_med_c_s.pdf).",
     "source_file": "5_11_unidad_psico_med_c_s.pdf",
     "page": 2
   },
   {
     "topic": "Unidad 11: Acoso Sexual vs Acoso por Razón de Sexo",
-    "question": "¿Cuál es la diferencia legal entre acoso sexual y acoso por razón de sexo?",
+    "question": "¿Cuál es la distinción jurídica fundamental entre 'Acoso Sexual' y 'Acoso por Razón de Sexo'?",
     "options": [
-      "A) No hay diferencia, son lo mismo",
-      "B) El sexual busca fines lúbricos; por razón de sexo es discriminar a alguien por ser hombre o mujer (ej. por embarazo)",
-      "C) El sexual solo lo sufren mujeres",
-      "D) Por razón de sexo solo ocurre en despidos"
+      "A) No existe distinción legal",
+      "B) El sexual implica conductas de naturaleza sexual (física o verbal); el de razón de sexo es discriminación por el hecho de ser hombre o mujer",
+      "C) El acoso sexual es leve y el de razón de sexo es grave",
+      "D) El acoso por razón de sexo solo se da en la contratación"
     ],
-    "answer": "B) El sexual busca fines lúbricos; por razón de sexo es discriminar a alguien por ser hombre o mujer (ej. por embarazo)",
-    "explanation": "Discriminación por maternidad o creer que 'una mujer no puede ser jefa de obra' es acoso por razón de sexo, no sexual. (Fuente: CLASE 14-15.pdf).",
+    "answer": "B) El sexual implica conductas de naturaleza sexual (física o verbal); el de razón de sexo es discriminación por el hecho de ser hombre o mujer",
+    "explanation": "Ejemplos: tocamientos indeseados (Sexual) vs. hostigamiento a una trabajadora por estar embarazada o por el mero hecho de ser mujer (Razón de Sexo). (Fuente: CLASE 14-15.pdf).",
     "source_file": "CLASE 14-15.pdf",
     "page": 15
   },
   {
     "topic": "Unidad 11: Síndrome del Superviviente",
-    "question": "¿Qué ocurre con los 'testigos' de una situación de Mobbing en una oficina?",
+    "question": "¿Qué efecto produce el Mobbing en los testigos mudos (compañeros de la víctima)?",
     "options": [
-      "A) No les afecta si no les pasa a ellos",
-      "B) Sufren miedo, ansiedad y pérdida de confianza en la organización (Síndrome del Superviviente)",
-      "C) Se vuelven más productivos para evitar que les pase a ellos",
-      "D) Automáticamente denuncian al acosador"
+      "A) Indiferencia total",
+      "B) Desarrollo de miedo, culpa, ansiedad y pérdida de confianza en la organización (Síndrome del Superviviente)",
+      "C) Aumento de la productividad por miedo",
+      "D) Cohesión grupal positiva"
     ],
-    "answer": "B) Sufren miedo, ansiedad y pérdida de confianza en la organización (Síndrome del Superviviente)",
-    "explanation": "El clima laboral se pudre. Los testigos callan por miedo pero su salud psicosocial también se resiente gravemente. (Fuente: 5_11_unidad_psico_med_c_s.pdf).",
+    "answer": "B) Desarrollo de miedo, culpa, ansiedad y pérdida de confianza en la organización (Síndrome del Superviviente)",
+    "explanation": "El clima de terror instaurado afecta a todo el equipo, generando inhibición y deterioro de la salud psicosocial colectiva. (Fuente: 5_11_unidad_psico_med_c_s.pdf).",
     "source_file": "5_11_unidad_psico_med_c_s.pdf",
     "page": 10
+  },
+  {
+    "topic": "Unidad 11: Diferencia Mobbing vs Conflicto",
+    "question": "¿Qué diferencia principalmente al Mobbing de un Conflicto Laboral puntual?",
+    "options": [
+      "A) La intensidad de los gritos",
+      "B) La asimetría de poder, la intencionalidad de daño y la repetición sistemática",
+      "C) Que el conflicto siempre se resuelve rápido",
+      "D) Que en el conflicto hay violencia física"
+    ],
+    "answer": "B) La asimetría de poder, la intencionalidad de daño y la repetición sistemática",
+    "explanation": "En un conflicto normal las partes suelen tener fuerzas equilibradas y buscan solución; en el mobbing se busca la anulación o salida de la víctima. (Fuente: 5_11_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_11_unidad_psico_med_c_s.pdf",
+    "page": 5
+  },
+  {
+    "topic": "Unidad 11: Violencia de Tipo I",
+    "question": "¿Qué caracteriza a la Violencia de Tipo I (Intrusiva)?",
+    "options": [
+      "A) El agresor no tiene ninguna relación legítima con el lugar de trabajo (ej. robo, atraco)",
+      "B) Es violencia entre empleados",
+      "C) Es violencia de un cliente insatisfecho",
+      "D) Es acoso sexual"
+    ],
+    "answer": "A) El agresor no tiene ninguna relación legítima con el lugar de trabajo (ej. robo, atraco)",
+    "explanation": "Es un riesgo de seguridad ciudadana que impacta en lo laboral (ej. atracos en bancos o gasolineras). (Fuente: 5_11_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_11_unidad_psico_med_c_s.pdf",
+    "page": 2
+  },
+  {
+    "topic": "Unidad 11: Acoso Sexual Quid Pro Quo",
+    "question": "¿En qué consiste el Acoso Sexual 'Quid Pro Quo' (Chantaje Sexual)?",
+    "options": [
+      "A) En contar chistes sexistas",
+      "B) En condicionar un beneficio laboral o evitar un perjuicio a cambio de favores sexuales",
+      "C) En mirar fijamente",
+      "D) En enviar correos inapropiados"
+    ],
+    "answer": "B) En condicionar un beneficio laboral o evitar un perjuicio a cambio de favores sexuales",
+    "explanation": "Es un abuso de autoridad grave donde la negativa de la víctima conlleva represalias directas en su empleo. (Fuente: CLASE 14-15.pdf).",
+    "source_file": "CLASE 14-15.pdf",
+    "page": 16
+  },
+  {
+    "topic": "Unidad 11: Evaluación del Mobbing",
+    "question": "¿Qué es el LIPT-60?",
+    "options": [
+      "A) Un protocolo de actuación",
+      "B) El Inventario de Terror Psicológico de Leymann (Leymann Inventory of Psychological Terror), cuestionario para medir el mobbing",
+      "C) Una normativa europea",
+      "D) Un tipo de EPI"
+    ],
+    "answer": "B) El Inventario de Terror Psicológico de Leymann (Leymann Inventory of Psychological Terror), cuestionario para medir el mobbing",
+    "explanation": "Es la herramienta psicométrica más utilizada para objetivar la existencia y frecuencia de conductas de hostigamiento. (Fuente: 5_11_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_11_unidad_psico_med_c_s.pdf",
+    "page": 13
+  },
+  {
+    "topic": "Unidad 11: Violencia de Tipo III",
+    "question": "La violencia de Tipo III (Trabajador vs Trabajador) incluye:",
+    "options": [
+      "A) Atracos a mano armada",
+      "B) Conflictos, amenazas o ataques físicos entre miembros de la misma organización",
+      "C) Agresiones de pacientes",
+      "D) Violencia de género"
+    ],
+    "answer": "B) Conflictos, amenazas o ataques físicos entre miembros de la misma organización",
+    "explanation": "Abarca desde el acoso moral (mobbing) hasta agresiones físicas entre compañeros o jerarquías. (Fuente: 5_11_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_11_unidad_psico_med_c_s.pdf",
+    "page": 3
+  },
+  {
+    "topic": "Unidad 11: Acoso Estratégico",
+    "question": "¿Qué es el 'Mobbing Estratégico' o Institucional?",
+    "options": [
+      "A) Un acoso accidental",
+      "B) Una política planificada por la empresa para forzar la salida voluntaria de trabajadores y evitar pagar indemnizaciones",
+      "C) Un conflicto entre departamentos",
+      "D) El acoso por envidia personal"
+    ],
+    "answer": "B) Una política planificada por la empresa para forzar la salida voluntaria de trabajadores y evitar pagar indemnizaciones",
+    "explanation": "Es una forma instrumental de acoso descendente (Bossing) con un objetivo económico claro: la reducción de plantilla a coste cero. (Fuente: 5_11_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_11_unidad_psico_med_c_s.pdf",
+    "page": 7
+  },
+  {
+    "topic": "Unidad 11: Teoría de las Ventanas Rotas",
+    "question": "¿Cómo se aplica la 'Teoría de las Ventanas Rotas' a la violencia laboral?",
+    "options": [
+      "A) Hay que cambiar los cristales de la oficina",
+      "B) La tolerancia ante pequeñas faltas de respeto o incivilidades crea un clima que favorece agresiones más graves",
+      "C) La violencia solo ocurre en edificios viejos",
+      "D) No tiene aplicación"
+    ],
+    "answer": "B) La tolerancia ante pequeñas faltas de respeto o incivilidades crea un clima que favorece agresiones más graves",
+    "explanation": "La impunidad ante la micro-violencia es el caldo de cultivo para el acoso sistemático. La intervención debe ser temprana. (Fuente: 5_11_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_11_unidad_psico_med_c_s.pdf",
+    "page": 9
+  },
+  {
+    "topic": "Unidad 11: Acoso Sexual Ambiental",
+    "question": "¿Qué caracteriza al 'Acoso Sexual Ambiental'?",
+    "options": [
+      "A) Ocurre al aire libre",
+      "B) Conductas que crean un entorno de trabajo intimidatorio, hostil o humillante de naturaleza sexual (chistes, pósters, comentarios)",
+      "C) Chantaje directo por el jefe",
+      "D) Acoso por internet"
+    ],
+    "answer": "B) Conductas que crean un entorno de trabajo intimidatorio, hostil o humillante de naturaleza sexual (chistes, pósters, comentarios)",
+    "explanation": "No requiere una proposición sexual directa, sino la impregnación del ambiente laboral con elementos sexistas ofensivos. (Fuente: CLASE 14-15.pdf).",
+    "source_file": "CLASE 14-15.pdf",
+    "page": 16
+  },
+  {
+    "topic": "Unidad 11: Protocolo de Acoso",
+    "question": "¿Es obligatorio que las empresas tengan un Protocolo contra el Acoso?",
+    "options": [
+      "A) Solo las de más de 500 empleados",
+      "B) Sí, todas las empresas, independientemente de su tamaño, deben tener medidas para prevenir y tratar el acoso",
+      "C) No, es voluntario",
+      "D) Solo si ha habido denuncias previas"
+    ],
+    "answer": "B) Sí, todas las empresas, independientemente de su tamaño, deben tener medidas para prevenir y tratar el acoso",
+    "explanation": "La Ley de Igualdad exige a todas las empresas arbitrar procedimientos específicos para la prevención y cauce de denuncias. (Fuente: CLASE 14-15.pdf).",
+    "source_file": "CLASE 14-15.pdf",
+    "page": 18
+  },
+  {
+    "topic": "Unidad 11: Ciberacoso",
+    "question": "¿Qué factor agrava el 'Ciberacoso' (Cyberbullying) respecto al acoso tradicional?",
+    "options": [
+      "A) Es menos dañino porque es virtual",
+      "B) La invasión de la vida privada (24/7) y la viralidad/permanencia de los contenidos humillantes",
+      "C) Que solo ocurre por email",
+      "D) Que es fácil de borrar"
+    ],
+    "answer": "B) La invasión de la vida privada (24/7) y la viralidad/permanencia de los contenidos humillantes",
+    "explanation": "La víctima no tiene refugio ni siquiera en su casa, y la audiencia de la humillación es potencialmente ilimitada. (Fuente: CLASE 14-15.pdf).",
+    "source_file": "CLASE 14-15.pdf",
+    "page": 20
+  },
+  {
+    "topic": "Unidad 11: Perfil de la Víctima",
+    "question": "¿Existe un perfil de personalidad único que predisponga a ser víctima de mobbing?",
+    "options": [
+      "A) Sí, son siempre personas débiles e inseguras",
+      "B) No, cualquier persona puede ser víctima; a menudo se ataca a profesionales brillantes, éticos o envidiados",
+      "C) Sí, personas con baja cualificación",
+      "D) Sí, personas conflictivas"
+    ],
+    "answer": "B) No, cualquier persona puede ser víctima; a menudo se ataca a profesionales brillantes, éticos o envidiados",
+    "explanation": "Es un mito que la víctima sea 'débil'. Frecuentemente el acoso se desencadena por envidia profesional o por no ceder ante prácticas no éticas. (Fuente: 5_11_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_11_unidad_psico_med_c_s.pdf",
+    "page": 12
+  },
+  {
+    "topic": "Unidad 11: Inversión de la Carga de Prueba",
+    "question": "En procedimientos judiciales por acoso (tutela de derechos fundamentales), ¿qué significa la inversión de la carga de la prueba?",
+    "options": [
+      "A) Que la víctima debe demostrar todo",
+      "B) Que una vez la víctima aporta indicios, corresponde a la empresa demostrar que NO hubo acoso",
+      "C) Que el juez decide sin pruebas",
+      "D) Que el acosador debe confesar"
+    ],
+    "answer": "B) Que una vez la víctima aporta indicios, corresponde a la empresa demostrar que NO hubo acoso",
+    "explanation": "Es un mecanismo de protección clave, ya que probar el acoso psicológico es extremadamente difícil para la víctima aislada. (Fuente: 5_11_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_11_unidad_psico_med_c_s.pdf",
+    "page": 22
+  },
+  {
+    "topic": "Unidad 11: Dirección Perversa",
+    "question": "¿Qué es la 'Dirección Perversa'?",
+    "options": [
+      "A) Un jefe que no sabe dirigir",
+      "B) Un estilo de gestión que utiliza sistemáticamente el miedo, la manipulación y el acoso como herramientas de control",
+      "C) Pagar salarios bajos",
+      "D) No dar vacaciones"
+    ],
+    "answer": "B) Un estilo de gestión que utiliza sistemáticamente el miedo, la manipulación y el acoso como herramientas de control",
+    "explanation": "No es un conflicto interpersonal, sino una patología organizacional donde el abuso es la norma de gestión aceptada. (Fuente: 5_11_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_11_unidad_psico_med_c_s.pdf",
+    "page": 7
+  },
+  {
+    "topic": "Unidad 11: Consecuencias Físicas",
+    "question": "¿Qué consecuencias físicas graves puede derivar el acoso psicológico prolongado?",
+    "options": [
+      "A) Ninguna, es solo mental",
+      "B) Trastornos de estrés postraumático (TEPT), alteraciones cardiovasculares y debilitamiento del sistema inmune",
+      "C) Mejora de la forma física",
+      "D) Solo dolor de cabeza leve"
+    ],
+    "answer": "B) Trastornos de estrés postraumático (TEPT), alteraciones cardiovasculares y debilitamiento del sistema inmune",
+    "explanation": "El cuerpo somatiza el terror psicológico continuado, pudiendo derivar en patologías crónicas severas e incapacitantes. (Fuente: 5_11_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_11_unidad_psico_med_c_s.pdf",
+    "page": 11
+  },
+  {
+    "topic": "Unidad 11: Medidas Preventivas",
+    "question": "¿Cuál es una medida de prevención primaria frente a la violencia laboral?",
+    "options": [
+      "A) Ofrecer apoyo psicológico a la víctima",
+      "B) Diseño ambiental seguro (iluminación, barreras, videovigilancia) y organización del trabajo clara (roles definidos)",
+      "C) Sancionar al agresor",
+      "D) Cambiar de puesto a la víctima"
+    ],
+    "answer": "B) Diseño ambiental seguro (iluminación, barreras, videovigilancia) y organización del trabajo clara (roles definidos)",
+    "explanation": "La prevención primaria busca evitar que la violencia ocurra actuando sobre el entorno físico y organizativo antes del conflicto. (Fuente: 5_11_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_11_unidad_psico_med_c_s.pdf",
+    "page": 14
+  },
+  {
+    "topic": "Unidad 11: Discriminación Indirecta",
+    "question": "¿Qué es la 'Discriminación Indirecta' por razón de sexo?",
+    "options": [
+      "A) Insultar a alguien",
+      "B) Una norma o práctica aparentemente neutra que pone en desventaja particular a personas de un sexo concreto",
+      "C) No contratar mujeres",
+      "D) Pagar menos a las mujeres abiertamente"
+    ],
+    "answer": "B) Una norma o práctica aparentemente neutra que pone en desventaja particular a personas de un sexo concreto",
+    "explanation": "Ejemplo: Exigir una estatura mínima innecesaria para el puesto, lo cual excluye estadísticamente a más mujeres que hombres. (Fuente: CLASE 14-15.pdf).",
+    "source_file": "CLASE 14-15.pdf",
+    "page": 17
   }
 ]

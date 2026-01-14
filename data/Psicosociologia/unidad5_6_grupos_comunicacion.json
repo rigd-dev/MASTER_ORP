@@ -1,21 +1,161 @@
 [
   {
+    "topic": "Unidad 5: Definición de Grupo",
+    "question": "¿Qué característica fundamental diferencia a un 'grupo' de una simple 'agrupación' de personas?",
+    "options": [
+      "A) La proximidad física",
+      "B) La interdependencia y la interacción mutua para alcanzar un objetivo común",
+      "C) El número de integrantes",
+      "D) Que trabajan en la misma empresa"
+    ],
+    "answer": "B) La interdependencia y la interacción mutua para alcanzar un objetivo común",
+    "explanation": "Para que exista un grupo psicológico, sus miembros deben percibirse como tal, interactuar y depender unos de otros para lograr sus metas. (Fuente: 5_5_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_5_unidad_psico_med_c_s.pdf",
+    "page": 4
+  },
+  {
+    "topic": "Unidad 5: Grupos Formales vs Informales",
+    "question": "¿Cuál es el origen de los grupos informales dentro de la organización?",
+    "options": [
+      "A) El organigrama oficial",
+      "B) La espontaneidad y las necesidades sociales/emocionales de los trabajadores",
+      "C) Las órdenes de la dirección",
+      "D) Los sindicatos"
+    ],
+    "answer": "B) La espontaneidad y las necesidades sociales/emocionales de los trabajadores",
+    "explanation": "Mientras los formales son creados por la empresa para producir, los informales surgen naturalmente para satisfacer necesidades de afiliación y apoyo. (Fuente: 5_5_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_5_unidad_psico_med_c_s.pdf",
+    "page": 6
+  },
+  {
     "topic": "Unidad 5: Roles Grupales",
     "question": "¿Cuál es la función del 'Chivo Expiatorio' en un grupo con tensiones internas?",
     "options": [
       "A) Es el líder que guía al grupo en momentos de crisis",
-      "B) Es el miembro sobre el que el grupo descarga sus culpas y frustraciones para mantener una falsa cohesión",
+      "B) Es el miembro sobre el que el grupo proyecta sus culpas y frustraciones para preservar la cohesión interna",
       "C) Es el experto técnico que soluciona los problemas",
       "D) Es el encargado de la comunicación con la dirección"
     ],
-    "answer": "B) Es el miembro sobre el que el grupo descarga sus culpas y frustraciones para mantener una falsa cohesión",
-    "explanation": "Es un mecanismo de defensa grupal patológico. El grupo deposita sus fracasos en una persona para no enfrentar la realidad. (Fuente: 5_5_unidad_psico_med_c_s.pdf).",
+    "answer": "B) Es el miembro sobre el que el grupo proyecta sus culpas y frustraciones para preservar la cohesión interna",
+    "explanation": "Representa un mecanismo de defensa grupal donde se depositan los aspectos negativos o fallos colectivos en un individuo para evitar enfrentar el conflicto real. (Fuente: 5_5_unidad_psico_med_c_s.pdf).",
     "source_file": "5_5_unidad_psico_med_c_s.pdf",
     "page": 15
   },
   {
+    "topic": "Unidad 5: Cohesión Grupal",
+    "question": "¿Qué riesgo presenta un grupo con una cohesión excesivamente alta?",
+    "options": [
+      "A) Disminución del rendimiento",
+      "B) Aparición del 'Pensamiento Grupal' (Groupthink), perdiendo la capacidad crítica",
+      "C) Aumento del absentismo",
+      "D) Conflictos internos constantes"
+    ],
+    "answer": "B) Aparición del 'Pensamiento Grupal' (Groupthink), perdiendo la capacidad crítica",
+    "explanation": "El deseo de unanimidad supera la motivación de evaluar realísticamente alternativas de acción, llevando a decisiones pobres o arriesgadas. (Fuente: 5_5_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_5_unidad_psico_med_c_s.pdf",
+    "page": 10
+  },
+  {
+    "topic": "Unidad 5: El Líder",
+    "question": "En la teoría del liderazgo situacional, ¿qué define a un líder eficaz?",
+    "options": [
+      "A) Su carisma personal",
+      "B) Su capacidad de adaptar su estilo a la madurez de los subordinados y a la tarea",
+      "C) Su autoridad coercitiva",
+      "D) Su inteligencia emocional"
+    ],
+    "answer": "B) Su capacidad de adaptar su estilo a la madurez de los subordinados y a la tarea",
+    "explanation": "No existe un estilo único válido; el líder debe oscilar entre la orientación a la tarea y la orientación a la relación según la situación. (Fuente: 5_5_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_5_unidad_psico_med_c_s.pdf",
+    "page": 18
+  },
+  {
+    "topic": "Unidad 5: Rol de Portavoz",
+    "question": "Dentro de la dinámica de grupos, ¿qué hace el 'Portavoz'?",
+    "options": [
+      "A) Es quien habla más alto",
+      "B) Es quien verbaliza las ansiedades o necesidades latentes del grupo",
+      "C) Es el secretario que toma notas",
+      "D) Es el jefe del departamento"
+    ],
+    "answer": "B) Es quien verbaliza las ansiedades o necesidades latentes del grupo",
+    "explanation": "El portavoz enuncia lo que el grupo siente pero no se atreve a decir, haciendo explícito lo implícito. (Fuente: 5_5_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_5_unidad_psico_med_c_s.pdf",
+    "page": 14
+  },
+  {
+    "topic": "Unidad 5: Normas Grupales",
+    "question": "¿Cuál es la función principal de las normas en un grupo?",
+    "options": [
+      "A) Restringir la libertad individual",
+      "B) Regular el comportamiento de los miembros para garantizar la supervivencia del grupo y el logro de metas",
+      "C) Aumentar la burocracia",
+      "D) Definir los salarios"
+    ],
+    "answer": "B) Regular el comportamiento de los miembros para garantizar la supervivencia del grupo y el logro de metas",
+    "explanation": "Las normas crean un marco de referencia compartido que permite predecir comportamientos y reducir la incertidumbre. (Fuente: 5_5_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_5_unidad_psico_med_c_s.pdf",
+    "page": 8
+  },
+  {
+    "topic": "Unidad 5: Estatus",
+    "question": "¿A qué se refiere el concepto de 'Estatus' en un grupo?",
+    "options": [
+      "A) Al salario que cobra",
+      "B) A la posición o rango social que ocupa un miembro en la jerarquía del grupo",
+      "C) A su antigüedad en la empresa",
+      "D) A su nivel de estudios"
+    ],
+    "answer": "B) A la posición o rango social que ocupa un miembro en la jerarquía del grupo",
+    "explanation": "El estatus conlleva cierto prestigio y determina las expectativas de comportamiento y la influencia sobre los demás. (Fuente: 5_5_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_5_unidad_psico_med_c_s.pdf",
+    "page": 12
+  },
+  {
+    "topic": "Unidad 6: Proceso de Comunicación",
+    "question": "En el esquema básico de comunicación, ¿qué es la 'Codificación'?",
+    "options": [
+      "A) Enviar el mensaje",
+      "B) La traducción de la idea o pensamiento del emisor a un código (palabras, gestos) comprensible",
+      "C) El medio físico por donde viaja la información",
+      "D) La interpretación del receptor"
+    ],
+    "answer": "B) La traducción de la idea o pensamiento del emisor a un código (palabras, gestos) comprensible",
+    "explanation": "Es el paso previo a la emisión; si la codificación es defectuosa (ej. usar tecnicismos inadecuados), el mensaje no llegará bien. (Fuente: 5_6_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_6_unidad_psico_med_c_s.pdf",
+    "page": 3
+  },
+  {
+    "topic": "Unidad 6: Axiomas de Watzlawick",
+    "question": "El primer axioma de la comunicación humana ('Es imposible no comunicar') implica que en el entorno laboral:",
+    "options": [
+      "A) La comunicación verbal debe ser constante",
+      "B) Todo comportamiento (incluyendo el silencio o la inacción) tiene valor de mensaje comunicativo",
+      "C) Solo se considera comunicación la transmisión formal de datos",
+      "D) La ausencia de feedback anula el proceso comunicativo"
+    ],
+    "answer": "B) Todo comportamiento (incluyendo el silencio o la inacción) tiene valor de mensaje comunicativo",
+    "explanation": "Cualquier conducta en una interacción social transmite información. Por ejemplo, ignorar una norma de seguridad comunica tácitamente su aceptación. (Fuente: 5_6_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_6_unidad_psico_med_c_s.pdf",
+    "page": 4
+  },
+  {
+    "topic": "Unidad 6: Aspecto de Contenido y Relacional",
+    "question": "Según Watzlawick, toda comunicación tiene un aspecto de contenido (lo que se dice) y un aspecto relacional. ¿Qué define el aspecto relacional?",
+    "options": [
+      "A) Los datos técnicos",
+      "B) Cómo debe entenderse el mensaje y qué relación define entre los interlocutores (ej. orden vs consejo)",
+      "C) El canal utilizado",
+      "D) El idioma"
+    ],
+    "answer": "B) Cómo debe entenderse el mensaje y qué relación define entre los interlocutores (ej. orden vs consejo)",
+    "explanation": "El nivel relacional clasifica al nivel de contenido y es una metacomunicación (comunicación sobre la comunicación). (Fuente: 5_6_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_6_unidad_psico_med_c_s.pdf",
+    "page": 5
+  },
+  {
     "topic": "Unidad 6: Barreras de Comunicación",
-    "question": "Si un Técnico de PRL utiliza tecnicismos legales que los trabajadores no comprenden, ¿qué barrera está activando?",
+    "question": "Si un Técnico de PRL utiliza tecnicismos legales excesivos que los trabajadores no comprenden, ¿qué tipo de barrera se genera?",
     "options": [
       "A) Barrera Física",
       "B) Barrera Semántica",
@@ -23,22 +163,115 @@
       "D) Barrera Administrativa"
     ],
     "answer": "B) Barrera Semántica",
-    "explanation": "La barrera semántica ocurre cuando el emisor y el receptor no comparten el mismo código o significado de las palabras. (Fuente: 5_6_unidad_psico_med_c_s.pdf).",
+    "explanation": "La barrera semántica se produce cuando no existe un código común entre emisor y receptor, impidiendo la decodificación correcta del significado. (Fuente: 5_6_unidad_psico_med_c_s.pdf).",
     "source_file": "5_6_unidad_psico_med_c_s.pdf",
     "page": 12
   },
   {
-    "topic": "Unidad 6: Axiomas de Watzlawick",
-    "question": "El axioma 'Es imposible NO comunicar' implica que en una empresa:",
-    "options": [
-      "A) Siempre hay que estar hablando por radio",
-      "B) Incluso el silencio o la inacción de un mando comunica un mensaje (ej. indiferencia)",
-      "C) Solo se comunica mediante informes escritos",
-      "D) Si no hay palabras, no hay riesgo psicosocial"
-    ],
-    "answer": "B) Incluso el silencio o la inacción de un mando comunica un mensaje (ej. indiferencia)",
-    "explanation": "Todo comportamiento tiene valor de mensaje. Si un jefe ignora una conducta insegura, está comunicando que esa conducta es aceptable. (Fuente: 5_6_unidad_psico_med_c_s.pdf).",
+    "topic": "Unidad 6: Comunicación No Verbal",
+    "question": "En la comunicación cara a cara, ¿qué porcentaje aproximado del impacto del mensaje se atribuye a la comunicación no verbal (gestos, tono)?",
+    "options": ["A) Menos del 10%", "B) Alrededor del 30%", "C) Entre el 65% y el 90%", "D) El 100%"],
+    "answer": "C) Entre el 65% y el 90%",
+    "explanation": "La mayoría de la información emocional y actitudinal se transmite por canales no verbales, a menudo de forma inconsciente. (Fuente: 5_6_unidad_psico_med_c_s.pdf).",
     "source_file": "5_6_unidad_psico_med_c_s.pdf",
-    "page": 4
+    "page": 8
+  },
+  {
+    "topic": "Unidad 6: Comunicación Ascendente",
+    "question": "¿Cuál es la función principal de la comunicación ascendente (de subordinado a mando)?",
+    "options": [
+      "A) Dar órdenes",
+      "B) Proporcionar feedback sobre el trabajo, sugerencias y comunicar problemas o quejas",
+      "C) Coordinar tareas entre departamentos",
+      "D) Evaluar el desempeño"
+    ],
+    "answer": "B) Proporcionar feedback sobre el trabajo, sugerencias y comunicar problemas o quejas",
+    "explanation": "Es vital para que la dirección conozca la realidad operativa y el clima laboral, aunque suele sufrir filtrado por miedo a represalias. (Fuente: 5_6_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_6_unidad_psico_med_c_s.pdf",
+    "page": 14
+  },
+  {
+    "topic": "Unidad 6: Comunicación Horizontal",
+    "question": "¿Qué problema suele resolver la comunicación horizontal o lateral?",
+    "options": [
+      "A) La falta de autoridad",
+      "B) La falta de coordinación entre departamentos del mismo nivel jerárquico",
+      "C) El exceso de burocracia vertical",
+      "D) Los conflictos salariales"
+    ],
+    "answer": "B) La falta de coordinación entre departamentos del mismo nivel jerárquico",
+    "explanation": "Facilita la coordinación de tareas, la solución de problemas conjuntos y el apoyo emocional entre pares. (Fuente: 5_6_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_6_unidad_psico_med_c_s.pdf",
+    "page": 15
+  },
+  {
+    "topic": "Unidad 6: Feedback (Retroalimentación)",
+    "question": "¿Por qué es esencial el feedback en el proceso comunicativo?",
+    "options": [
+      "A) Para saber si el receptor ha escuchado",
+      "B) Para verificar que el mensaje ha sido comprendido correctamente y reducir la incertidumbre",
+      "C) Para alargar la conversación",
+      "D) Para evaluar al emisor"
+    ],
+    "answer": "B) Para verificar que el mensaje ha sido comprendido correctamente y reducir la incertidumbre",
+    "explanation": "Convierte la comunicación en un proceso bidireccional, permitiendo corregir errores de interpretación (bucle de control). (Fuente: 5_6_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_6_unidad_psico_med_c_s.pdf",
+    "page": 6
+  },
+  {
+    "topic": "Unidad 6: Escucha Activa",
+    "question": "¿Qué implica la 'Escucha Activa'?",
+    "options": [
+      "A) Oír todo lo que dice el otro sin interrumpir",
+      "B) Escuchar y entender la comunicación desde el punto de vista del que habla, mostrando empatía",
+      "C) Preparar la respuesta mientras el otro habla",
+      "D) Asentir con la cabeza constantemente"
+    ],
+    "answer": "B) Escuchar y entender la comunicación desde el punto de vista del que habla, mostrando empatía",
+    "explanation": "Requiere un esfuerzo cognitivo y emocional para captar no solo los hechos, sino también los sentimientos subyacentes. (Fuente: 5_6_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_6_unidad_psico_med_c_s.pdf",
+    "page": 18
+  },
+  {
+    "topic": "Unidad 6: Barreras Psicológicas",
+    "question": "¿Qué es el 'Efecto Halo' como barrera de comunicación?",
+    "options": [
+      "A) Ver luces alrededor de la persona",
+      "B) Generalizar una característica positiva o negativa de una persona a toda su personalidad",
+      "C) Escuchar solo lo que queremos oír",
+      "D) El miedo al jefe"
+    ],
+    "answer": "B) Generalizar una característica positiva o negativa de una persona a toda su personalidad",
+    "explanation": "Si consideramos a alguien competente en un área, tendemos a asumir que lo es en todas (y viceversa), distorsionando su mensaje. (Fuente: 5_6_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_6_unidad_psico_med_c_s.pdf",
+    "page": 13
+  },
+  {
+    "topic": "Unidad 6: Comunicación Asertiva",
+    "question": "¿Qué caracteriza al estilo de comunicación asertivo?",
+    "options": [
+      "A) Imponer la propia opinión a toda costa",
+      "B) Evitar el conflicto cediendo ante los demás",
+      "C) Expresar sentimientos, deseos y derechos de forma directa y honesta sin violar los derechos ajenos",
+      "D) Manipular a los demás sutilmente"
+    ],
+    "answer": "C) Expresar sentimientos, deseos y derechos de forma directa y honesta sin violar los derechos ajenos",
+    "explanation": "Es el punto de equilibrio entre la pasividad y la agresividad, fundamental para la salud psicosocial y el liderazgo. (Fuente: 5_6_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_6_unidad_psico_med_c_s.pdf",
+    "page": 20
+  },
+  {
+    "topic": "Unidad 6: Proxémica",
+    "question": "¿Qué estudia la Proxémica dentro de la comunicación no verbal?",
+    "options": [
+      "A) Los gestos de la cara",
+      "B) El uso y percepción del espacio personal y social (distancias)",
+      "C) El tono de voz",
+      "D) El contacto visual"
+    ],
+    "answer": "B) El uso y percepción del espacio personal y social (distancias)",
+    "explanation": "Analiza cómo la distancia física entre interlocutores comunica grados de intimidad, autoridad o rechazo. (Fuente: 5_6_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_6_unidad_psico_med_c_s.pdf",
+    "page": 9
   }
 ]

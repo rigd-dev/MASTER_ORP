@@ -9,7 +9,7 @@
       "D) Es una disciplina que solo aplica la dirección de la empresa"
     ],
     "answer": "B) Se anticipa a la aparición de problemas de salud actuando sobre los factores de riesgo",
-    "explanation": "La proactividad es la esencia de la prevención. Mientras la psicología clínica es reactiva (cura), la preventiva es proactiva (evita que enfermes).",
+    "explanation": "La proactividad es la esencia de la prevención. A diferencia de la clínica (reactiva/curativa), la preventiva interviene sobre las causas antes de que se materialice el daño. (Fuente: 5_1_unidad_psico_med_c_s.pdf).",
     "source_file": "5_1_unidad_psico_med_c_s.pdf",
     "page": 10
   },
@@ -23,9 +23,23 @@
       "D) Los líderes formales y los informales"
     ],
     "answer": "B) Los requerimientos del trabajo y las capacidades/necesidades de la persona",
-    "explanation": "Este es el concepto central de la asignatura. El equilibrio o 'ajuste' entre lo que el puesto pide y lo que el humano puede dar (Prof. Iván Pérez).",
+    "explanation": "Busca el equilibrio homeostático entre las demandas del puesto (carga mental, emocional) y los recursos de afrontamiento del trabajador. (Fuente: CLASE 9-10-11.pdf).",
     "source_file": "CLASE 9-10-11.pdf",
     "page": 3
+  },
+  {
+    "topic": "Unidad 1: Factores Psicosociales",
+    "question": "¿Cómo se definen los factores de riesgo psicosocial?",
+    "options": [
+      "A) Son exclusivamente los problemas personales del trabajador",
+      "B) Son condiciones presentes en una situación laboral relacionadas con la organización, el contenido del trabajo y la realización de la tarea",
+      "C) Son los contaminantes químicos del ambiente",
+      "D) Son los errores informáticos"
+    ],
+    "answer": "B) Son condiciones presentes en una situación laboral relacionadas con la organización, el contenido del trabajo y la realización de la tarea",
+    "explanation": "Estos factores tienen capacidad para afectar tanto al bienestar o a la salud (física, psíquica o social) del trabajador como al desarrollo del trabajo. (Fuente: 5_1_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_1_unidad_psico_med_c_s.pdf",
+    "page": 5
   },
   {
     "topic": "Unidad 2: Fatiga",
@@ -37,54 +51,37 @@
       "D) Un aumento repentino de la atención"
     ],
     "answer": "B) La dificultad de recuperación del estado psíquico y físico normal",
-    "explanation": "Si tras el descanso el trabajador sigue mal, estamos ante fatiga. La fatiga ataca directamente la capacidad de atención.",
+    "explanation": "Se considera fatiga patológica o crónica cuando el descanso habitual no es suficiente para restaurar la capacidad funcional del trabajador. (Fuente: 5_2_unidad_psico_med_c_s.pdf).",
     "source_file": "5_2_unidad_psico_med_c_s.pdf",
     "page": 5
   },
   {
-    "topic": "Unidad 3: Actitud vs Aptitud",
-    "question": "Si un trabajador tiene los conocimientos técnicos (saber hacer) pero no tiene la predisposición (querer hacer) para usar los EPIs, falla la:",
-    "options": ["A) Aptitud", "B) Actitud", "C) Capacidad", "D) Inteligencia"],
-    "answer": "B) Actitud",
-    "explanation": "Aptitud = Saber. Actitud = Querer. El comportamiento inseguro suele nacer de una actitud negativa hacia la norma.",
-    "source_file": "5_3_unidad_psico_med_c_s.pdf",
-    "page": 5
+    "topic": "Unidad 2: Carga Mental",
+    "question": "¿Qué dos componentes definen la Carga Mental de trabajo?",
+    "options": [
+      "A) El peso de los objetos y la distancia",
+      "B) Las exigencias de la tarea (presión temporal, complejidad) y la capacidad de respuesta del individuo",
+      "C) El salario y el horario",
+      "D) La temperatura y el ruido"
+    ],
+    "answer": "B) Las exigencias de la tarea (presión temporal, complejidad) y la capacidad de respuesta del individuo",
+    "explanation": "La carga mental no es un valor absoluto, sino la relación entre lo que exige la tarea y los recursos cognitivos que el trabajador debe poner en juego. (Fuente: 5_2_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_2_unidad_psico_med_c_s.pdf",
+    "page": 3
   },
   {
-    "topic": "Unidad 3: Personalidad",
-    "question": "¿Qué rasgo de personalidad se considera un 'precursor' de accidentes laborales?",
-    "options": ["A) La introversión", "B) El Neuroticismo y la impulsividad", "C) El altruismo", "D) El pensamiento lógico"],
-    "answer": "B) El Neuroticismo e impulsividad",
-    "explanation": "La inestabilidad emocional hace que el sujeto sea menos predecible y más vulnerable a la presión.",
-    "source_file": "5_3_unidad_psico_med_c_s.pdf",
-    "page": 8
-  },
-  {
-    "topic": "Unidad 4: Herzberg",
-    "question": "Según Herzberg, el salario y las condiciones físicas son:",
-    "options": ["A) Factores Motivadores", "B) Factores Higiénicos (evitan la insatisfacción pero no motivan por sí solos)", "C) Factores Intrínsecos", "D) Factores de Logro"],
-    "answer": "B) Factores Higiénicos (evitan la insatisfacción pero no motivan por sí solos)",
-    "explanation": "Si no me pagas me quemo, pero si me pagas más no necesariamente trabajo con más pasión. La motivación real viene del logro y el reconocimiento.",
-    "source_file": "5_4_unidad_psico_med_c_s.pdf",
-    "page": 6
-  },
-  {
-    "topic": "Unidad 4: Maslow",
-    "question": "¿Cuál es la jerarquía mínima necesaria para que aparezcan las necesidades de 'Autorrealización'?",
-    "options": ["A) Ninguna, aparecen primero", "B) Que las necesidades básicas (fisiología y seguridad) estén cubiertas", "C) Que el jefe sea amable", "D) Tener un contrato temporal"],
-    "answer": "B) Que las necesidades básicas (fisiología y seguridad) estén cubiertas",
-    "explanation": "No puedes motivar a alguien con 'crecimiento personal' si no tiene para comer o tiene miedo a ser despedido (Seguridad).",
-    "source_file": "5_4_unidad_psico_med_c_s.pdf",
-    "page": 4
-  },
-  {
-    "topic": "Unidad 4: Pigmalión",
-    "question": "¿En qué consiste la 'Profecía Autocumplida' en el liderazgo?",
-    "options": ["A) En adivinar el futuro", "B) En que las expectativas del jefe condicionan el rendimiento real del empleado", "C) En cumplir los objetivos de ventas", "D) En castigar al que se equivoca"],
-    "answer": "B) En que las expectativas del jefe condicionan el rendimiento real del empleado",
-    "explanation": "Si tratas a alguien como un crack, se vuelve un crack. Si lo tratas como inútil, rendirá como tal.",
-    "source_file": "Efecto_Pigmalion.pdf",
-    "page": 1
+    "topic": "Unidad 2: Ritmos Circadianos",
+    "question": "¿Cuál es el momento del día en el que, fisiológicamente, el nivel de activación y rendimiento suele ser más bajo?",
+    "options": [
+      "A) A media mañana (10:00 - 11:00)",
+      "B) Durante la madrugada (03:00 - 04:00) y después de comer (15:00 - 16:00)",
+      "C) Al inicio de la jornada",
+      "D) Es constante todo el día"
+    ],
+    "answer": "B) Durante la madrugada (03:00 - 04:00) y después de comer (15:00 - 16:00)",
+    "explanation": "Los ritmos biológicos circadianos provocan descensos naturales en la temperatura corporal y la alerta en estas franjas, aumentando el riesgo de error. (Fuente: 5_2_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_2_unidad_psico_med_c_s.pdf",
+    "page": 9
   },
   {
     "topic": "Unidad 2: Monotonía",
@@ -96,17 +93,188 @@
       "D) La monotonía solo se da en oficinas"
     ],
     "answer": "B) La monotonía es objetiva (tarea repetitiva) y el aburrimiento es subjetivo (estado anímico)",
-    "explanation": "Puedes tener una tarea monótona pero no aburrirte si estás motivado o pensando en otra cosa.",
+    "explanation": "La monotonía es una característica del puesto (baja carga cualitativa), mientras que el aburrimiento es la vivencia personal ante dicha falta de estímulos. (Fuente: 5_2_unidad_psico_med_c_s.pdf).",
     "source_file": "5_2_unidad_psico_med_c_s.pdf",
     "page": 7
+  },
+  {
+    "topic": "Unidad 3: Actitud vs Aptitud",
+    "question": "Si un trabajador tiene los conocimientos técnicos (saber hacer) pero no tiene la predisposición (querer hacer) para usar los EPIs, falla la:",
+    "options": ["A) Aptitud", "B) Actitud", "C) Capacidad", "D) Inteligencia"],
+    "answer": "B) Actitud",
+    "explanation": "La aptitud se refiere a la capacidad y habilidad, mientras que la actitud es la disposición psicológica o voluntad para cumplir la norma. (Fuente: 5_3_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_3_unidad_psico_med_c_s.pdf",
+    "page": 5
+  },
+  {
+    "topic": "Unidad 3: Personalidad",
+    "question": "¿Qué rasgo de personalidad se considera un 'precursor' de accidentes laborales?",
+    "options": ["A) La introversión", "B) El Neuroticismo y la impulsividad", "C) El altruismo", "D) El pensamiento lógico"],
+    "answer": "B) El Neuroticismo y la impulsividad",
+    "explanation": "La inestabilidad emocional (neuroticismo) y la falta de control de impulsos correlacionan positivamente con una mayor tasa de accidentabilidad. (Fuente: 5_3_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_3_unidad_psico_med_c_s.pdf",
+    "page": 8
   },
   {
     "topic": "Unidad 3: Percepción del Riesgo",
     "question": "¿Por qué un trabajador veterano suele cometer más imprudencias que un novato?",
     "options": ["A) Por falta de conocimientos", "B) Por exceso de confianza y habituación al riesgo", "C) Porque quiere jubilarse antes", "D) Por falta de EPIs"],
     "answer": "B) Por exceso de confianza y habituación al riesgo",
-    "explanation": "Lleva 20 años haciéndolo mal y 'nunca ha pasado nada'. Eso baja la percepción del peligro real.",
+    "explanation": "La experiencia exitosa repetida en conductas de riesgo reduce la percepción de peligro (habituación) y fomenta el exceso de confianza. (Fuente: 5_3_unidad_psico_med_c_s.pdf).",
     "source_file": "5_3_unidad_psico_med_c_s.pdf",
     "page": 12
+  },
+  {
+    "topic": "Unidad 3: Modificación de Conducta",
+    "question": "¿Qué técnica es más efectiva a largo plazo para fomentar conductas seguras?",
+    "options": [
+      "A) El castigo severo",
+      "B) El refuerzo positivo (reconocimiento, incentivos)",
+      "C) Ignorar la conducta",
+      "D) La amenaza de despido"
+    ],
+    "answer": "B) El refuerzo positivo (reconocimiento, incentivos)",
+    "explanation": "El refuerzo positivo consolida el comportamiento deseado y mejora el clima laboral, mientras que el castigo solo suprime la conducta temporalmente y genera rechazo. (Fuente: 5_3_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_3_unidad_psico_med_c_s.pdf",
+    "page": 15
+  },
+  {
+    "topic": "Unidad 3: Error Humano",
+    "question": "Según la clasificación de Reason, ¿qué es un 'lapsus'?",
+    "options": [
+      "A) Una violación intencionada de la norma",
+      "B) Un fallo de memoria o atención en una acción rutinaria",
+      "C) Una falta de conocimiento técnico",
+      "D) Un error de diagnóstico"
+    ],
+    "answer": "B) Un fallo de memoria o atención en una acción rutinaria",
+    "explanation": "Los lapsus ocurren en niveles de ejecución automática (habilidades) cuando la atención falla momentáneamente. (Fuente: 5_3_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_3_unidad_psico_med_c_s.pdf",
+    "page": 10
+  },
+  {
+    "topic": "Unidad 4: Herzberg",
+    "question": "Según Herzberg, el salario y las condiciones físicas son:",
+    "options": ["A) Factores Motivadores", "B) Factores Higiénicos (evitan la insatisfacción pero no motivan por sí solos)", "C) Factores Intrínsecos", "D) Factores de Logro"],
+    "answer": "B) Factores Higiénicos (evitan la insatisfacción pero no motivan por sí solos)",
+    "explanation": "Su presencia previene la insatisfacción, pero no generan motivación intrínseca sostenida; esta última proviene del logro y el reconocimiento. (Fuente: 5_4_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_4_unidad_psico_med_c_s.pdf",
+    "page": 6
+  },
+  {
+    "topic": "Unidad 4: Maslow",
+    "question": "¿Cuál es la jerarquía mínima necesaria para que aparezcan las necesidades de 'Autorrealización'?",
+    "options": ["A) Ninguna, aparecen primero", "B) Que las necesidades básicas (fisiología y seguridad) estén cubiertas", "C) Que el jefe sea amable", "D) Tener un contrato temporal"],
+    "answer": "B) Que las necesidades básicas (fisiología y seguridad) estén cubiertas",
+    "explanation": "Según la pirámide, las necesidades superiores no actúan como motivadores de conducta hasta que las necesidades deficitarias (básicas) están satisfechas. (Fuente: 5_4_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_4_unidad_psico_med_c_s.pdf",
+    "page": 4
+  },
+  {
+    "topic": "Unidad 4: Pigmalión",
+    "question": "¿En qué consiste la 'Profecía Autocumplida' (Efecto Pigmalión) en el liderazgo?",
+    "options": ["A) En adivinar el futuro", "B) En que las expectativas del jefe condicionan el rendimiento real del empleado", "C) En cumplir los objetivos de ventas", "D) En castigar al que se equivoca"],
+    "answer": "B) En que las expectativas del jefe condicionan el rendimiento real del empleado",
+    "explanation": "Las creencias del líder sobre la capacidad del subordinado influyen inconscientemente en su trato, condicionando el desempeño final del trabajador. (Fuente: Efecto_Pigmalion.pdf).",
+    "source_file": "Efecto_Pigmalion.pdf",
+    "page": 1
+  },
+  {
+    "topic": "Unidad 4: Teoría X e Y (McGregor)",
+    "question": "¿Qué asume un directivo que sigue la 'Teoría X' sobre sus empleados?",
+    "options": [
+      "A) Que son creativos y responsables",
+      "B) Que son perezosos por naturaleza, evitan el trabajo y necesitan control estricto",
+      "C) Que buscan la autorrealización",
+      "D) Que trabajan mejor en equipo"
+    ],
+    "answer": "B) Que son perezosos por naturaleza, evitan el trabajo y necesitan control estricto",
+    "explanation": "La Teoría X representa la visión tradicional y pesimista, que lleva a estilos de liderazgo autoritarios y de microgestión. (Fuente: 5_4_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_4_unidad_psico_med_c_s.pdf",
+    "page": 8
+  },
+  {
+    "topic": "Unidad 4: Teoría de la Equidad (Adams)",
+    "question": "Según la Teoría de la Equidad, ¿cuándo se siente desmotivado un trabajador?",
+    "options": [
+      "A) Cuando gana poco dinero en términos absolutos",
+      "B) Cuando percibe que la relación entre su esfuerzo y recompensa es inferior a la de sus compañeros (comparación social)",
+      "C) Cuando tiene mucho trabajo",
+      "D) Cuando no tiene vacaciones"
+    ],
+    "answer": "B) Cuando percibe que la relación entre su esfuerzo y recompensa es inferior a la de sus compañeros (comparación social)",
+    "explanation": "La motivación depende de la percepción de justicia comparativa. La inequidad percibida genera tensión y desmotivación. (Fuente: 5_4_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_4_unidad_psico_med_c_s.pdf",
+    "page": 9
+  },
+  {
+    "topic": "Unidad 4: Motivación Intrínseca",
+    "question": "¿Qué define a la motivación intrínseca?",
+    "options": [
+      "A) Realizar una tarea por el dinero o premios externos",
+      "B) Realizar una tarea por el placer y satisfacción inherentes a la propia actividad",
+      "C) Trabajar para evitar un castigo",
+      "D) Trabajar para complacer al jefe"
+    ],
+    "answer": "B) Realizar una tarea por el placer y satisfacción inherentes a la propia actividad",
+    "explanation": "Es la motivación más potente y duradera, nacida del interés genuino, la curiosidad y el deseo de competencia. (Fuente: Las_10_motivaciones_de_los_trabajadores.pdf).",
+    "source_file": "Las_10_motivaciones_de_los_trabajadores.pdf",
+    "page": 2
+  },
+  {
+    "topic": "Unidad 2: Atención Sostenida",
+    "question": "¿Qué efecto tiene el mantenimiento prolongado de la atención (vigilancia) sobre el rendimiento?",
+    "options": [
+      "A) Mejora el rendimiento con el tiempo",
+      "B) Produce un decremento progresivo en la capacidad de detección de señales (fatiga)",
+      "C) No afecta al rendimiento",
+      "D) Aumenta la creatividad"
+    ],
+    "answer": "B) Produce un decremento progresivo en la capacidad de detección de señales (fatiga)",
+    "explanation": "La atención sostenida consume muchos recursos cognitivos; tras 20-30 minutos, la probabilidad de error aumenta significativamente. (Fuente: 5_2_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_2_unidad_psico_med_c_s.pdf",
+    "page": 6
+  },
+  {
+    "topic": "Unidad 1: Clima Laboral",
+    "question": "¿Qué es el Clima Laboral?",
+    "options": [
+      "A) La temperatura y humedad de la oficina",
+      "B) La percepción compartida por los trabajadores sobre las prácticas, políticas y procedimientos de la organización",
+      "C) El reglamento interno de la empresa",
+      "D) La situación económica del sector"
+    ],
+    "answer": "B) La percepción compartida por los trabajadores sobre las prácticas, políticas y procedimientos de la organización",
+    "explanation": "Es un indicador subjetivo pero colectivo que influye directamente en la motivación y satisfacción laboral. (Fuente: 5_1_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_1_unidad_psico_med_c_s.pdf",
+    "page": 12
+  },
+  {
+    "topic": "Unidad 3: Formación de Actitudes",
+    "question": "¿Cuál es el componente 'Cognitivo' de una actitud?",
+    "options": [
+      "A) Lo que la persona siente (emoción)",
+      "B) Lo que la persona cree o sabe sobre el objeto de actitud (creencias/pensamientos)",
+      "C) Cómo se comporta la persona",
+      "D) Sus rasgos genéticos"
+    ],
+    "answer": "B) Lo que la persona cree o sabe sobre el objeto de actitud (creencias/pensamientos)",
+    "explanation": "Las actitudes se componen de tres elementos: Cognitivo (creencias), Afectivo (sentimientos) y Conductual (intención de acción). (Fuente: 5_3_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_3_unidad_psico_med_c_s.pdf",
+    "page": 4
+  },
+  {
+    "topic": "Unidad 1: Ambigüedad de Rol",
+    "question": "¿Cuándo se produce la 'Ambigüedad de Rol'?",
+    "options": [
+      "A) Cuando el trabajador tiene demasiado trabajo",
+      "B) Cuando el trabajador no tiene clara la información necesaria para desempeñar su función (objetivos, responsabilidades)",
+      "C) Cuando recibe órdenes contradictorias",
+      "D) Cuando no le gusta su trabajo"
+    ],
+    "answer": "B) Cuando el trabajador no tiene clara la información necesaria para desempeñar su función (objetivos, responsabilidades)",
+    "explanation": "La falta de definición clara de las expectativas del puesto genera inseguridad y estrés en el trabajador. (Fuente: 5_1_unidad_psico_med_c_s.pdf).",
+    "source_file": "5_1_unidad_psico_med_c_s.pdf",
+    "page": 14
   }
 ]
