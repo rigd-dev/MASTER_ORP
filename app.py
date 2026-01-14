@@ -1,176 +1,166 @@
 import streamlit as st
 import json
 import os
-import base64
+import random
 
 # ---------------------------------------------------------
-# 1. CONFIGURACIÓN
+# 1. CONFIGURACIÓN BÁSICA
 # ---------------------------------------------------------
-st.set_page_config(page_title="Simulador Máster ORP", layout="wide")
+st.set_page_config(page_title="Simulador Máster ORP", layout="centered") # Layout centrado para enfocar en la pregunta
 
-# Estilos CSS
+# Estilos simples
 st.markdown("""
     <style>
-    .block-container {padding-top: 1rem; padding-bottom: 5rem;}
-    div.stButton > button {width: 100%; border-radius: 6px; font-weight: bold; height: 3em;}
-    .correct {background-color: #d4edda; color: #155724; padding: 15px; border-radius: 8px; border: 1px solid #c3e6cb; margin-bottom: 10px;}
-    .incorrect {background-color: #f8d7da; color: #721c24; padding: 15px; border-radius: 8px; border: 1px solid #f5c6cb; margin-bottom: 10px;}
-    .source-box {background-color: #e3f2fd; padding: 10px; border-radius: 5px; border-left: 5px solid #2196f3;}
+    div.stButton > button {width: 100%; border-radius: 5px; height: 3em; font-weight: bold;}
+    .correct {background-color: #d4edda; color: #155724; padding: 15px; border-radius: 5px; border: 1px solid #c3e6cb;}
+    .incorrect {background-color: #f8d7da; color: #721c24; padding: 15px; border-radius: 5px; border: 1px solid #f5c6cb;}
+    .source-text {font-size: 0.9em; color: #666; font-style: italic; margin-top: 10px;}
     </style>
 """, unsafe_allow_html=True)
 
 # ---------------------------------------------------------
-# 2. GESTIÓN DE ESTADO (Para que no se trabe)
+# 2. GESTIÓN DE ESTADO (MEMORIA DE LA APP)
 # ---------------------------------------------------------
-if 'index' not in st.session_state: st.session_state.index = 0
+if 'quiz_questions' not in st.session_state: st.session_state.quiz_questions = []
+if 'current_index' not in st.session_state: st.session_state.current_index = 0
 if 'score' not in st.session_state: st.session_state.score = 0
 if 'validated' not in st.session_state: st.session_state.validated = False
-# Guardamos la asignatura anterior para detectar cambios
-if 'last_asignatura' not in st.session_state: st.session_state.last_asignatura = ""
+if 'exam_mode' not in st.session_state: st.session_state.exam_mode = False
 
-def reset_quiz():
-    """Reinicia el contador a 0."""
-    st.session_state.index = 0
+def start_quiz(questions, is_exam_mode):
+    """Inicia el test con las preguntas seleccionadas"""
+    st.session_state.quiz_questions = questions
+    st.session_state.current_index = 0
     st.session_state.score = 0
     st.session_state.validated = False
+    st.session_state.exam_mode = is_exam_mode
 
 # ---------------------------------------------------------
-# 3. BARRA LATERAL
+# 3. BARRA LATERAL (CONFIGURACIÓN COMPLETA)
 # ---------------------------------------------------------
 with st.sidebar:
-    st.header("⚙️ Configuración")
+    st.header("⚙️ Configuración del Test")
     
+    # 1. Asignatura
     asignatura = st.selectbox("1️⃣ Asignatura:", ["Psicosociologia", "Ergonomia"])
     
-    # Detector de cambio de asignatura para reiniciar
-    if asignatura != st.session_state.last_asignatura:
-        st.session_state.last_asignatura = asignatura
-        reset_quiz()
-        st.rerun()
-
-    # Cargar Archivos
+    # 2. Cargar Unidades
     data_path = f"data/{asignatura}"
     if os.path.exists(data_path):
         all_files = sorted([f for f in os.listdir(data_path) if f.endswith(".json")])
         selected_files = st.multiselect("2️⃣ Unidades:", all_files, default=all_files)
     else:
-        st.error(f"⚠️ No encuentro la carpeta data/{asignatura}")
+        st.error(f"No existe la carpeta data/{asignatura}")
         selected_files = []
 
     st.markdown("---")
-    st.metric("Puntuación", f"{st.session_state.score}")
-    if st.button("🔄 Reiniciar desde Cero"):
-        reset_quiz()
-        st.rerun()
 
-# ---------------------------------------------------------
-# 4. CARGA DE DATOS
-# ---------------------------------------------------------
-quiz_data = []
-if selected_files:
-    for f in selected_files:
-        try:
-            with open(os.path.join(data_path, f), "r", encoding="utf-8") as file:
-                quiz_data.extend(json.load(file))
-        except:
-            st.error(f"Error cargando {f}")
+    # 3. Modo de Uso (Lo que pediste)
+    modo = st.radio("3️⃣ Modo:", ["Entrenamiento (Feedback inmediato)", "Examen (Sin feedback hasta el final)"])
+    is_exam = True if "Examen" in modo else False
 
-# ---------------------------------------------------------
-# 5. ÁREA PRINCIPAL
-# ---------------------------------------------------------
-if not quiz_data:
-    st.info("👈 Selecciona unidades en el menú izquierdo para comenzar.")
-else:
-    # Asegurar índice válido
-    if st.session_state.index >= len(quiz_data):
-        st.balloons()
-        st.success(f"🎉 ¡Examen Finalizado! Puntuación: {st.session_state.score}/{len(quiz_data)}")
-        if st.button("Volver a empezar"):
-            reset_quiz()
-            st.rerun()
-    else:
-        q = quiz_data[st.session_state.index]
+    # 4. Número de preguntas (Lo que pediste)
+    num_max_preguntas = st.slider("4️⃣ Nº de Preguntas:", min_value=5, max_value=100, value=20, step=5)
+
+    st.markdown("---")
+
+    # BOTÓN DE GENERAR (FUNDAMENTAL)
+    if st.button("🚀 GENERAR NUEVO TEST", type="primary"):
+        # Cargar todas las preguntas de los archivos seleccionados
+        raw_questions = []
+        for f in selected_files:
+            try:
+                with open(os.path.join(data_path, f), "r", encoding="utf-8") as file:
+                    data = json.load(file)
+                    raw_questions.extend(data)
+            except Exception as e:
+                st.error(f"Error en {f}: {e}")
         
-        # Barra de progreso
-        st.progress((st.session_state.index + 1) / len(quiz_data))
-        st.caption(f"Pregunta {st.session_state.index + 1} de {len(quiz_data)}")
-
-        # --- DISEÑO DE COLUMNAS ---
-        # Si ya validamos, mostramos el PDF a la derecha. Si no, pantalla completa para leer bien.
-        if st.session_state.validated:
-            col1, col2 = st.columns([1, 1.2])
-        else:
-            col1, col2 = st.columns([1, 0.01])
-
-        with col1:
-            st.subheader(q.get("question"))
-            st.markdown(f"**Tema:** *{q.get('topic')}*")
-            
-            # Opciones (Key única para evitar conflictos)
-            user_choice = st.radio(
-                "Tu respuesta:", 
-                q.get("options"), 
-                key=f"q_{st.session_state.index}",
-                disabled=st.session_state.validated
-            )
-
-            st.markdown("<br>", unsafe_allow_html=True)
-
-            if not st.session_state.validated:
-                if st.button("✅ Comprobar", type="primary"):
-                    st.session_state.validated = True
-                    if user_choice == q.get("answer"):
-                        st.session_state.score += 1
-                    st.rerun()
+        if raw_questions:
+            # Seleccionar al azar el número pedido
+            if len(raw_questions) > num_max_preguntas:
+                final_questions = random.sample(raw_questions, num_max_preguntas)
             else:
-                # FEEDBACK
+                final_questions = raw_questions # Si hay menos, usamos todas
+                st.warning(f"Solo había {len(raw_questions)} preguntas disponibles.")
+            
+            # Arrancar
+            start_quiz(final_questions, is_exam)
+            st.rerun()
+        else:
+            st.error("No se encontraron preguntas en los archivos seleccionados.")
+
+# ---------------------------------------------------------
+# 4. ÁREA PRINCIPAL
+# ---------------------------------------------------------
+
+if not st.session_state.quiz_questions:
+    st.info("👈 Configura el test en la barra lateral y pulsa **'GENERAR NUEVO TEST'** para empezar.")
+    st.write("Hemos desactivado el visor de PDF para mejorar la estabilidad.")
+
+else:
+    # Variables de control
+    idx = st.session_state.current_index
+    total = len(st.session_state.quiz_questions)
+    q = st.session_state.quiz_questions[idx]
+
+    # --- PANTALLA FINAL ---
+    if idx >= total:
+        st.balloons()
+        st.success(f"🏆 ¡Test Finalizado!")
+        st.metric("Puntuación Final", f"{st.session_state.score} / {total}")
+        
+        if st.button("Volver a configurar"):
+            st.session_state.quiz_questions = []
+            st.rerun()
+            
+    # --- PANTALLA DE PREGUNTA ---
+    else:
+        # Barra de progreso
+        st.progress((idx + 1) / total)
+        st.caption(f"Pregunta {idx + 1} de {total} | Puntuación actual: {st.session_state.score}")
+
+        st.markdown(f"### {q.get('question')}")
+        st.markdown(f"**Tema:** *{q.get('topic')}*")
+
+        # Opciones
+        user_choice = st.radio(
+            "Selecciona una opción:", 
+            q.get("options"), 
+            key=f"q_{idx}", 
+            disabled=st.session_state.validated
+        )
+
+        st.markdown("<br>", unsafe_allow_html=True)
+
+        # BOTONES
+        if not st.session_state.validated:
+            if st.button("✅ Confirmar Respuesta"):
+                st.session_state.validated = True
                 if user_choice == q.get("answer"):
-                    st.markdown(f"<div class='correct'>✅ <b>¡Correcto!</b></div>", unsafe_allow_html=True)
-                else:
-                    st.markdown(f"<div class='incorrect'>❌ <b>Incorrecto</b><br>La correcta era: <b>{q.get('answer')}</b></div>", unsafe_allow_html=True)
-                
-                with st.expander("💡 Ver Explicación", expanded=True):
-                    st.write(q.get("explanation"))
+                    st.session_state.score += 1
+                st.rerun()
+        else:
+            # MOSTRAR RESULTADO (Solo si NO es modo examen, o si quieres mostrarlo siempre al validar)
+            # Nota: Incluso en modo examen, si validas paso a paso, sueles querer ver si acertaste.
+            # Si quieres modo examen estricto (ciego), quita este bloque else.
+            
+            if user_choice == q.get("answer"):
+                st.markdown(f"<div class='correct'>✅ <b>¡Correcto!</b></div>", unsafe_allow_html=True)
+            else:
+                st.markdown(f"<div class='incorrect'>❌ <b>Incorrecto</b>. La respuesta correcta es: <b>{q.get('answer')}</b></div>", unsafe_allow_html=True)
+            
+            # Explicación
+            st.info(f"💡 **Explicación:** {q.get('explanation')}")
+            
+            # REFERENCIA A LA FUENTE (SOLO TEXTO, SIN VISOR)
+            source = q.get('source_file')
+            page = q.get('page')
+            if source:
+                st.markdown(f"<p class='source-text'>📚 Fuente: {source} (Página {page}) - <i>Consulta el PDF manualmente si tienes dudas.</i></p>", unsafe_allow_html=True)
 
-                if st.button("➡️ Siguiente Pregunta", type="primary"):
-                    st.session_state.index += 1
-                    st.session_state.validated = False
-                    st.rerun()
-
-        # --- VISOR PDF (COLUMNA DERECHA) ---
-        with col2:
-            if st.session_state.validated:
-                pdf_name = q.get("source_file")
-                page = q.get("page", 1)
-                
-                if pdf_name:
-                    pdf_url = f"app/static/{pdf_name}" # Ruta relativa mágica de Streamlit
-                    
-                    st.markdown(f"""
-                    <div class="source-box">
-                        📄 <b>Fuente:</b> {pdf_name} (Pág. {page})
-                    </div>
-                    """, unsafe_allow_html=True)
-
-                    # INTENTO 1: Visor incrustado ligero
-                    # Usamos iframe apuntando a la ruta estática directa
-                    pdf_display = f'<iframe src="static/{pdf_name}#page={page}" width="100%" height="700px" style="border:none;"></iframe>'
-                    
-                    # INTENTO 2: Si el iframe falla, aquí está el botón de rescate
-                    st.markdown(pdf_display, unsafe_allow_html=True)
-                    
-                    st.markdown(f"""
-                    <br>
-                    <a href="static/{pdf_name}" target="_blank" style="
-                        display: inline-block;
-                        padding: 10px 20px;
-                        background-color: #6c757d;
-                        color: white;
-                        text-decoration: none;
-                        border-radius: 5px;
-                        font-weight: bold;
-                        text-align: center;
-                        width: 100%;">
-                        ⚠️ ¿No se ve el PDF? Haz clic aquí para abrirlo
-                    </a>
-                    """, unsafe_allow_html=True)
+            # Botón Siguiente
+            if st.button("➡️ Siguiente"):
+                st.session_state.current_index += 1
+                st.session_state.validated = False
+                st.rerun()
